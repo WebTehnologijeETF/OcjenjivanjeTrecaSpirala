@@ -1,0 +1,14 @@
+pre {
+	background: #eee;
+	border: 1px solid black;
+	display: block;
+}
+
+h1 {
+	font-family: Droid Sans, Arial, sans-serif;
+	font-size: 32pt;
+}
+
+body {
+	font-family: Droid Sans, Arial, sans-serif;
+}
