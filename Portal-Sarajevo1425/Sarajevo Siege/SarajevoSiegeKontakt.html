@@ -1,0 +1,67 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+	<head>
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+			<TITLE>Sarajevo Seige</TITLE>
+			<link rel="stylesheet" type="text/css" href="SarajevoSiege.css">
+		</head>
+
+		<BODY>
+			<div id="logo">
+				<p id="logo_tekst">Sarajevo<br>1425</p>
+			</div>
+			<div id="centar">
+				<ul id="menu">
+					<li> <a onclick="loadPages('index.html')">POČETNA</a></li>
+					<li><a onclick="loadPages('Sarajevo%20SiegeHronologija.html')">HRONOLOGIJA</a></li>
+					<li><a onclick="loadPages('SarajevoSiegeGalerija.html')">GALERIJA</a></li>
+					<li><a onclick="loadPages('SarajevoSiegeProjekti.html')">PROJEKTI</a></li>
+					<li><a onclick="loadPages('SarajevoSiegeMapa.html')">ŠTA VIDJETI</a></li>
+					<li id="active"><a onclick="loadPages('SarajevoSiegeKontakt.html')">KONTAKT</a></li>
+					<li><a onclick="loadPages('suveniri.html')">SUVENIRI</a></li>
+				</ul>
+
+
+
+				<form id="kontakt_forma" action="#" name="kontakt_forma" onsubmit="return validacija();" method="get">
+					<div class="red">
+						<label for="ime">Ime:</label><br>
+						<input id="ime" class="input" name="ime" type="text" value="" size="30" required><br>
+					</div>
+					<div class="red">
+						<label for="prezime">Prezime:</label><br>
+						<input id="prezime" class="input" name="prezime" type="text" value="" size="30" ><br>
+					</div>
+					<div class="red">
+						<label for="email">Email:</label><br>
+						<input id="email" class="input" name="email" type="text" value="" size="30" required><br>
+					</div>
+					<div class="red">
+						<label for="opcina">Općina:</label><br>
+						<input id="opcina"  type="text" value="" size="30" ><br>
+					</div>
+					<div class="red">
+						<label for="mjesto">Mjesto:</label><br>
+						<input id="mjesto" type="text" value="" size="30" ><br>
+						<p id="obavjestenje"></p>
+					</div>
+					
+					<div class="red">
+						<label for="poruka">Poruka:</label><br>
+						<input id="poruka" class="input" name="poruka" type="text" required><br>
+					</div>
+					<input id="posalji" type="button" value="Pošalji" onclick="validirajFormu()">
+
+					<!--<script type="text/javascript" src="validacija.js"></script>  -->
+					<script type="text/javascript" src="validirajFormu.js"></script>
+				</form>		
+			</div>
+		<script type="text/javascript" src="loadPages.js"></script>
+		
+		</BODY>
+
+
+
+
+
+	</HTML>

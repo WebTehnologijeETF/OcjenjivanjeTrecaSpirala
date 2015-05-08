@@ -1,0 +1,245 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+
+
+*{
+margin:0;
+padding:0;
+}
+body{
+    background:black;
+}
+#zaglavlje{
+ margin:0 auto;
+ font-family:Lobster;
+ color:white;
+ text-align:center;
+ margin-top:10px;
+ padding:0;
+ font-size:50%;
+
+}
+#zaglavlje img {
+
+    padding: 0;
+
+}
+#zaglavlje p{
+    padding: 0;
+	display: inline;
+    position:relative;
+	margin-left:-6.5%;
+}
+
+
+#meni{
+width:70%;
+margin:0 auto;
+padding: 0;
+text-align:center;
+font-size:medium;
+
+
+ }
+
+#meni ul{
+
+list-style-type: none;
+    margin: 0;
+    padding: 0;
+	margin-top:12px;
+
+}
+#meni li{
+
+list-style-type: none;
+    margin: 0;
+    padding: 0;
+	display: inline;
+	background:white;
+	
+}
+#meni a{
+
+    color:white;
+    text-decoration: none;
+	background:#292929;
+        text-transform: uppercase;
+
+	border: 7px solid ;
+	border-color: #292929;
+    box-sizing: border-box;
+  
+
+	 
+}
+#dno ul{
+list-style-type: none;
+    margin: 0;
+    padding: 0;
+	margin-top:2%;
+	text-align:center;
+	}
+	#dno li{
+
+list-style-type: none;
+    margin: 0;
+    padding: 0;
+	display: inline;
+
+	
+}
+#dno a{
+	text-align:center;
+    color:white;
+    text-decoration: none;
+    border-left: 2px solid ;
+	border-color: white;
+    box-sizing: border-box;
+
+  
+
+	 
+}
+#pred {
+  margin-left:15%;
+  margin-top:3%;
+  padding:0;
+}
+
+#glavni {
+    margin: 0 auto;
+    width:69%;
+    padding: 0;
+	margin-top:3%;
+	background:#292929;
+	margin-left:21%;
+    vertical-align: text-top;
+    text-align: left;
+
+	border: 2px solid white;
+    color:white;
+
+	
+}
+
+#vijest {
+    margin: 0 auto;
+	padding: 0;
+	background:#292929;
+}
+.author{
+	position:relative;
+	margin:3px;
+	font-size:70%;
+	text-align:left;
+	
+	}
+
+.news{
+padding:15px;
+border:2px solid white;
+}
+.news p{
+    text-decoration: none;
+    color:white;
+	text-align:justify;
+	border:solid white;
+
+	display:inline-block;
+	text-align:justify;
+	border:2px solid white;
+}
+.news img{
+ display:inline;
+ width:20%;
+
+}
+
+.news:hover {
+	background:rgb(111, 111, 111);
+	}
+#forma {
+color:white;
+
+
+    text-align: right;
+	margin-top:4%;
+    width:50%;
+  padding:0;
+
+}
+
+#forma button{
+margin-top:4px;
+}
+#forma textarea {
+margin-top:1%;
+margin-left:70%;
+width:173px;
+    padding: 3px;
+    border: none;}
+
+#linkovi{
+width:60%;
+margin:0 auto;
+margin-top:2%;
+
+
+}
+
+
+#linkovi ul{
+
+list-style:none;
+list-style-image:url("images/ikona.png");
+ padding-left:0;   
+
+
+}
+
+#linkovi li{ 
+ list-style-position:inside;
+ text-align:left;
+margin-left:20%;	
+}
+
+#linkovi a{
+color:white;
+    text-decoration: none;
+	background:#292929;
+    text-transform: uppercase;
+
+	
+}
+
+		
+	#tabele{
+	height:800px;
+	width:48%;
+	margin:0 auto;
+	padding:45px;
+	}
+#tabele	table{
+	color:white;
+	font-weight:bold;
+	text-align:Center;
+	border:solid white;
+	border-spacing:0px;
+	padding:15px;
+   
+	}
+	#tabele td{
+	
+	width:250px;
+	
+	}
+	tr:hover {
+background:rgb(111, 111, 111);
+}
+	#tabele img{
+	height:90px;
+	width:90px;
+	
+	}
+	
+	

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head lang="ba">
+    <meta charset="UTF-8">
+    <title>FK Sarajevo Galaxy-Naslovnica</title>
+    <link rel="stylesheet" type="text/css" href="stil.css">
+    <script src="meni.js"></script>
+    <script src="ajax.js"></script>
+
+
+</head>
+<body>
+    <div class="okvir">
+        <header>
+            <h2 class="naslov"> FK Sarajevo Galaxy <img class="logo" src="zvijezda.png" alt="logo">
+           </h2>
+            <nav class="meni">
+                <ul>
+                    <li><a href="#" class="popravka" onclick="ajaxPrikazi('Index.html')"  >Naslovna</a></li>
+                    <li><a href="#" class="popravka2"  onclick="prikaziMeni()">Tim</a></li>
+                    <li><a href="#" onclick="ajaxPrikazi('Utakmice.html')"  class="popravka" >Utakmice</a></li>
+                    <li><a href="#" onclick="ajaxPrikazi('Opis.html')" class="popravka">O nama</a></li>
+                    <li><a href="#" onclick="ajaxPrikazi('Kontakt.html')" class="popravka" >Kontakt</a></li>
+                    <li><input type="text" name="tekst"></li>
+                    <li><input type="submit" value="Pretraži"></li>
+                    <li><input type="submit" value="Prijava"></li>
+                </ul>
+            </nav>
+            <ul id="padajuci" class="meni2" onmouseout="sakrijMeni()" >
+                <li class="razmak" onmouseover="prikaziMeni(); oboji(this);" onmouseout="vratiBoju(this);"><a href="#" onclick="ajaxPrikazi('Tim.html')" >Igraci</a></li>
+                <li onmouseover="prikaziMeni(); oboji(this);" onmouseout="vratiBoju(this);"><a href="#">Izjave</a></li>
+                <li onmouseover="prikaziMeni(); oboji(this);" onmouseout="vratiBoju(this);"><a href="#">Transferi</a></li>
+                <li onmouseover="prikaziMeni(); oboji(this);" onmouseout="vratiBoju(this);"><a href="#">Ozljede</a></li>
+                <li onmouseover="prikaziMeni(); oboji(this);" onmouseout="vratiBoju(this);"><a href="#">Zanimljivosti</a></li>
+                <li onmouseover="prikaziMeni(); oboji(this);" onmouseout="vratiBoju(this);"><a href="#">Kolumne i komentari</a></li>
+            </ul>
+            <div class="clear"></div>
+        </header>
+        <section class="lijevi">
+            <article>
+                <header>
+                    <h2>Osvojen prvi trofej u sezoni!</h2>
+                </header>
+                <p>Damir K.<br>29.04.2015</p>
+                <img class="slavlje" src="novost1.jpg" alt="Slavlje"><br>
+                <footer>
+                    <a href="#">Detaljnije...</a>
+                </footer>
+            </article>
+        </section>
+        <aside class="desni">
+            <article>
+                    <header>
+                        <h3>Faruk Ljuca potpisao novi ugovor...</h3>
+                    </header>
+                    <p>Denis M. <br> 27.04.2015</p>
+                    <img  src="novosti2.jpg" alt="Potpis ugovora">
+                    <footer>
+                        <a href="#">Detaljnije...</a>
+                    </footer>
+            </article>
+
+            <article>
+                <header>
+                    <h3>Ozlijedio se Armin Klačar...</h3>
+                </header>
+                <p>Denis M. <br> 23.04.2015</p>
+                <img class="slika" src="novost3.jpg" alt="Ozljeda">
+                <footer>
+                    <a href="#">Detaljnije...</a>
+                </footer>
+            </article>
+        </aside>
+        <footer class="podnozje">
+            Copyright &copy; Josip Kvesic
+        </footer>
+    </div>
+</body>
+</html>

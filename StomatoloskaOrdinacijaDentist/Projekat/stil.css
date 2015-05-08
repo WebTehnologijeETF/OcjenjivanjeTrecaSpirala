@@ -1,0 +1,357 @@
+body {
+     background-color: #F5F9FC;
+    font-family: 'Arial'
+ 
+}
+
+#okvir{
+ background-color: white;
+    width: 960px;
+   margin-right: auto;
+    margin-left: auto; 
+    
+}
+
+#zaglavlje {
+    height: 281px;
+   
+    background-color: #E3F0F9;
+}
+#naziv{
+   font-size: 46px;
+   position: relative; top:-220px; left: 125px;
+  font-family: 'Orbitron', sans-serif;
+  color: #22ADE7;
+  font-weight: bold;
+  width: 320px;
+
+}
+#ordinacija{
+    font-size: 28px;
+   position: relative; top:-240px; left: 40px;
+  font-family: 'Orbitron', sans-serif;
+  color: #22ADE7; 
+    width: 400px; 
+}
+#meni {
+ float: left;
+    background-color: red;
+    width: 945px;
+    padding-left: 15px;
+    background-color: #E3F0F9;
+     height: 60px;
+}
+#meni > div{   
+    position: relative;
+   
+}
+
+#meni > div > a {
+    float:left;
+    margin-right:3px;
+    
+    font-size: 22px;
+    padding:10px;
+    width: 120px;
+    height: 35px;
+    text-align: center;
+    display: block;
+   background:  #D7DDE9;  
+   border-radius: 5px;
+   
+    text-decoration: none;
+    color: black;
+}
+
+#meni > div > a:hover {
+    
+    background-color:#24ABE6;
+    color: white;
+}
+
+
+.dropmenus{
+    
+     background-color: #E3F0F9;
+    border-radius: 5px;
+    position: absolute;
+    top: 55px;
+     left: 150px;
+    width: 220px;
+ display: none;
+   padding-top: 5px;
+  
+    
+}
+#dropmenu1{
+     position: absolute;
+    
+    
+}
+#dropmenu2{
+     position: absolute;
+    left: 355px;
+    padding-left: 10px;
+    
+}
+
+#dropmenu3{
+    
+ position: absolute;
+ top: 113px;
+    left: 355px;
+    padding-left: 10px;
+   
+    
+}
+.dropmenus > a { 
+    text-decoration: none;
+    color: black; 
+ float:left;
+    margin-left:5px;
+margin-bottom: 4px;
+    
+    font-size: 18px;
+    padding:10px;
+    width: 180px;
+    height: 35px;
+    text-align: center;
+    display: block;
+   background:  #D7DDE9;  
+   border-radius: 5px;
+
+
+}
+div.dropmenus > a:hover {
+    
+    background-color:#24ABE6;
+    color: white;
+}
+
+#footer{
+   
+   clear: both;
+   
+  padding:30px;
+    background-color: #E3F0F9;
+    text-align: center;
+}
+
+#saStrane{
+    width: 208px;
+    background-color: white;
+    float: right;
+    padding: 10px;   
+
+   
+}
+#Informacije{
+    color: #22ADE7; 
+    margin-left: 50px;
+}
+.slikaReklama{
+    margin-left: 10px;
+    margin-top: 20px;
+   
+}
+.Reklama{
+     margin-left: 15px;
+    color: #808080;
+    text-align: left;
+}
+
+.post{ margin: 0 auto;
+     background-color: white;
+   width: 681px;
+     padding: 20px;
+    float: left;  
+     border: 4px solid #E3F0F9;
+}
+.slika{
+    float: left;
+    padding: 10px;
+    
+}
+
+.Naslov{
+    
+    text-decoration: none;
+    font-size: 36px;
+    color: black;
+     font-weight: bold;
+}
+.Naslov:hover {
+    color: #22ADE7; 
+}
+.Autor{
+    color: #d6d2d2;
+    font-size: 12px;
+    text-align: left;
+}
+.Datum{
+ color: #d6d2d2;
+    font-size: 12px;
+    text-align: right;
+}
+.Sadrzaj{
+    text-align: left;
+}
+.Tekst{
+    float: right;
+    width: 400px;
+}
+.Detaljnije{
+    text-decoration: none;
+     color: #22ADE7; 
+      float: right;
+}
+.Detaljnije:hover {
+      font-weight: bold;
+      text-decoration: underline;
+      
+}
+
+
+#cjenovnik{
+    background-color: white;
+       float: left;  
+     padding: 20px;
+ 
+     border-right: 4px solid #E3F0F9;
+     width: 681px;
+    
+    
+}
+.red{
+    background-color: #d6d2d2;
+    
+    }
+.red2 {
+    background-color: #E3F0F9;
+    color: #808080;
+   
+}
+.celija {
+    width: 400px;
+    height: 25px;
+    padding-left: 5px;
+}
+.celijaZaglavlje{
+   text-align: center;
+    height: 25px; 
+    background-color:#E3F0F9; 
+    color: black;
+}
+
+
+#onama{
+    float: left;
+    background-color: white;
+      padding: 20px;
+     border-right: 4px solid #E3F0F9;
+     width: 681px;
+}
+
+#partneri {float: left;  
+    background-color: white;
+      padding: 20px;
+     border-right: 4px solid #E3F0F9;
+     width: 681px;
+    
+}
+.PartneriText{
+     text-align: left;
+     padding: 0px;
+      font-size: 18px;
+}
+#listaPartnera{
+    text-decoration: none;
+    list-style-image: url(bullet.jpg);  
+}
+#listaPartnera li {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-decoration: none;
+   
+}
+#listaPartnera li a {
+    text-decoration: none;
+    color: #22ADE7;
+  font-size: 30px;
+}
+
+#listaPartnera li a:hover {
+      font-weight: bold;
+      text-decoration: underline;
+}
+
+.kontakt{
+    width: 450px;
+  }
+#DivKontakti{
+   background-color: white;
+     padding: 30px;
+    float: left;  
+    width: 661px;
+     border-right: 3px solid #E3F0F9;}
+#forma {
+      margin:15px 15px 0px 15px;
+      padding: 15px 15px 0px 15px;
+      background-color: #D7DDE9;
+      width: 550px;
+      border-radius: 5px;
+      text-align: right;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 40px;
+        margin-bottom: 40px;
+        
+}
+
+label{
+    float: left;
+    
+    width: 125px;
+    padding-right: 15px;
+    margin-top: 15px;
+    text-align: right;
+    clear: left;
+    
+}
+label.Spol{
+    float: left;
+   width: 130px; 
+   margin-bottom: 5px;
+}
+
+#DivSpol{
+   border: 2px solid white;
+    float:right;
+  text-align: center;
+  padding: 2px;
+  width: 255px;
+}
+
+textarea{
+    height: 150px;
+}
+input, textarea {
+    margin-top: 15px;
+    width: 250px;
+    
+}
+
+input.Button{
+    width:80px;
+    margin:15px 0px 15px 15px; 
+    
+}
+input.Radio{
+    width:20px;
+    margin-top:19px;
+    float: left;
+}
+
+#sadrzajStranice{
+  
+}

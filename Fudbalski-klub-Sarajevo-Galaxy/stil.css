@@ -1,0 +1,288 @@
+*{
+    margin:0px;
+    padding:0px;
+    list-style-type:none;
+}
+
+header,footer,aside,section,article,nav{
+    display:block;
+}
+
+body{
+    background-color:lightgray;
+}
+.okvir{
+    width:1000px;
+    margin:0px auto;
+}
+
+.naslov{
+    font-size:60px;
+    font-family:sans-serif;
+    padding:20px;
+    margin-bottom:0px;
+
+}
+
+.logo{
+    width:35px;
+    height:35px;
+}
+
+header{
+    margin-top:10px;
+    background-color:silver;
+    border:1px solid silver;
+    border-radius:25px;
+}
+
+.meni ul li{
+    float:left;
+    padding-left:15px;
+    padding-bottom:30px;
+    margin-bottom:-30px;
+}
+
+.clear{
+    clear:both;
+}
+
+.meni{
+    width:1000px;
+    }
+
+.lijevi{
+    float:left;
+    width:650px;
+}
+
+.lijevi article{
+    border:1px solid gray;
+    border-radius:25px;
+    background-color:white;
+    margin-right:10px;
+    padding:10px;
+    margin-bottom:0px;
+    margin-top:20px;
+}
+.desni{
+    float:left;
+    width:350px;
+}
+
+.podnozje{
+    clear:both;
+    background-color:silver;
+    text-align:center;
+    width:1000px;
+    border:1px solid silver;
+    border-radius:25px;
+    margin:0px;
+    }
+
+.desni article{
+    border: 1px solid gray;
+    border-radius:25px;
+    background-color:white;
+    padding:10px;
+    margin-bottom:0px;
+    margin-top:20px;
+}
+
+.slika{
+    width:292px;
+}
+
+.slavlje{
+    width:620px;
+    height:445px;
+}
+
+.lijevi h2{
+    font-size:30px;
+    background-color:white;
+}
+
+.desni h3{
+    background-color:white;
+}
+
+
+.popravka{
+    text-decoration:none;
+    border:1px solid gray;
+    border-radius:25px;
+    background-color:white;
+    color:black;
+    padding:10px 25px;
+
+}
+
+.popravka2{
+    text-decoration:none;
+    border:1px solid gray;
+    border-radius:25px;
+    background-color:white;
+    color:black;
+    padding:10px 25px;
+}
+
+
+.meni ul li a:hover {
+    background-color: lightgray;
+    border:2px solid gray;
+}
+.tim2{
+    margin-top:20px;
+    background-color:white;
+    border:1px solid gray;
+    border-radius:19px;
+}
+
+.tim2 h2{
+    background-color:white;
+    padding-left:15px
+}
+.tim{
+    width:970px;
+    padding:0px 15px;
+}
+
+.lijevi2{
+    margin-top:10px;
+    float:left;
+    width:500px;
+    border:1px solid gray;
+    border-radius:25px;
+    background-color:white;
+    padding:10px 30px;
+
+
+}
+.tabla1 th,td{
+    border:1px solid gray;
+    border-radius:25px;
+    padding:10px 35px;
+    text-align:center;
+
+}
+
+.desni2{
+    margin-top:10px;
+    margin-left:10px;
+    float:left;
+    width:350px;
+    border:1px solid gray;
+    border-radius:25px;
+    background-color:white;
+    padding:10px 30px;
+}
+
+.tabla2 th,td{
+    border:1px solid gray;
+    border-radius:25px;
+    padding:10px 15px;
+    text-align:center;
+}
+
+.lijevi3 h2{
+    background-color:white;
+    padding-left:10px;
+}
+.lijevi3 p{
+    background-color:white;
+    padding-left:10px;
+
+}
+
+.lijevi3 article{
+    float:left;
+    width:420px;
+    border:1px solid gray;
+    border-radius:19px;
+    margin-top:20px;
+    background-color:white;
+    padding:20px 0px;
+
+}
+
+.desni3 article{
+    float:left;
+    width:600px;
+    margin-top:20px;
+    background-color:white
+}
+
+.raspored{
+   margin-left:100px;
+}
+
+.desni3 article{
+    padding-left:170px;
+    border:1px solid gray;
+    border-radius:25px;
+
+}
+.tabela3 th,td{
+    border:1px solid gray;
+    border-radius:0px;
+    border-collapse:collapse;
+    padding:5px 5px;
+    text-align:center;
+}
+
+.desni4 h2{
+    background-color:white;
+}
+.desni4 article{
+    margin-top:20px;
+    border:1px solid gray;
+    border-radius:25px;
+    background-color:white;
+    padding:20px 0px;
+    padding-left:10px;
+}
+
+.lijevi4 article{
+    margin-top:20px;
+    border:1px solid gray;
+    border-radius:25px;
+    background-color:white;
+    padding:20px 0px;
+    padding-left:10px;
+}
+
+
+
+.meni2 {
+    text-decoration:none;
+    border:1px solid gray;
+    border-radius:25px;
+    background-color:white;
+    color:black;
+    padding:10px 25px;
+    margin-right:680px;
+    margin-left:120px;
+}
+
+.meni2 li a {
+    text-decoration: none;
+    color:black;
+}
+#padajuci{
+    margin-top:30px;
+    display:none;
+}
+
+#text{
+    height:250px;
+    width:350px;
+}
+
+#kontakt{
+    margin-top:20px;
+    padding:10px;
+    background-color:white;
+    border:1px solid gray;
+    border-radius:25px;
+}

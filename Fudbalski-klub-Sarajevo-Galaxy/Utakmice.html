@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head lang="ba">
+    <meta charset="UTF-8">
+    <title>FK Sarajevo Galaxy-Naslovnica</title>
+    <link rel="stylesheet" type="text/css" href="stil.css">
+    <script src="meni.js"></script>
+    <script src="ajax.js"></script>
+
+
+
+</head>
+<body>
+<div class="okvir">
+    <header>
+        <h2 class="naslov"> FK Sarajevo Galaxy <img class="logo" src="zvijezda.png" alt="logo">
+        </h2>
+        <nav class="meni">
+            <ul>
+                <li><a href="#" class="popravka" onclick="ajaxPrikazi('Index.html')"  >Naslovna</a></li>
+                <li><a href="#" class="popravka2"  onclick="prikaziMeni()">Tim</a></li>
+                <li><a href="#" onclick="ajaxPrikazi('Utakmice.html')"  class="popravka" >Utakmice</a></li>
+                <li><a href="#" onclick="ajaxPrikazi('Opis.html')" class="popravka">O nama</a></li>
+                <li><a href="#" onclick="ajaxPrikazi('Kontakt.html')" class="popravka" >Kontakt</a></li>
+                <li><input type="text" name="tekst"></li>
+                <li><input type="submit" value="Pretraži"></li>
+                <li><input type="submit" value="Prijava"></li>
+            </ul>
+        </nav>
+        <ul id="padajuci" class="meni2" onmouseout="sakrijMeni()" >
+            <li class="razmak" onmouseover="prikaziMeni(); oboji(this);" onmouseout="vratiBoju(this);"><a href="#" onclick="ajaxPrikazi('Tim.html')" >Igraci</a></li>
+            <li onmouseover="prikaziMeni(); oboji(this);" onmouseout="vratiBoju(this);"><a href="#">Izjave</a></li>
+            <li onmouseover="prikaziMeni(); oboji(this);" onmouseout="vratiBoju(this);"><a href="#">Transferi</a></li>
+            <li onmouseover="prikaziMeni(); oboji(this);" onmouseout="vratiBoju(this);"><a href="#">Ozljede</a></li>
+            <li onmouseover="prikaziMeni(); oboji(this);" onmouseout="vratiBoju(this);"><a href="#">Zanimljivosti</a></li>
+            <li onmouseover="prikaziMeni(); oboji(this);" onmouseout="vratiBoju(this);"><a href="#">Kolumne i komentari</a></li>
+        </ul>
+        <div class="clear"></div>
+    </header>
+    <section class="lijevi3">
+        <article>
+            <header>
+                <h2>Odigrana utakmica</h2>
+            </header>
+            <p>Satajevo Galaxy 2:0 Travnik<br>(15)Pele<br>(76)Ljuca</p>
+        </article>
+        <article class="raspored">
+            <header>
+                <h2>Raspored</h2>
+            </header>
+                <p>Željezničar v Sarajevo Galaxy<br><small>7.5.2015</small><br></p>
+                <p>Sarajevo Galaxy v Čelik<br><small>14.5.2015</small><br></p>
+
+        </article>
+    </section>
+    <aside class="desni3">
+        <article>
+            <table class="tabela3">
+                <caption>
+                    Tabela lige
+                </caption>
+                <tr>
+                    <th>#</th>
+                    <th>Tim</th>
+                    <th>U</th>
+                    <th>P</th>
+                    <th>N</th>
+                    <th>I</th>
+                    <th>GR</th>
+                    <th>Bodovi</th>
+                </tr>
+                <tr>
+                    <td>1.</td>
+                    <td>Sarajevo Galaxy</td>
+                    <td>28</td>
+                    <td>22</td>
+                    <td>4</td>
+                    <td>2</td>
+                    <td>46</td>
+                    <td>70</td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td>Željezničar</td>
+                    <td>28</td>
+                    <td>20</td>
+                    <td>6</td>
+                    <td>2</td>
+                    <td>39</td>
+                    <td>64</td>
+                </tr>
+                <tr>
+                    <td>3.</td>
+                    <td>Sarajevo</td>
+                    <td>28</td>
+                    <td>17</td>
+                    <td>4</td>
+                    <td>7</td>
+                    <td>22</td>
+                    <td>55</td>
+                </tr>
+                <tr>
+                    <td>4.</td>
+                    <td>Zrinjski</td>
+                    <td>28</td>
+                    <td>16</td>
+                    <td>7</td>
+                    <td>5</td>
+                    <td>20</td>
+                    <td>55</td>
+                </tr>
+                <tr>
+                    <td>5.</td>
+                    <td>Velež</td>
+                    <td>28</td>
+                    <td>10</td>
+                    <td>9</td>
+                    <td>9</td>
+                    <td>8</td>
+                    <td>39</td>
+                </tr>
+                <tr>
+                    <td>6.</td>
+                    <td>Široki Brijeg</td>
+                    <td>28</td>
+                    <td>7</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>-2</td>
+                    <td>31</td>
+                </tr>
+                <tr>
+                    <td>7.</td>
+                    <td>Budućnost</td>
+                    <td>28</td>
+                    <td>6</td>
+                    <td>12</td>
+                    <td>10</td>
+                    <td>-12</td>
+                    <td>30</td>
+                </tr>
+                <tr>
+                    <td>8.</td>
+                    <td>Čelik</td>
+                    <td>28</td>
+                    <td>5</td>
+                    <td>10</td>
+                    <td>13</td>
+                    <td>-21</td>
+                    <td>25</td>
+                </tr>
+                <tr>
+                    <td>9.</td>
+                    <td>Travnik</td>
+                    <td>28</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>19</td>
+                    <td>-32</td>
+                    <td>17</td>
+                </tr>
+                <tr>
+                    <td>10.</td>
+                    <td>Vitez</td>
+                    <td>28</td>
+                    <td>4</td>
+                    <td>4</td>
+                    <td>20</td>
+                    <td>-35</td>
+                    <td>16</td>
+                </tr>
+            </table>
+        </article>
+    </aside>
+    <footer class="podnozje">
+        Copyright &copy; Josip Kvesic
+    </footer>
+
+</div>
+</body>
+</html>

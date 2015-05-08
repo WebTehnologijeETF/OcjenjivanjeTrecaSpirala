@@ -1,0 +1,311 @@
+
+#zaglavlje{
+background-color: #707070;
+color:#d9e021;
+height:128px;
+font-size:72px;
+}
+
+body{
+font-family: 'Orbitron', sans-serif;
+background-color:#707070;
+}
+
+a{
+cursor:pointer;
+}
+
+#logo{
+height: 128px;
+width: 700px;
+vertical-align: -35px;
+}
+
+/*meni*/
+#navigacija{
+	position:relative;
+	margin:0;
+	font-style: normal;
+	font-weight:bold;
+	text-decoration:none;
+	padding:0px;
+	margin-bottom:2px;
+	float:left;
+	width:100%;
+	border-top: solid #d9e021;
+	border-bottom: solid #d9e021;
+}
+
+#navigacija li a:hover{
+	background:#d9e021;
+	color:#2f3440;
+}
+
+
+#navigacija div{
+	z-index:5;
+	margin-top:10px;
+	transition:0.15s;
+	position: absolute;
+	visibility: hidden;
+	background: #d9e021;
+	border: 1px solid #2f3440;
+}
+
+#navigacija div a{
+	display:block;
+	height: 25px;
+	width:8em;
+	padding:3px;
+	color:#2f3440;
+	background-color:#707070;
+	text-decoration:none;
+	text-align:center;
+	position:relative;
+	border-radius:1px;
+	list-style-type:none;
+	float:left;
+}
+
+#navigacija div a:hover{
+	background: #d9e021;
+	color: #2f3440;
+		}
+
+
+#navigacija li {
+	display:block;
+	height: 25px;
+	width:8em;
+	padding:3px;
+	color:#2f3440;
+	background-color:#707070;
+	text-decoration:none;
+	text-align:center;
+	position:relative;
+	border-radius:1px;
+	list-style-type:none;
+	float:left;
+}
+
+
+#navigacija li a{
+	height:25px;
+	display:block;
+	color: #d9e021;
+	text-decoration:none;
+}
+
+h3{
+padding-top:55px;
+text-align:center;
+}
+
+/*sredina*/
+.sadrzaj {
+	position:relative;
+	width:70%;
+	margin: 10px auto 10px;
+	color:#000000;
+	padding:20px;
+	text-align:center;
+	padding-bottom:2%;
+	}
+	
+	/*home*/
+	.sadrzaj h5 {
+	margin:0 auto 10px;
+	padding:10px 0 0;
+	text-align:center;
+	}
+	
+	.vrijeme{
+	position:relative;
+	margin:5px 0;
+	text-align:left;
+	font-size:60%;
+	font-style:italic;
+	}
+		
+	.novost {
+	margin-bottom:10px;
+	padding:20px;
+	border:2px solid rgba(217,222,60,0.9);
+	font-size:100%;
+	text-align:justify;
+	}
+	
+	.novost:hover {
+	background:rgba(217,222,60,0.2);
+	}
+	
+	.sadrzaj .novost img {
+	margin:1% 1%;
+	float:left;
+	width:150px;
+	height:auto;
+	border:2px solid rgba(217,222,60,0.9);
+	}
+	
+	.sadrzaj  img {
+	width:50%;
+	height:50%;
+	}
+	.detalji{
+	margin:5px 5px;
+	padding:5px;
+	float:right;
+	color:rgba(217,222,60,0.9);
+	text-decoration:none;
+	}
+	.detalji:hover{
+	box-shadow:0 0 10px rgba(217,222,60,0.9);
+	}
+	
+	/*ponuda*/
+	.tabela{
+	width:100%;
+	margin:0 auto;
+	padding:15px;
+	
+	}
+	
+	table{
+	position:relative;
+	width:100%;
+	color:#000000;
+	font-weight:bold;
+	border-spacing:0px;
+	padding:10px;
+    border:2px solid rgba(217,222,60,0.9);
+	}
+	
+	
+	
+	thead tr:hover{
+	background:none;
+	}
+	
+	tr:hover {
+	background:rgba(217,222,60,0.2);
+}
+	
+	th, td {
+	text-align:center; 
+	padding:10px;
+}
+
+/*linkovi*/
+#lista_linkova {
+	position:relative;
+	margin-top:5px;
+	float:left;
+
+}
+
+#links{
+	position:relative;
+	margin-top:5px;
+	list-style-type:none;
+	
+}
+
+#links li {
+	padding:5px;
+	background:url('emir logo1.png') no-repeat left top;
+	padding-left: 34px;
+}
+#links li a{
+	color: #d9e021;
+	text-decoration:none;
+}
+
+/*kontakt*/
+	#forma{
+	width:50%;
+	margin:0 auto;
+	min-width:50%;
+	}
+	
+	label{
+	display:inline-block;  
+	width: 100px;  
+	margin-right:10px;
+	text-align: right; 
+	padding:10px 0;
+	}
+	
+	
+	#komentar1{
+	display:block;
+	}
+	
+	.tip{
+	display:inline-block;
+	}
+	
+	#greskaIme,#greskaPrezime,#greskaMail1, #greskaMail2, #greskaKom, #greskaRegija{
+	color:red;
+	display:inline-block;
+	text-align:right;
+	width:140px;
+	min-width:140px;
+	white-space:nowrap;
+	padding:5px 0;
+	}
+	
+	#greskaKom{
+	display:block;
+	text-align:right;
+	}
+		
+	#error{
+	width: 10px;
+	height:10px;
+	}
+	
+	.unosteksta{
+	display:block;
+	width:340px;
+	min-width:340px;
+	position:center;
+	border:1px solid rgba(0,0,0,0.7);
+	}
+
+	.submit{
+	display:inline-block;
+	width:30%;
+	margin:0 auto;
+	padding:5px 0;
+	color:#000000;
+	font-weight:bold;
+	border:1px solid rgba(0,0,0,0.7);
+	}
+	
+	.reset{
+	display:inline-block;
+	width:30%;
+	padding:5px 0;
+	margin:5px;
+	color:#000000;
+	font-weight:bold;
+	border:1px solid rgba(0,0,0,0.7);
+	}
+	
+	.unos:hover,.unosteksta:hover,.submit:hover,.reset:hover{
+	box-shadow:inset 0 0 15px rgba(155,73,45,0.5);
+	}
+
+	/*podnozje*/
+#podnozje{
+z-index:-1;
+	font-family: 'Orbitron', sans-serif;
+	font-size:12px;
+	height:30px;
+	position: fixed;
+    bottom: 0;
+	left:0;
+	text-align:left;
+    width: 100%;
+	opacity:0.5;
+}

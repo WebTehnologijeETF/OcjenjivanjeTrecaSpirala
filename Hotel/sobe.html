@@ -1,0 +1,100 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<link rel="stylesheet" type="text/css" href="stil2.css">
+<script src="javascript.js"></script>
+<TITLE>Double Infinity Hotel</TITLE>
+</HEAD>
+<body>
+<div id="zaglavlje">
+
+<h1>
+<br><br>
+ Double Infinity Hotel
+    </h1>
+ 
+
+</div>
+
+   <div id="meni">
+    <ul>
+    <li><a onclick="otvori('naslovnica.html')">Naslovnica</a></li>
+    <li><a onclick="otvori('sobe.html')">Sobe</a></li>
+   <li><a onclick="otvorisubmeni('submeni')" onmouseout="zatvorielement()"  >Restoran</a>
+          <ul id="submeni" onmouseover="drzisubmeni()" >
+            <li id="stavka1"  onclick="otvori('restoran.html')"   onmouseover="promijenipozadinu('stavka1', '#380000')" onmouseout="vratibojupozadine('stavka1', 'black')"><a href="#">Specijalne ponude</a></li>
+          <li id="stavka2" onclick="otvori('proizvodi.html')" onmouseover="promijenipozadinu('stavka2', '#380000')" onmouseout="vratibojupozadine('stavka2', 'black')" ><a href="#">Proizvodi </a></li>
+          <li id="stavka3" onmouseover="promijenipozadinu('stavka3', '#380000')" onmouseout="vratibojupozadine('stavka3', 'black')"><a href="#">Radno vrijeme </a></li>
+        </ul>
+
+    </li>
+    <li><a onclick="otvori('kontakt.html')">Kontakt </a></li>
+    </ul>
+
+
+   </div>
+
+   <p>Hotel nudi široki asortiman soba, tačnije 6 tipova čije su elementarne karakteristike prikazane u tabeli: </p>
+   <table class="tabela">
+  
+    
+     <tr><th>Naziv sobe</th>
+     <th>Tip sobe</th>
+     <th>Broj kreveta</th>
+     <th>Tip kreveta</th>
+     <th>Opis</th>
+     <th>Cijena (KM)</th>
+     <tr> <td>Infinity I</td>
+           <td> "Single"</td>
+           <td>1</td>
+           <td>Krevet za jednu osobu.</td>
+           <td>Moderan i luksuzan,ali jednostavan dizajn idealan za odmor.Soba uključuje:jacuzzi, TV plazmu, wireless.</td>
+           <td>200 </td>
+           </tr>
+           <tr><td>Infinity II</td>
+           <td>"Double"</td>
+           <td>2</td>
+           <td>Po želji, jedan bračni krevet ili dva odvojena kreveta.</td>
+           <td>Soba sa prelijepim pogledom na vrt hotela.Izmđu ostalog uključuje i mini-bar.</td>
+           <td>300 </td></tr>
+           <tr>
+           <td>Infinity III</td>
+           <td>"Suite"</td>
+           <td>2</td>
+           <td>Po želji, jedan bračni krevet ili dva odvojena kreveta.</td>
+           <td>Luksuzni apartman.Razdvojena spavaća kuhinja sa kuhinjom i trpezarijom.Soba uključuje dvije TV plazme, jacuzzi, dva telefona.</td>
+           <td>500</td>
+            </tr>
+            <tr>
+              <td>Infinity IV</td>
+              <td>"Family"</td>
+              <td>3</td>
+              <td>Jedan bračni krevet i dva odvojena kreveta.(Moguća kombinacija i tri odvojena kreveta). </td>
+              <td>Ovaj luksuzni apartman posjeduje dvije sobe, trpezariju i kuhinju, kao i dva kupatila.Oba kupatila imaju jacuzzi i pristup sauni.</td>
+              <td>600 </td>
+              </tr>
+              <tr>
+              <td>Infinity V</td>
+              <td>"Interconnected"</td>
+              <td>4</td>
+              <td>4 odvojena kreveta (moguća kombinacija sa bračnim krevetom)</td>
+              <td>Bogati apartman, koji posjeduje povezane prostorije ali i zasebne ulaze u svaku prostoriju.Ono što ovaj apartman čini neodoljivim je pogled na bazen i vrt. </td>
+              <td>800  </td>
+              </tr>
+              
+
+</table>
+ <div><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
+
+<img class="slikesoba" src="jacuzzi.jpg" alt="Slika" width="20%" height="25%">
+
+<img class="slikesoba "src="hotelsobaa.jpg" alt="Slika" width="20%" height="25%"> 
+
+  
+
+
+
+
+</body>
+</html>

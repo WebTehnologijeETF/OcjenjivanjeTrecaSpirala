@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<!--<meta http-equiv="refresh" content=""/>-->
+<TITLE>Učenici</TITLE>
+<link href="css/stil.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="http://sstatic.net/stackoverflow/img/favicon.ico">
+</HEAD>
+<BODY> 
+
+	
+	
+
+		<div id="lijevoTijelo">
+			<h3> Informacije</h3>
+			<p><b>Naziv škole:</b><br> Srednja škola "Huse Fatkić"</p>
+			<p><b>Adresa:</b><br> Zmaja od Bosne bb, 71000, Sarajevo</p>
+			<p><b>Telefon:</b><br> (+387)32665987</p>
+			<p><b>Telefon:</b><br> (+387)32665033</p>
+			<p><b>Email:</b><br> husefatkic@unsa.ba</p>
+
+		</div>
+				<div id="desnoTijelo">
+					<h3> Prijava</h3>
+				<div id="login">	
+					<form  name="loginForma"  method="post" onsubmit="return validateLogin()" >
+						Email: <input type="text" name="email" ><br>
+						Lozinka: <input type="text" name="lozinka" ><br>
+						<input type="submit" value="PRIJAVA" id="prijava"> 
+					</form>
+
+				</div>	
+				<h3> Registracija</h3>
+				<div id="registracija">	
+					<form  name="regForma" >
+						Ime: <input type="text" name="ime" >
+						<p id="greskaIme"> </p>
+						Prezime: <input type="text" name="prezime" >
+						<p id="greskaPrezime"> </p>
+						Email: <input type="text" name="email" >
+						<p id="greskaEmail"> </p>
+						
+						Lozinka: <input type="text" name="lozinka" >
+						<p id="greskaLozinka"> </p>
+						Broj mobitela(Neobavezno): <input type="text" name="mobitel" >
+						Spol: <select> 
+								  <option value="Musko">Muško</option>
+								  <option value="Zensko">Žensko</option>
+							   </select>
+						<br>
+						<br>
+						Općina: <input type="text" name="opcina" >
+						<p id="greskaOpcina"> </p>
+						Mjesto: <input type="text" name="mjesto" >
+						<p id="greskaMjesto"> </p>
+						<input type="button" value="REGISTRACIJA" name="posalji" onclick="return validateRegistration()"> 
+					</form>
+
+				</div>	
+					
+				</div>
+		<div class= "sadrzaj">
+			<div id="unosUcenika">
+				<form name="unosUcenika">
+					Naziv ucenika: <br>
+					<input type="text" id="nazivUcenika" ><br>
+					Slika: <br>
+					<input type="text" id="slikaUcenika"><br>
+					<input type="button" name="dodajUcenika" value="dodaj" onclick="return dodaj()">
+				</form>
+			</div>
+
+		</div>
+	
+
+	
+	<SCRIPT src="javaScript/skripte.js"></SCRIPT>
+	<SCRIPT src="javaScript/AjaxMeni.js"></SCRIPT>
+	<SCRIPT src="javaScript/AjaxUcenici.js"></SCRIPT>
+</BODY>
+</HTML>

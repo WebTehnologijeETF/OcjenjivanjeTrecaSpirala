@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head lang="ba">
+    <meta charset="UTF-8">
+    <title>FK Sarajevo Galaxy-Naslovnica</title>
+    <link rel="stylesheet" type="text/css" href="stil.css">
+    <script src="meni.js"></script>
+    <script src="ajax.js"></script>
+
+
+</head>
+<body>
+<div class="okvir">
+    <header>
+        <h2 class="naslov"> FK Sarajevo Galaxy <img class="logo" src="zvijezda.png" alt="logo">
+        </h2>
+        <nav class="meni">
+            <ul>
+                <li><a class="popravka" onclick="ajaxPrikazi('Index.html')"  >Naslovna</a></li>
+                <li><a href="#" class="popravka2"  onclick="prikaziMeni()">Tim</a></li>
+                <li><a  onclick="ajaxPrikazi('Utakmice.html')"  class="popravka" >Utakmice</a></li>
+                <li><a onclick="ajaxPrikazi('Opis.html')" class="popravka">O nama</a></li>
+                <li><a  onclick="ajaxPrikazi('Kontakt.html')" class="popravka" >Kontakt</a></li>
+                <li><input type="text" name="tekst"></li>
+                <li><input type="submit" value="Pretraži"></li>
+                <li><input type="submit" value="Prijava"></li>
+            </ul>
+        </nav>
+        <ul id="padajuci" class="meni2" onmouseout="sakrijMeni()" >
+            <li class="razmak" onmouseover="prikaziMeni(); oboji(this);" onmouseout="vratiBoju(this);"><a onclick="ajaxPrikazi('Tim.html')" >Igraci</a></li>
+            <li onmouseover="prikaziMeni(); oboji(this);" onmouseout="vratiBoju(this);"><a href="#">Izjave</a></li>
+            <li onmouseover="prikaziMeni(); oboji(this);" onmouseout="vratiBoju(this);"><a href="#">Transferi</a></li>
+            <li onmouseover="prikaziMeni(); oboji(this);" onmouseout="vratiBoju(this);"><a href="#">Ozljede</a></li>
+            <li onmouseover="prikaziMeni(); oboji(this);" onmouseout="vratiBoju(this);"><a href="#">Zanimljivosti</a></li>
+            <li onmouseover="prikaziMeni(); oboji(this);" onmouseout="vratiBoju(this);"><a href="#">Kolumne i komentari</a></li>
+        </ul>
+        <div class="clear"></div>
+    </header>
+    <section class="lijevi4">
+        <article>
+            <p>Hamdije Kreševljakovića 14<br>71000 Sarajevo<br>www.sarajevogalaxy.ba
+            </p>
+
+        </article>
+    </section>
+
+    <div id="kontakt">
+        <h1>Kontakt forma</h1>
+        <form class="forma" onsubmit="validacijaForme(); return false;">
+            Ime<br>
+                <input type="text" name="ime" id="ime" onkeyup="validacijaImena()" placeholder="Marko"><label id="provjeriIme"></label><br>
+            Prezime<br>
+                <input type="text" name="prezime" id="prezime" placeholder="Marković" onkeyup="validacijaPrezimena()"><label id="provjeriPrezime"></label><br>
+            Email<br>
+                <input type="text" name="mail" id="mail" placeholder="primjer@mail.com" onkeyup="validacijaMaila()"><label id="provjeriMail"></label><br>
+            Potvrdi mail<br>
+                <input type="text" name="mail2" id="mail2" placeholder="primjer@mail.com" onkeyup="validacijaMaila2()"><label id="provjeriMail2"></label><br>
+            Broj mobitela<br>
+                <input type="text" name="mobitel" id="mobitel" placeholder="123-456-789" onkeyup="validacijaMobitela()"><label id="provjeriMobitel"></label><br>
+            Općina<br>
+            <input type="text" name="opcina" id="opcina" placeholder="Travnik" onkeyup="validacijaOpcine()"><label id="provjeriOpcinu"></label><br>
+            Mjesto<br>
+                <input type="text" name="grad" id="grad" placeholder="Travnik" onkeyup="validacijaGrada()"><label id="provjeriGrad"></label><br>
+            Poruka<br>
+            <textarea name="text" id="text" placeholder="Neka poruka za nas!" onkeyup="validacijaPoruke()"></textarea><br><label id="provjeriPoruku"></label>
+            <br><input type="submit" value="Pošalji"><label id="zadnjaProvjera"></label>
+        </form>
+        <script type="text/javascript" src="validacija.js"></script>
+
+    </div>
+    <footer class="podnozje">
+        Copyright &copy; Josip Kvesic
+    </footer>
+</div>
+
+</body>
+</html>

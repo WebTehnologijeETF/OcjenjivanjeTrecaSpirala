@@ -1,0 +1,251 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(http://fonts.googleapis.com/css?family=Damion);
+@import url(http://fonts.googleapis.com/css?family=Oxygen);
+@import url(http://fonts.googleapis.com/css?family=Orbitron);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+
+#okvir{
+	width:960px;
+	margin:0 auto;
+}
+#naslov{
+	position:relative;
+	width: 350px;
+	height:170px;
+	margin:0 auto;
+}
+#naslov h1{
+	font-family:Lobster;
+	font-size:50pt;
+	right:0;
+	top:0;
+	margin-bottom: 0;
+	color:#404040;
+}
+#naslov h2{
+	font-family:Damion;
+	font-size:15pt;
+	text-align:right;
+	color:#404040;
+	bottom:0;
+	margin-top: 0;
+	right:0;
+}
+nav{
+	background-color:#404040;
+	padding: 0;
+	text-align: center;
+}
+nav ul{
+    text-align:center;
+    display: inline;
+    list-style:none;
+    padding: 0;
+}
+nav ul li{
+	display: inline-block;
+	position:relative;
+	margin: 0 2em;
+	padding: 10px 10px;
+}
+ul li:hover,
+ul li.otvoreno {
+	background:#A0A0A0;
+}
+nav ul li a{
+	font-family:Oxygen;
+	color:#F0FFFF;
+	text-decoration:none;
+}
+nav ul li ul{
+	position:absolute;
+	top: 40px;
+	left: -32px;
+	width: 234px;
+	display:none;
+}
+nav ul li ul li { 
+  background:#A0A0A0;
+  display: block; 
+}
+ul li ul li:hover {
+ 	background: #707070;
+}
+ul li.otvoreno ul {
+  display: block;
+  visibility: visible;
+}
+#glavni{
+	width:75%;
+	float:left;
+	
+}
+#desno{
+	width:25%;
+	float:right;
+	margin-top:50px;
+	padding-bottom: 2em;
+	
+}
+#podnozje{
+	clear:both;
+	text-align:center;
+	border-top:2px solid #E8E8E8;
+	font-family:Ubuntu;
+}
+
+.novost {
+	margin-top:50px;
+	padding-bottom: 2em;
+	border-bottom: 1px solid #E8E8E8;
+	margin-bottom:10px;
+}
+.novost:last-child {
+	border-bottom: none;
+}
+
+.novost p {
+	font-family:Ubuntu;
+	margin-bottom:-15px;
+	color:#404040;
+	
+}
+.novost h4{
+	font-family:Orbitron;
+}
+.novost{
+	font-family:Ubuntu;
+}
+#ikone{
+	text-align:center;
+}
+#ikone a{
+	text-decoration:none;
+}
+#ikone img{
+	margin:0 1em;
+
+}
+.reklama{
+	text-align:center;
+	margin-top:30px;
+	padding-bottom:2em;
+	border-bottom:1px solid #E8E8E8;
+}
+#podstranice p{
+	color:#404040;
+	font-family:Ubuntu;
+}
+#podstranice h3{
+	color:#404040;
+	font-size:20pt;
+	font-family:Ubuntu;
+
+}
+#podstranice ul{
+	list-style-image: url("slicicaZaLinkove.png");
+}
+#podstranice ul li{
+	font-family:Ubuntu;
+	font-size:20px;
+}
+#podstranice li a{
+	display:block;
+}
+#podstranice li a:visited {
+	color: #707070;
+}
+#podstranice li a:link{
+	text-decoration:none; 
+}
+#podstranice li a:hover{
+	text-decoration:underline;
+	color:red;
+}
+table{
+	margin-top:30px;
+	border:1px;
+	width:700px;
+	table-layout:fixed;
+}
+table tr{
+	background-color:#B8B8B8;
+	text-align:center;
+	font-family:Ubuntu;
+}
+table th{
+	background-color:#FFDAB9;
+	font-family:Ubuntu;
+}
+fieldset{
+	width:340px;
+	font-family:Ubuntu;
+	background-color:#E8E8E8;
+	border:2px solid #FFDAB9;
+	color:#404040;
+	padding: 1em;
+}
+
+label{
+	display:block;
+	letter-spacing:2px;
+	margin-bottom: 5px;
+}
+input[type="text"]{
+	font-family:Orbitron;
+	width: 85%;
+	height:30px;
+	padding: 5px;
+	border:1px solid #404040;
+	border-radius:5px;
+	margin-bottom: 10px;
+}
+input[type="number"]{
+	font-family:Orbitron;
+	width: 85%;
+	height:30px;
+	padding: 5px;
+	border:1px solid #404040;
+	border-radius:5px;
+	margin-bottom: 10px;
+}
+
+textarea{
+	font-family:Orbitron;
+	width: 85%;
+	height:100px;
+	padding:2px;
+	margin-bottom:10px;
+	border:1px solid #404040;
+	border-radius:5px;
+}
+button[type="button"]{
+	display:block;
+	border:2px solid #B8B8B8;
+	background-color:#404040;
+	font-family:Ubuntu;
+	width:100px;
+	height:35px;
+	border-radius:5px;	
+}
+
+.kontrola-greska {
+	display: none;
+}
+.prikazi-gresku .kontrola-greska {
+	display: block;
+}
+img.kontrola-greska {
+    float: right;
+}
+p.kontrola-greska {
+	margin-top: -10px;
+	color:red !important;
+}
+
+.proizvod-slika {
+	height: 100px;
+}
+#listaProizvoda button {
+	display: inline;
+}

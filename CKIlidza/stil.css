@@ -1,0 +1,374 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu&effect=shadow-multiple|3d-float);
+
+body{
+background-color:#800000;
+margin:0;
+}
+
+#okvir{
+background-color:#E0E0E0;
+border: 1px;
+ width: 980px;
+ margin: 0 auto;
+ padding: 0;
+ box-shadow: 5px 5px 5px #333333;
+}
+#traka{
+float:left;
+width:260px;
+clear:both;
+background-color:white;
+}
+
+#principi{
+width:220px;
+margin:15px;
+background-color:#ECECEC;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+border: 1px solid #999;
+padding-left:10px;
+padding-top:10px;
+font-family:'Ubuntu',serif;
+ box-shadow: inset 0 0 10px 10px #BDBDBD; 
+}
+
+#kontakt_info{
+width:220px;
+margin:15px;
+background-color:#ECECEC;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+border: 1px solid #999;
+padding-left:10px;
+padding-top:10px;
+font-family:'Ubuntu',serif;
+box-shadow: inset 0 0 10px 10px #BDBDBD; 
+}
+
+#bold{
+font-weight:bold;}
+
+pre{
+font-family:'Ubuntu',serif;
+font-size:15px;
+}
+
+#naslov_k, #naslov_p,#naslov_ponuda{
+color:#800000;
+font-weight:bold;
+}
+
+#logo{
+float: left;}
+
+#naslov{
+background-color:white;
+height:100px;
+width:1000px;
+margin-left: -10px;
+margin-right:-10px;
+margin-top:-35px;
+padding:0;
+ box-shadow: inset 0 0 10px 10px #F9F9F9; 
+}
+
+h1 {
+padding-top: 15px;
+padding-left: 50px;
+color:#800000;
+font-family:"Ubuntu";
+font-size:50px;
+}
+
+#meni ul {
+  list-style: none;
+  background-color:#D9DBD9;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  
+}
+
+#ul_meni li{
+    height: 40px;
+  border-bottom: 1px;
+  width: 120px;
+  height: 50px;
+  font-size: 15px;
+  display: inline-block; 
+     border-right: 1px solid #FFFFFF;
+	   border-left: 1px solid #FFFFFF;
+
+}
+#ul_meni li a{
+	text-align: center;
+	text-decoration: none;	
+	font-weight:bold;
+	font-size:18px;
+  color:#800000 ;
+  display: inline-block;
+  font-family:"Ubuntu";
+  padding-top:15px;
+}
+#ul_meni li:hover{
+  background-color: #F5F5F5 ;
+}
+
+#ul_meni div
+{	position: absolute;
+	visibility: hidden;
+	width: 200px;
+	margin-top: 14px;
+	padding: 0;
+	background: #D0D0D0;
+	border: 1px solid #D0D0D0;
+	}
+
+	#ul_meni div a
+	{	position: relative;
+		display: block;
+		margin: 0;
+		padding-left: 10px;
+		width: auto;
+		height:20px;
+		text-align: left;		
+		background: #F5F5F5;
+		color: #800000;
+		font-size: 13px;
+		font-family:"Ubuntu";
+		text-decoration:none;
+		font-weight:normal;
+		border-bottom: 2px solid #FFFFFF		
+	}
+
+	#ul_meni div a:hover
+	{	  background-color: #D0D0D0 ;
+		  color: #FFF}
+		
+
+.sadrzaj{
+    float:right;
+	width: 700px;
+	height:500px;
+	margin-right:10px;
+	overflow: scroll;
+}
+
+.novost{
+	height: 290px;
+	width: 650px;
+	padding:0;	
+	background-color:white;
+	margin:25px;
+}
+
+.naslovN{
+	padding-top: 20px;
+	padding-left: 20px;
+	color:#E8E6E6;
+	font-size: 22px;
+	height: 50px;
+	background-color:#800000;
+	font-family:"Ubuntu", serif;
+}
+
+#naslov_partneri1,#naslov_partneri2 {
+	padding-left: 5px;
+	color:#E8E6E6;
+	font-size: 16px;
+	height: 20px;
+	background-color:#800000;
+	font-weight:bold;
+font-family:"Ubuntu";
+}
+
+.autor{
+	background-color: #983030;
+	font-style: italic;
+	font-size: 13px;
+	height: 18px;
+	padding-left: 5px;
+	color: #D9D6D6;
+	font-family:"Ubuntu", serif;
+	margin-top:-20px;
+}
+
+.slika{
+margin-top:-13px;
+width:280px;
+height:200px;
+float:left;
+}
+
+.tekst{
+	color: #3D0000;
+	font-size: 14px;
+	text-align:justify;
+	padding-left:305px;
+	padding-right:5px;
+	padding-top:20px;
+	font-family:"Ubuntu", serif;
+}
+.detaljnije{
+	text-align: right;
+	padding-right: 12px;
+	margin-top: -15px;
+	padding:0;
+	color:#CF0000;
+	font-size: 13px;
+	font-family:"Ubuntu", serif;
+}
+
+#podloga  .slika_svi {
+border:none;
+padding-left:10px;
+padding-right:10px;
+}
+
+#podloga, #podlogaTabela{
+	width: 650px;
+	padding:10px;
+	background-color:white;
+		padding-top:8px;
+}
+
+#podloga .tekst_o_nama{	
+	padding-top:10px;
+	padding-left:10px;
+	padding-right:10px;
+		font-family:"Ubuntu", serif;
+}
+
+#ck ul {
+   list-style-image: url('slike/redcross.png');
+}
+#ostali ul {
+   list-style-image: url('slike/bullet.png');
+}
+#ck a, #ostali a{
+text-decoration:none;
+font-family:"Ubuntu";
+}
+
+#formica{
+padding-top:2px;
+margin-left:10px;
+font-family:"Ubuntu";
+}
+
+#okvir_kontakt
+{
+width:500px;
+padding-left:80px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+border: 1px solid #999;
+box-shadow: 0px 0px 8px;
+background-color:#F9F0F0;
+}
+
+.dugme{
+width:80px;
+margin-left:230px;
+font-family:"Ubuntu";
+font-weight:bold;
+
+}
+
+.polje,select   {
+width:200px;
+display:block;
+border: 1px solid #999;
+height: 25px;
+-webkit-box-shadow: 0px 0px 8px;
+-moz-box-shadow: 0px 0px 8px;
+box-shadow: 0px 0px 8px;
+padding:2px;
+font-family:"Ubuntu";
+}
+
+
+.red{
+width:200px;
+color:red;
+font-size:12px;
+text-align:left;
+}
+ #tabela_kontakt{
+border:0;
+}
+
+td{
+text-align:right;
+padding:3px 10px 3px 3px;
+}
+
+#komentar{
+width:200px;
+display:block;
+height:50px;
+-webkit-box-shadow: 0px 0px 8px;
+-moz-box-shadow: 0px 0px 8px;
+box-shadow: 0px 0px 8px;
+}
+#poruka {
+font-size:12px;
+color:red;
+text-align:right;
+}
+#error{
+margin:0;
+}
+
+
+#podlogaTabela{
+overflow: scroll;}
+
+
+ 
+#podaciTabela,th  {
+    border-bottom: 1px solid maroon;
+    border-collapse: collapse;
+}
+#podaciTabela tr{
+ border-bottom: 5px solid maroon;
+}
+
+/* zakomentarisan dio tabela volonetra
+table, th, td {
+   border: 1px solid black;
+   border-color:#7D1919;
+}
+
+#table{
+border-collapse: collapse;
+width:500px;
+margin-left:70px;
+font-family:"Ubuntu";
+}
+
+th{
+height:30px;
+background-color:#993636;
+color:#C2C2A3;
+}
+
+td{
+    height: 20px;
+	padding:5px;
+	text-align:center;
+	background-color:#F8DBDB;
+}
+
+*/
+#dno{
+clear: both;
+padding-left :10px;
+color: black;
+border-top: 1px solid gray;
+
+}

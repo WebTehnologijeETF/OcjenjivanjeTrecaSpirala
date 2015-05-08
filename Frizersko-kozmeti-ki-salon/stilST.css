@@ -1,0 +1,262 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+@import url(http://fonts.googleapis.com/css?family=Cabin);
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+#zaglavlje {
+background:url(beuty.jpg) no-repeat;
+background-size:cover;
+background-color:rgba(255, 255, 255, 0.0);
+background-position:center;
+height:100px;
+width:250px;
+position:relative;
+margin-left:auto;
+margin-right:auto;
+}
+
+#okvir{
+width:750px;
+margin:auto;
+}
+
+body {
+height:100%;
+   background:url(image.jpg) repeat;
+   background-position:center;
+ background-size:cover;
+  padding:0;
+  margin:0;
+}
+
+h1{
+font-size: 30pt;
+font-family:Lobster;
+margin:0;
+padding:0;
+}
+
+.meni{
+color: black;
+height: 20px;	
+border-bottom: 2px solid #000;
+border-top: 2px solid #000;
+background-color:#fff;
+background: rgba(255, 255, 255, 0.4);
+padding:10px;
+margin-top:20px;
+margin-bottom:20px;
+}
+
+.naviLinks a:link, a:hover, a:active, a:focus {
+	color: black;
+	text-decoration: none;
+	font: Beta;
+}
+
+.naviLinks {
+height: 60px;
+	width: 140px;
+	text-align:center;
+	font-family:Oswald;
+	font-size: 14px;
+	float: left;
+
+}
+
+a {
+  color:black;
+  text-decoration:none;
+  outline:none;
+}
+a:hover {
+  text-decoration:underline;
+}
+
+li:hover >ul {
+display:block;
+ opacity: 1;
+}
+
+
+#podmeni {
+list-style:none;
+  display: none;
+  position: absolute;
+  width: 50px
+}
+
+#podmeni > li {
+  padding: 2px;
+  margin: 1px;
+  background-color: rgba(0,0,0,0.5);
+  width: 180px;
+}
+
+#podmeni > li > a {
+  text-decoration: none;
+    color: black;
+}
+
+#podmeni > li:hover {
+    background-color: rgba(255,0,0,0.3);
+}
+
+ul{
+list-style-image: url('http://www.benaltex.com/wp-content/plugins/shortcodes-ultimate/images/list-style-star.png') ;
+list-style-position: inside;
+margin:0;
+padding:0;
+}
+
+#glavni{
+float:left;
+
+background-color:rgba(255, 255, 255, 0.4);
+width:750px;
+height:500px;
+}
+
+
+#linkovi{
+float:left;
+background-color:white;
+background: rgba(255, 255, 255, 0.4);
+width:750px;
+padding:0;
+}
+
+#cjenovnik{
+float:left;
+background-color:white;
+background: rgba(255, 255, 255, 0.4);
+width:750px;
+clear:both;
+}
+
+#podstranice .desno{
+float:right;
+margin-top:-430px;
+background:url(kontakt.jpg) no-repeat;
+height:400px;
+width:400px;
+}
+
+#kontakt{
+float:left;
+background-color: white;
+width: 750px;
+height:440px;
+background: rgba(255, 255, 255, 0.4);
+}
+
+#kontaktForma {
+float:left;
+  margin-top:-5px;
+  width:350px;
+  height:500px;
+}
+#kontaktForma .labele {
+font-family:Oswald;
+  float:left;
+  margin-left:5px;
+  width:100px;
+  line-height:20px
+}
+#kontaktForma .wrapper {min-height:24px}
+#kontaktForma .textarea_box {
+  min-height:170px;
+  width:100%;
+  overflow:hidden;
+  padding-bottom:9px
+}
+button {
+margin-left:110px;
+padding: 8px 15px 8px;
+font-size: 18px;
+font:Oswald;
+background-color: #F36C8C;
+font-weight: bold;
+text-shadow: 1px 1px #F36C8C;
+color: #ffffff;
+border-radius: 100px;
+-moz-border-radius: 100px;
+-webkit-border-radius: 100px;
+border: 1px solid #F36C8C;
+cursor: pointer;
+box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+}
+
+#kontaktForma a {margin:10px;}
+#kontaktForma .input {
+  width:85%;
+  height:18px;
+  background:#faf3ed;
+  padding:1px 5px;
+  color:#220000;
+  font:14px Oswakd;
+  margin:0;float:left}
+  
+#kontaktForma textarea {
+  overflow:auto;
+  width:85%;
+  height:163px;
+  background:#faf3ed;
+  padding:1px 5px;
+  color:#220000;
+  font:14px Oswald;
+  margin:0
+}
+
+
+#kursprvi{
+font-family:Oswald;
+float:left;
+background: rgba(255,255,255,0.4);
+width:550px;
+margin-bottom:5px;
+
+}
+
+#kursdrugi{
+font-family:Oswald;
+float:left;
+background: rgba(255,255,255,0.4);
+width:550px;
+
+}
+#slikajedan{
+top:0;
+background:url(vizazista.jpg) no-repeat;
+float:right;
+width:200px;
+height:120px;
+}
+#slikadva{
+top:0;
+background:url(nokti.jpg) no-repeat;
+float:right;
+width:200px;
+height:120px;
+}
+
+#slika {
+   background:url(slike.jpg) no-repeat;
+   width:750px;
+background-position:center;
+  height:500px;
+ margin:0;
+ padding:0;
+clear:both;
+ position:relative;
+}
+
+#kontaktForma .greske {
+font-family:Oswald;
+font-size:12px;
+  background:rgba(255,0,0,0.3);
+  height:20px;
+float:right;
+  display:none;
+}
+

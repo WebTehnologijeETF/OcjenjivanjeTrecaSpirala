@@ -1,0 +1,135 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<SCRIPT src="ValidacijaKontaktForme.js"></SCRIPT>
+<SCRIPT src="otvoriurlajax.js"></SCRIPT>
+<TITLE>Prodaja nakita Sarajevo</TITLE>
+<link rel="stylesheet" type="text/css" href="stilnaslovna.css">
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+
+</HEAD>
+<BODY >
+
+
+<div id="okvir">
+
+
+	<div id="zaglavlje">
+	<h3>  Kontakt  </h3>
+		<div class="logo"></div>
+	
+	</div>
+	<div id="meni">
+		
+		<table class="gridtable" style="width:100%">
+  <tr>
+ 						
+ <td>  <li><a onclick="otvoriAsinhrono('Naslovna.html')">Naslovna</a></li></td>	
+	
+    <td><a onclick="otvoriAsinhrono('Onama.html')">O nama</a></li></td>
+	<td><a onclick="otvoriAsinhrono('Kategorije.html')">Kategorije</a></li></td>	
+  </tr>
+</table>
+
+	</div>
+	
+<div id="glavni">
+<div class="Kontaktpodaci">	
+<p>Možete nas pronaći na slijedećim stranicama:</p>
+	
+
+<table class="tabeleposlovnica" style="width:100%">
+  <tr>
+ <th>Adresa</th>
+<th>Telefon</th> 
+ <th>E-mail</th>
+ <tr>
+    <td>Zmaja od Bosne 12b</td>
+    <td>033/238-987</td>
+	<td><a href="#">www.nakitsarajevo1@gmail.com<a></td>
+  </tr>
+  <tr>
+    <td>Dzemala Bijedica 17</td>
+    <td>033/987-654</td>
+	<td><a href="#">www.nakitsarajevo2@gmail.com<a></td>
+  </tr>
+  <tr>
+    <td>Kulovića 3</td>
+    <td>033/977-657</td>
+	<td><a href="#">www.nakitsarajevo3@gmail.com<a></td>
+  </tr>
+  <tr>
+    <td>Branilaca Sarajeva 7b</td>
+    <td>033/987-458</td>
+	<td><a href="#">www.nakitsarajevo4@gmail.com<a></td>
+  </tr>
+  <tr>
+    <td>Logavina 3</td>
+    <td>033/223-985</td>
+	<td><a href="#">www.nakitsarajevo5@gmail.com<a></td>
+  </tr>
+
+  <ul class="mojilinkovi">
+  <li><a href="www.facebook.com">Facebook</a></li>
+    <li><a href="www.twitter.com">Twitter</a></li>
+ 
+</ul>
+
+</table>
+
+
+	</div>
+	
+
+
+<form action='#' id="myForm" method='post' name="myForm">
+<div class="form-group">
+				<label for="ime">Ime</label>
+            <input type="text" id="ime" name="ime" placeholder="Vaše ime " onblur='validateName()'>
+			<img src="https://cdn0.iconfinder.com/data/icons/super-mono-reflection/red/exclamation-circle_red.png" 
+			id="greska_ime" class="greska_invisible" alt="greska"
+			onmouseenter="prikazi(this)" onmouseleave="sakrij(this)">
+            <span class='poruka_invisible' id='poruka_ime'>Unesite ime!</span>
+          </div>
+		  
+		  
+		  <div class="form-group">
+            <label for="prezime">Prezime</label>
+            <input type="text" id="prezime" name="lastname" placeholder="Vaše prezime" onblur='validateLastname()'>
+           <img src="https://cdn0.iconfinder.com/data/icons/super-mono-reflection/red/exclamation-circle_red.png"
+		   id="greska_prezime" class="greska_invisible" alt="greska" onmouseenter="prikazi(this)" onmouseleave="sakrij(this)">
+
+			<span class='poruka_invisible' id='poruka_prezime'>Unesite prezime!</span>
+          </div>
+          
+<div class="form-group">
+            <label for="email">Email addresa</label>
+            <input type="email" id="email" name="email" placeholder=" Email" onblur='validateEmail()'>
+			<img src="https://cdn0.iconfinder.com/data/icons/super-mono-reflection/red/exclamation-circle_red.png"
+		   id="greska_email" class="greska_invisible" alt="greska"onmouseenter="prikazi(this)" onmouseleave="sakrij(this)">
+            <span class='poruka_invisible' id='poruka_email'> Unesite ispravnu E-mail adresu</span>
+          </div>   
+
+		  
+   <div class="form-group">
+            <label for='Message'>Komentar ili primjedba</label>
+            <textarea  rows="5" cols="20"  id='komentar'  name='komentar'  placeholder="Ukucajte pitanje/poruku" onblur='validateMessage()'></textarea>
+           <img src="https://cdn0.iconfinder.com/data/icons/super-mono-reflection/red/exclamation-circle_red.png"
+		   id="greska_poruka" class="greska_invisible" alt="greska"onmouseenter="prikazi(this)" onmouseleave="sakrij(this)">
+		   <span class='poruka_invisible' id='poruka_komentar'>Ne možete poslati poruku praznog sadržaja</span>
+          </div>
+		  
+<button onclick='return validateForm()' class="btn btn-default">Submit</button>
+        <span class='poruka_invisible' id='poruka_button'></span>
+      </form>
+
+	
+
+
+</div>
+
+	<div id="podnozje"><p>Copyright &copy; Web tehnologije/Irma Solaković 2014/2015.</p></div>
+</div>
+</BODY>
+</HTML>

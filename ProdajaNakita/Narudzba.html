@@ -1,0 +1,90 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<SCRIPT src="validacijanarudzbe.js"></SCRIPT>
+<SCRIPT src="ValidacijaKontaktForme.js"></SCRIPT>
+<SCRIPT src="otvoriurlajax.js"></SCRIPT>
+<TITLE>Prodaja nakita Sarajevo</TITLE>
+<link rel="stylesheet" type="text/css" href="stilnaslovna.css">
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+
+</HEAD>
+<BODY >
+
+
+<div id="okvir">
+
+
+	<div id="zaglavlje">
+	<h3>  Narudžba </h3>
+		<div class="logo"></div>
+	
+	</div>
+	
+
+<div class="Narudzba">	
+
+
+        <form name="kontaktForma" id="kontaktforma" action="#">
+		<label for="ime">Ime</label>
+            <input type="text" id="ime" name="ime" placeholder="Vaše ime " onblur='validateName()'>
+			<img src="https://cdn0.iconfinder.com/data/icons/super-mono-reflection/red/exclamation-circle_red.png" 
+			id="greska_ime" class="greska_invisible" alt="greska"
+			onmouseenter="prikazi(this)" onmouseleave="sakrij(this)">
+            <span class='poruka_invisible' id='poruka_ime'>Unesite ime!</span>
+      
+		  
+		  
+	
+            <label for="prezime">Prezime</label>
+            <input type="text" id="prezime" name="lastname" placeholder="Vaše prezime" onblur='validateLastname()'>
+           <img src="https://cdn0.iconfinder.com/data/icons/super-mono-reflection/red/exclamation-circle_red.png"
+		   id="greska_prezime" class="greska_invisible" alt="greska" onmouseenter="prikazi(this)" onmouseleave="sakrij(this)">
+
+			<span class='poruka_invisible' id='poruka_prezime'>Unesite prezime!</span>
+     
+	 
+		Grad:<br>
+		<input list="gradovi" name="grad" id="grad">
+			<datalist id="gradovi">
+				<option value="">Sarajevo</option>
+				<option value="">Banja Luka</option>
+				<option value="">Tuzla</option>
+				<option value="">Zenica</option>
+				<option value="">Mostar</option>
+				<option value="">Bihać</option>
+				<option value="">Trebinje</option>
+			    <option value="">Prijedor</option>
+				<option value="">Ključ</option>
+					<option value="">Maglaj</option>
+						<option value="">Bugojno</option>
+							<option value="">Goražde</option>
+			</datalist>
+		<br><br>
+		
+		
+	
+            <label for="postanski">Postanski broj</label>
+            <input type="text" id="postanski" name="postanski" onblur="validiraj()">
+           <img src="https://cdn0.iconfinder.com/data/icons/super-mono-reflection/red/exclamation-circle_red.png"
+		   id="greska_postanski" class="greska_invisible" alt="greska">
+
+			<span class='poruka_invisible' id='poruka_broj'>Poštanski broj ne odgovara unesenom gradu</span>
+        
+          
+		  
+		  
+		
+		<button id="submit_but" type="button" onclick="validiraj()">Pošalji</button>
+		
+	
+	</form>
+
+
+</div>
+
+	<div id="podnozje"><p>Copyright &copy; Web tehnologije/Irma Solaković 2014/2015.</p></div>
+</div>
+</BODY>
+</HTML>

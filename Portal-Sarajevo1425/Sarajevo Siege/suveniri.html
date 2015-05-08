@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+			<TITLE>Sarajevo Seige</TITLE>
+			<link rel="stylesheet" type="text/css" href="SarajevoSiege.css">
+
+</head>
+
+<body onload="load()">
+<div id="logo">
+				<p id="logo_tekst">Sarajevo<br>1425</p>
+			</div>
+			<div id="centar">
+<ul id="menu">
+				<li > <a onclick="loadPages('index.html')">POČETNA</a></li>
+					<li><a onclick="loadPages('Sarajevo%20SiegeHronologija.html')">HRONOLOGIJA</a></li>
+					<li><a onclick="loadPages('SarajevoSiegeGalerija.html')">GALERIJA</a></li>
+					<li><a onclick="loadPages('SarajevoSiegeProjekti.html')">PROJEKTI</a></li>
+					<li><a onclick="loadPages('SarajevoSiegeMapa.html')">ŠTA VIDJETI</a></li>
+					<li><a onclick="loadPages('SarajevoSiegeKontakt.html')">KONTAKT</a></li>
+					<li id="active"><a onclick="loadPages('suveniri.html')">SUVENIRI</a></li>
+				</ul>
+<form id="kontakt_forma">
+                        
+					    <label for="naziv">Naziv:</label><br>
+						<input id="naziv" class="input" name="naziv" type="text" value="" size="20" ><br>
+						 <label for="opis">Opis:</label><br>
+						<input id="opis" class="input" name="opis" type="text" value="" size="30" ><br>
+						 <label for="kolicina">Količina:</label><br>
+						<input id="kolicina" class="input" name="kolicina" type="text" value="" size="20" ><br>
+						 <label for="cijena">Cijena:</label><br>
+						<input id="cijena" class="input" name="cijena" type="text" value="" size="20" ><br>
+						 <label for="dostupnost">Dostupnost:</label><br>
+						<select id="dostupnost">
+                         <option value="dostupno">1</option>
+                          <option value="nedostupno">0</option>
+                          </select><br>
+                         
+                       <!--   <div id="dugmad"> -->
+<input type="button" value="Dodaj" onclick="add()">
+<input type="button" value="Osvježi tabelu" onclick="load()"> <br>
+<br><label for="ID">Obriši/Izmijeni:</label><br>
+<input id="id" class="input" name="if" type="text" value="ID" size="20" ><br>
+<input type="button" value="Promijeni" onclick="update()">
+<input type="button" value="Obriši" onclick="deletes()">
+</form>
+<p>Podaci o suvenirima:</p><br>
+<table id="proizvodi" border="1">
+
+<tr>
+<th>ID</th>
+<th>Naziv</th>
+<th>Opis</th>
+<th>Količina</th>
+<th>Cijena</th>
+<th>Dostupnost</th>
+
+</tr>
+</table><br>
+
+</div>
+<script type="text/javascript" src="loadPages.js"></script>
+<script type="text/javascript" src="proizvodi.js"></script>
+</body>
+
+
+
+</html>

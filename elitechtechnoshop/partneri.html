@@ -1,0 +1,34 @@
+
+    <div id="header">
+        <a onclick = "prebaci('naslovnica.html')"><img src="slike/logo.png" alt="logo_pic"></a>
+    		<ul class="nav_left">
+                <li><a onclick = "prebaci('naslovnica.html')">Naslovnica</a></li>
+                <li id = "zapr" class = "opens_menu"  onclick="prikaziMeniKatalog();" onmouseleave="sakrijMeniKatalog();">Katalog
+                    <ul id="meni_katalog">
+                        <li class = "menu_item_katalog"><a onclick = "prebaci('katalog.html')">Laptopi</a></li>
+                        <li class = "menu_item_katalog">Televizori</li>
+                        <li class = "menu_item_katalog">Mobiteli</li>
+                        <li class = "menu_item_katalog">Tableti</li>
+                    </ul>
+                </li>
+                <li id="act"><a onclick = "prebaci('partneri.html')">Partneri</a></li>
+                <li><a onclick = "prebaci('kontakt.html')">Kontakt</a></li>
+            </ul>
+            <ul class="nav_right">
+                <li><a onclick = "prebaci('registracija.html')">Registracija</a></li>
+                <li><a onclick = "prebaci('prijava.html')">Prijava</a></li> 
+            </ul>
+    </div>
+    <div id="wrapper">
+        <div id="content">
+        	<h3 id = "partners_h">Naši partneri</h3>
+                <ul id = "partners_list">
+                    <li><a href = "http://www.intel.com/content/www/us/en/homepage.html">Intel</a></li>
+                    <li><a href = "http://www.ibm.com/us/en/">IBM</a></li>
+                    <li><a href = "http://www.asus.com/">Asus</a></li>
+                    <li><a href = "http://www.lenovo.com/us/en/">Lenovo</a></li>
+                    <li><a href = "http://www.toshiba.eu/">Toshiba</a></li>
+                    <li><a href = "https://oneplus.net/">OnePlus</a></li>
+                </ul>
+        </div>
+    </div>

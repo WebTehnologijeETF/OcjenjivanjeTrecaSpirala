@@ -1,0 +1,90 @@
+<!DOCTYPE HTML SYSTEM>
+<HTML>
+<HEAD>
+<meta http-equiv="content-Type" content="text/html; charset=utf-8">
+
+<TITLE>Contact Us</TITLE>
+<link rel="stylesheet" type="text/css" href="stil.css">
+</HEAD>
+<BODY>
+	<script src="skripta.js"> </script>
+
+	<div id="zaglavlje">
+	
+	<a  href="index.html"> <img src="images/logo.gif" alt="Logo" ></a>
+	<p>PERFUME STYLE </p>
+	<h1></h1>
+
+
+ </div>
+ 
+ <div id="meni">
+<ul>
+	<li> <a href="index.html"> Home</a></li>
+	<li> <a href="aboutus.html"> About us</a></li>
+	<li> <a href="products.html"> Products</a></li>
+	<li onmouseover="pokaziMeni()" onmouseout="sakrijMeni()"><a id="FriendsLink" href="friends.html" >Our friends</a>
+			<ul id="podMenu" onmouseover="pokaziMeni()" >
+				<li><a href="#">Armani</a></li>
+				<li><a href="#">Bvlgari</a></li>
+			</ul>
+			</li>
+	
+	<li> <a href="ContactUs.html"> Contact us</a></li>	
+</ul>
+ </div>
+ <div id="forma"> 
+ <form action="demo_form.asp" name="mojaforma">
+ 
+ 
+	<label  > First name:</label>
+	<input class="unos" onchange="approveName()" id="fname" 
+	type="text" name="fname" placeholder="Type first name" title="Field is required.">
+	 <a  href="index.html" >  <img src="images/w.png" alt="Logo" id="upozorenje"> </a>
+	
+	<div id="errorfname"></div>
+
+	<label > Last name:</label>
+	<input class="unos" onchange="approveLName()" type="text" name="lname" id="lname" placeholder="Type last name" title="Field is required.">
+		 <a  href="index.html"> <img src="images/w.png" alt="Logo" id="prezimeslika"></a>
+
+	<div id="errorprezime"></div>
+	
+	<label > Number:</label>
+	<input class="unos" type="text"  id="telefon" name="mynumber" placeholder="061544555(optional)"  title="Field is optional." >
+<a  href="index.html"> <img src="images/w.png" alt="Logo" id="numberslika"></a>
+
+	<div id="errorbroj"></div>
+	
+	<label  > E-mail:</label> 
+  	<input class="unos" id="mejl" onchange="approveMail()"  type="text" name="email" placeholder="username@example.com" title="Field is required.">
+	<a  href="index.html"> <img src="images/w.png" alt="Logo" id="mailslika"></a>
+	<div id="errormail"> </div>
+	
+	<label  > Repeat E-mail:</label> 
+  	<input class="unos" id="mejldva" onchange="mejlf()"  type="text" name="email" placeholder="username@example.com" title="Field is required.">
+	<a  href="index.html"> <img src="images/w.png" alt="Logo" id="mailslika2"></a>
+	<div id="errormaild"> </div>
+    
+	<label id="textPorukelabela">Message:</label> <textarea  name="poruka"  id="textPoruke" rows="8" cols="1"  > </textarea>
+	<div id="errorTexarea"> </div>
+<input type="submit" onclick="return validateSend()" value="Submit" />
+<input id="reset" onclick="resetall()" type="reset" value="Reset">
+
+</form>
+ </div>
+ 
+ 
+ <div id="dno">
+<ul>
+	<li> <a href="index.html"> Home</a></li>
+	<li> <a href="aboutus.html"> About us</a></li>
+	<li> <a href="products.html"> Products</a></li>
+	<li> <a href="why.html"> Why should you buy our parfumes?</a></li>
+	<li> <a href="friends.html"> Our friends</a></li>
+	<li> <a href="ContactUs.html"> Contact us</a></li>	
+</ul>
+ </div>
+
+
+</BODY></HTML>

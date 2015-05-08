@@ -1,0 +1,58 @@
+@import url(http://fonts.googleapis.com/css?family=Gabriela);
+body{
+	background-color:#a7a09a;
+}
+#okvir {
+	background-color:#99c;
+	
+}
+#zaglavlje h1{
+	font-size:42pt;
+	color:green;
+	text-align:left;
+	background-color:#ddd;
+}
+#meni{
+	background-color:#c99;
+	margin-top:-0.5cm;
+}
+#meni  li{
+		display:inline;
+		
+}
+#glavni{
+		background-color:#9c9;
+		margin-top:-0.5cm;
+		margin-right:8cm;
+	border-style:solid; 
+		border-width:1px;
+		
+}
+#desno{
+		background-color:#c9c;
+		position:absolute;
+		right:0.2cm;
+		top:2.5cm;
+		
+		width:303px;
+}
+#podnozje{
+	background-color:#cc9;
+	margin-top:-0.5cm;
+}
+#logo a{
+			color:red;
+			position:absolute; 
+			right:1cm;
+			top:1cm;
+			background-image: url('http://www.tizag.com/pics/cssT/listArrow.gif');
+			background-repeat:no-repeat;
+			padding-left:0.5cm;
+			border-style:solid;
+			border-width:1px;
+			border-color:black;
+			
+			}
+.moja_lista {
+		list-style-image: url('http://www.w3schools.com/cssref/sqpurple.gif');
+		}

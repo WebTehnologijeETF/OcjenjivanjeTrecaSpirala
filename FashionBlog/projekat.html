@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Glavni html</title>
+		<link rel="stylesheet" type="text/css" href="stil.css">
+	</head>
+
+	<body>
+		<div id="okvir">
+			<div id="naslov">
+				<h1>EMFASHION</h1>
+				<h2><img src="star.png" ALT="star" width=20 height=20> Shine like stars</h2>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="projekat.html">Home</a></li>
+					<li><a onclick="otvori('about')">About</a></li>
+					<li><a onclick="otvori('contact')">Contact</a></li>
+					<li id="dropdown"><a href="#">Fashion <span style="font-size: 9px">&#9660;</span></a>
+						<ul id="menu">
+							<li><a onclick="otvori('fashion')">Home</a></li>
+							<li><a onclick="otvori('trends')">Trends</a></li>
+							<li><a onclick="otvori('wear')">3 ways to wear</a></li>
+							<li><a onclick="otvori('products')">Products</a></li>
+						</ul>
+					</li>
+					<li><a onclick="otvori('beauty')">Beauty</a></li>
+					<li><a onclick="otvori('links')">Links</a></li>
+				</ul>
+			</nav>
+			<div id="glavni">
+				<div class="novost">
+					<p>March 23, 2015</p>
+					<h4>BACK TO BUSINESS BABY</h4>
+					<img src="homePhoto1.jpg" ALT="homePhoto1" width=700>
+					<p>It seems quit fitting that my first outfit post would be an outfit that makes me think of the world of business (and weirdly fifty shades of grey, maybe because the promo stuff is everywhere and im wearing all...</p><br>
+					<a href="">View More Details</a>
+				</div>
+				<div class="novost">
+					<p>March 22, 2015</p>
+					<h4>KAVITA DOES LISBON - SHORT HAIR DON'T CARE</h4>
+					<img src="homePhoto2.jpg" alt="homePhoto2" width=700>
+					<p>One of the last outfit posts from Portugal.. and no your eyes aren't deceiving you - my hair is SHORT! Okay so my hair isn't actually short. I have been uh-ming and ahh-ing about cutting my hair for a while...</p><br>
+					<a href="">View More Details</a>
+				</div>
+				<div class="novost">
+					<p>March 18, 2015</p>
+					<h4>KAVITA DOES LISBON - WHITE OUT.</h4>
+					<img src="homePhoto3.jpg" alt="homePhoto3" width=700>
+					<p>Another post from the lovely Lisbon, and this outfit is definitely one of my faves! It wasn't the hottest of days when we were away, but it was still sunny, so grabbing a pair of shades and wearing a bralet with...</p><br>
+					<a href="">View More Details</a>
+				</div>
+				<div class="novost">
+					<p>March 10, 2015</p>
+					<h4>KAVITA DOES LISBON - THE TRAMS</h4>
+					<img src="homePhoto4.jpg" alt="homePhoto4" width=700>
+					<p>Lisbon is known for quite a few things. From their love of fish and sardines, to the beautiful architecture, I was so excited to explore. One of the other amazing things they are known for are the old school trams...</p><br>
+					<a href="">View More Details</a>
+				</div>
+	
+			</div>
+			<div id="desno">
+				<div id="ikone">
+					<a href="https://www.facebook.com/?_rdr" target="_blank">
+						<img src="facebook.png" ALT="facebook" height=30 width=30>	
+					</a>
+					<a href="https://twitter.com/" target="_blank">
+						<img src="twitter.png" alt="twitter" height=30 width=30>	
+					</a>
+					<a href="https://instagram.com/" target="_blank">
+						<img src="instagram.jpg" alt="instagram" height=30 width=30>
+					</a>
+				</div>
+					<div class="reklama">
+						<a href="http://www.harpersbazaar.com/fashion/fashion-week/g4114/new-york-fashion-week-spring-2015/?slide=3" target="_blank">
+							<img src="reklama1.jpg" alt="reklama1" width=190>
+						</a>
+					</div>
+					<div class="reklama">
+						<a href="http://shop.whowhatwear.com/boutique/boohoo" target="_blank">
+							<img src="reklama2.jpg" alt="reklama2" width=190>
+						</a>
+					</div>
+					<div class="reklama">
+						<a href="http://four-pins.com/style/popular-fashion-brands-world-right-now/" target="_blank">
+							<img src="reklama3.jpg" alt="reklama3" width=190>
+						</a>
+					</div>
+					<div class="reklama">
+						<a href="http://www.cosmopolitan.co.uk/fashion/style/advice/a34140/13-pieces-of-clothing-that-look-good-on-everyone/" target="_blank">
+							<img src="reklama4.jpg" alt="reklama4" width=190>
+						</a>
+					</div>
+			</div>
+			<div id="podnozje">
+				<p>Copyright (c) 2015 EMFASHION.ba</p>
+			</div>
+		</div>
+		<script type="text/javascript" src="datoteka1.js"></script>
+		<script type="text/javascript" src="datoteka2.js"></script>
+		<script type="text/javascript" src="ajax.js"></script>
+		<script type="text/javascript" src="proizvodi.js"></script>
+	</body>
+</html>

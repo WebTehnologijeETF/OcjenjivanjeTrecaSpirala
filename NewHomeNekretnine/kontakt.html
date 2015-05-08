@@ -1,0 +1,51 @@
+<section>
+	<h2>Kontaktirajte agenta</h2>
+	<p>Ukoliko želite da stupite u kontakt sa jednim od uposlenih agenata u našoj agenciji posjetite stranicu na sljedećem <a id="agentiURL" href="#">linku</a>.<br><br> Naš glavni cilj je da Vi uz našu pomoć 
+	 nađete Vaš Novi Dom!</p>
+</section>
+
+<div class="content">
+	<h2>Kontaktirajte vlasnika stranice</h2>
+	<form name="kontaktForma" id="kf" action="#">
+		Ime:*<br>
+		<input type="text" name="ime" id="ime">
+		<div class="ep" id="ep1"><img src="resources/error.png" alt="error">Unesite validno ime!</div>
+		<br><br>
+		Prezime:*<br>
+		<input type="text" name="prezime">
+		<div class="ep" id="ep2"><img src="resources/error.png" alt="error">Unesite validno prezime!</div>
+		<br><br>
+		E-mail:*<br>
+		<input id="mailtb" type="email" name="mail" onchange="validirajMail()">
+		<div class="ep" id="ep3"><img src="resources/error.png" alt="error">Unesite validnu e-mail adresu!</div>
+		<br>
+		<input id="cb" type="checkbox" disabled name="maillist">Želim biti na New Home mailing listi i dobijati obavještenja o novim i popularnim nekretninama!
+		<br><br>
+		Broj telefona:<br>
+		<input type="tel" name="telefon">
+		<div class="ep" id="ep4"><img src="resources/error.png" alt="error">Unesite validan broj telefona!</div>
+		<br><br>
+		Grad:*<br>
+		<input list="gradovi" name="grad">
+			<datalist id="gradovi">
+				<option value="">Sarajevo</option>
+				<option value="">Banja Luka</option>
+				<option value="">Tuzla</option>
+				<option value="">Zenica</option>
+				<option value="">Mostar</option>
+				<option value="">Bihać</option>
+				<option value="">Trebinje</option>
+			</datalist>
+		<br><br>
+		Poštanski broj:*<br>
+		<input type="text" name="pbroj">	
+		<div class="ep" id="ep5"><img src="resources/error.png" alt="error">Grad i poštanski broj moraju odgovarati jedan drugom!</div>
+		<br><br>
+		Poruka:*<br>
+		<textarea name="poruka" rows="10" cols="70"></textarea>
+		<div class="ep" id="ep6"><img src="resources/error.png" alt="error">Unesite poruku!</div>
+		<br><br>
+		<button id="submit_but" type="button" onclick="validiraj()">Pošalji</button>
+		<button id="reset" type="reset">Poništi</button>
+	</form>
+</div>

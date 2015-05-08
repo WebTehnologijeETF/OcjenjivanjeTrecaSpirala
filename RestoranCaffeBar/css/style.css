@@ -1,0 +1,450 @@
+/* Restoran Aurora - style */
+
+.left {float: left}
+.right {float: right}
+
+body {
+  font: 14px Georgia, "Times New Roman", Times, serif;
+  color: black;
+  line-height: 24px;
+  border: 0
+}
+
+.main {margin: 0 auto;}
+.wrapper {
+  width: 100%;
+  overflow: hidden
+}
+.wrap {
+  margin-left: -5px;
+  padding-left: 5px;
+  overflow: hidden
+}
+
+.body1 {background: url(../slike/bg_vrh_slika.jpg) top center no-repeat;}
+.body2 {background: #faf3ed;}
+.body3 {background: url(../slike/bg_dno_slika.jpg) top center no-repeat;}
+.body4 {background:url(../slike/bg_vrh.jpg) top}
+
+a {
+  color:#a80002;
+  text-decoration:none;
+  outline:none
+}
+a:hover {
+  text-decoration:underline
+}
+
+h1 {
+  float:left;
+  padding:0px 0 0 36px
+}
+h2 {
+  font-size:38px;
+  line-height:1.2em;
+  color:#200000;
+  padding:16px 0 12px 0
+}
+h3 {
+  font-size:27px;
+  color:#230000;
+  line-height:1.2em;
+  padding:20px 0 9px 0
+}
+h3 span {color:#a80002}
+p {padding-bottom:24px}
+
+header {
+  height:121px;
+  padding-top:31px;
+  width:100%;
+  overflow:hidden
+}
+
+#logo {display:block}
+#vrh_nav {
+  float:right;
+  padding:4px 43px 30px 0
+}
+#vrh_nav li {
+  float:left;
+  padding:3px 26px 5px 0;
+  background:url(../slike/vrh_linija.gif) right 0 no-repeat;
+  margin-right:25px
+}
+#vrh_nav li a {
+  display:block;
+  line-height:0
+}
+#vrh_nav .kraj {
+  background:none;
+  padding-right:0;
+  margin-right:0
+}
+#meni {
+  float:right;
+  padding:0 0 0 0
+}
+#meni li {
+  float:left;
+  padding-left:3px
+}
+#meni li a {
+  display:block;
+  font-size:24px;
+  color:#faf3ed;
+  line-height:40px;
+  padding:0 20px;
+  height:44px
+}
+#meni li a:hover, #meni .active a {
+  text-decoration:none;
+  background:url(../slike/meni_bg.png) repeat
+}
+
+
+#sadrzaj {padding-bottom:40px}
+#sadrzaj2 {padding-bottom:31px}
+.pad_left1 {padding-left:30px}
+.pad_dno1 {padding-bottom:13px;}
+.pad_dno2 {padding-bottom:24px}
+.marg_right1 {margin-right:20px}
+.mag-1 {
+  border-left: 1px solid #E1DBD6; 
+  padding-left: 30px
+}
+.mag-2 {
+  border-right: 1px solid #E1DBD6; 
+  padding-right: 5px
+}
+
+.box {
+  background:url(../slike/box_bg.png) repeat;
+  color:#faf3ed;
+  box-shadow:0 0 5px rgba(0, 0, 0, .4);
+  box-shadow:0 0 5px rgba(0, 0, 0, .4);
+  box-shadow:0 0 5px rgba(0, 0, 0, .4)
+}
+.box > div {
+  background:url(../slike/box_vrh.png) 0 top no-repeat;
+  padding:30px;
+  padding-top:0;
+  overflow:hidden
+}
+.box h2 {
+  color:#a80002;
+  padding:15px 0 12px 0
+}
+.box h2 span {color:#faf3ed}
+.box figure {padding-bottom:13px}
+.list1 li a {
+  font-style:italic;
+  padding-left:23px;
+  background:url(../slike/ikona5.png) 2px 2px no-repeat;
+  color:#faf3ed
+}
+.list_1 {color:#fff}
+.list_1:hover {text-decoration:none}
+.dugme1 {
+  display:inline-block;
+  font-size:20px;
+  color:white;
+  line-height:34px;
+  left: 50px;
+  padding:0 50px;
+  background:black
+}
+.dugme1:hover {
+  text-decoration:none;
+  color:#1e0000;
+  background:#faf3ed
+}
+.dodatak li span {
+  float:left;
+  width:40px;
+  height:40px;
+  font-size:30px;
+  color:#faf3ed;
+  line-height:34px;
+  text-align:center;
+  background:black;
+  margin-right:20px
+}
+.dodatak li p {
+  float:left;
+  width:180px;
+  padding-bottom:15px
+}
+.dodatak li img {padding-top:2px}
+.cijena {margin-top:-7px}
+.cijena li {
+  overflow:hidden;
+  background:url(../slike/cijena_bg.gif) 0 -6px repeat-x
+}
+.cijena a {
+  float:left;
+  color:#220000;
+  background:url(../slike/marker_2.gif) 1px 11px no-repeat #faf3ed;
+  padding-left:12px
+}
+.cijena a:hover {
+  text-decoration:none;
+  color:#a80002
+}
+.cijena span {
+  float:right;
+  background:#faf3ed
+}
+.adresa {padding-bottom:0}
+.adresa span {
+  float:left;
+  width:84px
+}
+
+footer {
+  height:138px;
+  font:13px "Trebuchet MS", Arial, Helvetica, sans-serif;
+  color:#696969;
+  line-height:18px
+}
+footer a {
+  color:#c53005;
+  text-decoration:underline
+}
+footer a:hover {text-decoration:none}
+#ikone {padding:5px 0 0 0}
+#ikone li {
+  float:right;
+  padding-right:20px
+}
+
+#kontaktForma {
+  margin-top:-5px;
+  width:95%
+}
+#kontaktForma span {
+  float:left;
+  width:15px;
+  line-height:20px;
+  text-align: right
+}
+#kontaktForma .wrapper {min-height:28px}
+#kontaktForma .textarea_box {
+  min-height:170px;
+  width:100%;
+  overflow:hidden;
+  padding-bottom:9px
+}
+#kontaktForma {}
+#kontaktForma a {
+  margin:10px; 
+  margin-right: -338px;
+  margin-left: 190px
+}
+#kontaktForma .input {
+  width:70%;
+  height:18px;
+  background:#faf3ed;
+  padding:1px 5px;
+  color:#220000;
+  font:14px Georgia, "Times New Roman", Times, serif;
+  margin:30px;
+  float:left
+}
+
+#ime {
+  width: 50%;
+  margin-left: 50px;  
+  border-radius: 2px;
+  background: #faf3ed;
+  height: 22px
+}
+#mail {
+  width: 50%;
+  margin-left: 51px;
+  border-radius: 2px;
+  background: #faf3ed;
+  height: 22px
+}
+#telefon {
+  width: 50%;
+  margin-left: 51px;  
+  border-radius: 2px;
+  background: #faf3ed;
+  height: 22px
+}
+#poruka {
+  background: #faf3ed;
+  width: 50%;
+  margin-left: 65px;
+  border-radius: 2px;
+}
+#opcina {
+  width: 50%;
+  margin-left: 50px;  
+  border-radius: 2px;
+  background: #faf3ed;
+  height: 22px
+}
+#skola {
+  width: 50%;
+  margin-left: 50px;  
+  border-radius: 2px;
+  background: #faf3ed;
+  height: 22px
+}
+
+#kontaktForma textarea {
+  overflow:auto;
+  width:57%;
+  height:163px;
+  background:#faf3ed;
+  padding:1px 5px;
+  color:#220000;
+  font:14px Georgia, "Times New Roman", Times, serif;
+  margin-left: -20px;
+  margin-top: 25px
+}
+#kontaktForma_obavezno {color: red;}
+#kontaktForma_dodatno {color: red;}
+
+.error {
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+    text-align: center;
+    display: none;
+    height: 22px;
+    margin-left: 515px;
+    margin-right: 165px;
+}
+
+#slikaUpozorenje { visibility: hidden;}
+
+.col1, .col2, .col3, .cols {float:left}
+.cols {width:300px}
+.col1 {width:630px}
+.col2 {width:240px}
+.col3 {width:570px}
+
+#str2 .box .list1 {margin-top:-7px}
+#str3 h2.letter_spacing {word-spacing:-2px}
+#str4 .box .list1 {margin-top:-7px}
+#str4 h2.pad_dno1 {padding-bottom:5px}
+#str5 .box > div {background: url(../slike/box_vrh2.png) top center no-repeat}
+#str5 #sadrzaj2 h2 {padding-bottom:4px}
+
+.grid { 
+  width: 960px; 
+  position: relative;
+   margin: 0 auto; 
+   padding: 0px
+ }
+.grid:after {
+  display: block; 
+  height: 0; 
+  clear: both; 
+  visibility: hidden
+}
+.grid .row {}
+.grid .row:before,.row:after { 
+  display: block; 
+  overflow: hidden; 
+  visibility: hidden; 
+  width: 0; 
+  height: 0;
+}
+.grid .row:after {clear: both}
+.grid .wrap-col {margin:10px}
+.grid .col-1-2, .grid .col-1-3, .grid .col-2-3, .grid .col-1-4, .grid .col-2-4, .grid .col-3-4, .grid .col-1-5, .grid .col-2-5, .grid .col-3-5, .grid .col-4-5, .grid .col-1-6, .grid .col-2-6, .grid .col-3-6, .grid .col-4-6, .grid .col-5-6{
+  float:left; 
+  display: inline-block
+}
+.grid .col-full {width:100%}
+.grid .col-1-2 {width:50%}
+.grid .col-1-3 {width:33.33%}
+.grid .col-2-3 {width:66.66%}
+.grid .col-1-4 {width:25%}
+.grid .col-2-4 {width:50%}
+.grid .col-3-4 {width:75%}
+.grid .col-1-5 {width:20%}
+.grid .col-2-5 {width:40%}
+.grid .col-3-5 {width:60%}
+.grid .col-4-5 {width:80%}
+.grid .col-1-6 {width:16.66%}
+.grid .col-2-6 {width:33.33%}
+.grid .col-3-6 {width:50%}
+.grid .col-4-6 {width:66.66%}
+.grid .col-5-6 {width:83.33%}
+
+a, adresa, body, center, div, figure, font, footer, form, h1, h2, h3, h4, h5, h6, header, html, i, img, 
+label, li, nav,object, p, s, section, small, span, source, strong, ul, 
+var {
+    background: transparent;
+    border: 0 none;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: top
+}
+ul {
+  list-style: none;
+}
+img {
+  vertical-align:top; 
+}
+* { border:none}
+audio { background: black }
+
+nav ul ul {
+  display: none;
+}
+
+nav ul li:hover > ul {
+  display: block;
+}
+
+
+/* submeni */
+#submeni {
+  display: none;
+  position: absolute;
+  width: 50px
+}
+
+#submeni > li {
+  padding: 2px;
+  margin: 1px;
+  background-color: black;
+  width: 200px;
+}
+
+#submeni > li > a {
+  text-decoration: none;
+    color: white;
+}
+
+#submeni > li:hover {
+    background-color: white;
+}
+
+table#tabelaProizvoda { text-align: center; }
+
+div#tabelaProizvodaDiv {
+    max-height: 800px;
+    overflow: scroll;
+}
+
+element.style {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+td {
+  border: 1px solid black;
+  border-radius: 5px; 
+  padding: 5px
+}

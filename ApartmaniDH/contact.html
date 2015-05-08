@@ -1,0 +1,30 @@
+<div id="wrapper">
+
+<h1> Contact Us</h1>
+	<hr id="linija1"/>
+	<div id="sadrzaj">
+	
+	<form id="formakontakta">
+	
+	<label for="unosime"> First name:*</label>
+	<input class="unos" onblur="odobriIme()" id="unosime" type="text" name="ime" placeholder="First name" title="Field is required."><div id="errorime"></div>
+	
+	<label for="prezime"> Last name:</label>
+	<input class="unos" type="text" id="prezime" name="prezime" placeholder="Last name" title="Field is optional."><div id="errorprezime"></div>
+	
+	<label for="mejl"> E-mail:*</label>
+  	<input class="unos" id="mejl" onblur="odobriMail()" onmouseout="odobri()" type="email" name="email" placeholder="mail@example.com" title="Field is required."><div id="errormail"> </div>
+	
+	<label for="country">Country:*</label>
+	<input class="unos" id="country" type="input" onblur="odobriDrzavu()" title="Field is required."><div id="errordrzava"> </div>
+	
+	<label for="unosteksta" id="porukalabela">Write a message to us:</label>
+	<textarea id="unosteksta" name="poruka" rows="8" cols="1" onblur="odobriTekst()" placeholder="Please enter the name and e-mail correctly to type here..."></textarea><div id="errortekst"> </div>
+	
+	<input id="sabmit" onClick="return validiraj()" type="submit" value="Submit">
+	<input id="reset" onclick="resetsve()" type="reset" value="Reset">
+	</form>
+	
+	</div>
+
+</div>

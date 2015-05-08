@@ -1,0 +1,717 @@
+
+@import url(http://fonts.googleapis.com/css?family=Gabriela);
+
+*{
+	font-family: verdana
+}
+
+#GlavniDio{
+	background-color:#001A33 ;
+	margin-left: 1.2cm;
+	color: white;
+	margin-right: 1.2cm;
+	margin-top: -0.42cm;
+}
+#Traka{
+	background: white;
+	font-family: verdana;
+	margin-left: 1.2cm;
+	margin-right: 1.2cm;
+	color: #001A33;;
+}
+
+ul{
+	border-width: 0.08cm;
+	border-color: #001A33;
+	border-style: solid;
+	border-spacing: 0cm;
+}
+#Traka ul li{
+         display:inline;
+}
+#Inicijali{
+	font-size: 28px;
+	padding-right: 5.8cm;
+	padding-left: 0cm;
+	margin-right: 1cm;
+	margin-top: -0.2cm;
+
+}
+.Zajednicko{
+	padding-top: 0.25cm;
+	padding-right: 0.9cm;
+	padding-left: 0.9cm;
+}
+#Zene{
+	
+	color: white;
+	border-width: 0.08cm;
+	border-right-color: #001A33;
+	border-left-color: white;
+	border-top-color: white;
+	border-bottom-color:white;
+	border-style: solid;
+
+}
+
+#Muskarci{
+	
+	border-width: 0.08cm;
+	border-right-color: #001A33;
+	border-left-color: white;
+	border-top-color: white;
+	border-bottom-color: white;
+	border-style: solid;	
+}
+
+#Administrator
+{
+	border-width: 0.08cm;
+	border-right-color: white;
+	border-left-color: #001A33;
+	border-top-color: white;
+	border-bottom-color: white;
+	border-style: solid;
+}
+
+#Kontakt{
+	
+	border-width: 0.08cm;
+	border-right-color: #001A33;
+	border-left-color: white;
+	border-top-color: white;
+	border-bottom-color: white;
+	border-style: solid;
+}
+
+#Informacije{
+	
+	border-width: 0.08cm;
+	border-right-color: #001A33;
+	border-left-color: #001A33;
+	border-top-color: white;
+	border-bottom-color: white;
+	border-style: solid;
+}
+
+#Novosti{
+
+	width: 340px;
+	height: 600px;
+	overflow: scroll;
+	font-size: 12px;
+	padding: 0.2cm;
+}
+.TekstNovosti{
+
+	text-align: justify;
+}
+.LinkNovosti{
+
+	text-align: right;
+	font-size: 11px;
+}
+
+.datum{
+	text-align: left;
+	font-size: 10px;
+}
+.autor1
+{
+	text-align: left;
+	font-size: 10px;
+}
+.NaslovNovosti
+{
+	text-align: center;
+	font-size: 13px;
+}
+.OkvirNovosti
+{
+border:0.05cm;
+border-style: dashed;
+padding: 0.2cm;
+}
+
+p.LinkNovosti a:link{
+	color:white;;
+	text-decoration: none;
+}
+p.LinkNovosti a:visited{
+	color:white;;
+	text-decoration: none;
+}
+li.Zajednicko a:link
+{
+	color:#001A33;;
+	text-decoration: none;
+}
+#NaslovONamaDijela
+{
+	text-align: center;
+	font-size: 16px;
+	padding-bottom: 0.5cm;
+	padding-top: 1.3cm;
+}
+#ONamaDio
+{
+	width: 740px;
+	height: 550px;
+	font-size: 13px;
+	font-family: verdana;
+	margin-left: 12.1cm;
+	margin-top: -16cm;
+	text-align: justify;
+	border-width: 0.03cm;
+	border-style: dashed;
+	border-color: white;
+	color: white;
+	padding: 0.5cm;
+	border-radius: 0.5cm;
+}
+img.Zastave
+{
+   width: 40px;
+   height: 20px;
+}
+#SlikeONamaDijela
+{
+	text-align: right;
+	font-size: 14px;
+}
+#GlavniDioDobavljaci{
+	background-color:#001A33 ;
+	margin-left: 15.8cm;
+	color: white;
+	margin-right: 1.2cm;
+	margin-top: -0.42cm;
+	padding: 0.2cm;
+	padding-right: 1cm;
+	font-size: 14.5px;
+	height: 594px;
+	margin-top: -16.6cm;
+	
+}
+
+li.Partneri a:link
+{
+	color: white;
+	text-decoration: none;
+}
+li.Partneri a:visited
+{
+	color: white;
+	text-decoration: none;
+}
+ul.Dugmic
+{
+	list-style-image: url('http://icons.iconarchive.com/icons/blackvariant/button-ui-requests-12/16/GarminExpress-icon.png');
+}
+p.SlikaPartnera
+{
+	padding-top: 0.5cm;
+	padding-left: 0.5cm;
+	background-color:#001A33 ;
+	margin-left: 1.2cm;
+	color: white;
+	margin-right: 1.2cm;
+	margin-top: -0.42cm;
+	height: 606px;
+}
+img.Cikci
+{
+	width: 480px;
+	height: 600px;
+}
+p.NovostiSlika
+{
+	text-align: right;
+}
+#ZeneOdjel
+{
+	background-color:#001A33 ;
+	margin-left: 1.2cm;
+	color: white;
+	margin-right: 1.2cm;
+	margin-top: -0.42cm;
+	padding-top: 3cm;
+	font-size: 14px;
+	height: 1500px;
+}
+
+li.ZeneLista a:link
+{
+	text-decoration: none;
+}
+li.ZeneLista a:visited
+{
+	text-decoration: none;
+	color: white;
+}
+
+li.ZeneLista
+{
+	padding-bottom: 0.2cm;
+}
+
+ul.ZeneOdjeca
+{
+	list-style-type: none;
+	margin-left: 0.3cm;
+	margin-top: 2cm;
+}
+
+#NaslovZene
+{
+	font-size: 16px;
+}
+
+.ZeneSlikaNaslovna
+{
+	width: 800px;
+	height:  660px;
+	
+}
+#Slicica
+{
+	margin-left: 12cm;
+	margin-top: -39.5cm;
+}
+#Tabela 
+{
+	background-color:#001A33 ;
+	margin-left: 1.2cm;
+	color: white;
+	margin-right: 1.2cm;
+	margin-top: -0.42cm;
+	padding-top: 2cm;
+	font-size: 14px;
+	height: 600px;
+}
+
+table.TabelaDizajn
+{
+	border-collapse: collapse;
+	margin-left: 7cm;
+}
+
+ table.TabelaDizajn, th
+ {
+ font-size: 14px;
+ }
+
+body{
+	width: 100%;
+}
+
+td.DesnoPoravnaj
+{
+	text-align: center;
+}
+#KontaktForma
+{
+	margin-left: 1.2cm;
+	margin-right: 1.2cm;
+	background: #001A33;
+	margin-top: -0.42cm;
+	padding-top: 2cm;
+	font-size: 13px;
+	height: 1000px;
+  }
+
+    table.TabelaDizajn,td,th.Oboji{
+	border:0.03cm solid white;
+	color: white;
+	height: 1cm;
+	padding: 0.2cm;
+}
+  #TabelaForme,td.NemaBoje
+  {
+  	border:0.03cm;
+	color: white;
+	height: 0.4cm;
+	padding: 0.2cm;
+	font-size: 13px;
+  }
+  
+  #TabelaForme
+  {
+  	margin-left: 9cm;
+  }
+   
+  #Button
+  {
+  	text-align: right;
+  }
+  .Prosiri
+  {
+  	width: 5cm;
+  }
+   button.RasiriButton
+   {
+   	width: 2.5cm;
+   }
+   #Primjedbe
+   {
+   	height: 2cm;
+
+   }
+   .UvodKontaktForma
+   {
+   	margin-right: 1.2cm;
+   	margin-left: 1.2cm;
+   	color: white;
+   	font-size: 13px;
+   	margin-top: -0.6cm;
+   	margin-bottom: 1cm;
+   }
+   img.SlikaGoogle
+   {
+   	width: 80px;
+   	height: 30px;
+    position: absolute;
+    top: -1cm;
+    left: 32.3cm;
+    right: 0cm;
+   }
+   img.InicijaliSlika
+   {
+   	width:30px; 
+   	height:30px;
+   	margin-left: -1cm;
+   }
+   a.OvdjeLink:link
+   {
+   	text-decoration: none;
+   }
+   a.OvdjeLink:visited
+   {
+   	color: red;
+   	text-decoration: none;
+   }
+   #MuskarciOdjel
+   {
+   	background-color:#001A33 ;
+	margin-left: 1.2cm;
+	color: white;
+	margin-right: 1.2cm;
+	margin-top: -0.42cm;
+	padding-top: 2cm;
+	font-size: 14px;
+	height: 1000px;
+   }
+
+   li.MuskarciLista a:link
+{
+	text-decoration: none;
+}
+li.MuskarciLista a:visited
+{
+	text-decoration: none;
+	color: white;
+}
+a.Stablo:link
+{
+	text-decoration: none;
+	color: white;
+}
+a.Stablo:visited
+{
+	text-decoration: none;
+	color: white;
+}
+li.MuskarciLista
+{
+	padding-bottom: 0.2cm;
+}
+
+ul.MuskarciOdjeca
+{
+	list-style-type: none;
+	margin-left: 0.3cm;
+	margin-top: 2.5cm;
+}
+
+.SlikaMuskaracNaslovna
+{
+	width: 460px;
+	height:  600px;
+	margin-left: 13.5cm;
+	
+}
+#Slicica1{
+	margin-top: -26cm;
+}
+#NovostiZene
+{
+	margin-top: -2cm;
+	padding-bottom: 0.5cm;
+	margin-left: 19.5cm;
+	font-size: 16px;
+}
+#NovostiMuskarci
+{
+    margin-top: -1.2cm;
+	padding-bottom: 0.5cm;
+	margin-left: 17cm;
+	font-size: 16px;	
+}
+.Upozorenje
+{
+	width: 13px;
+	height: 13px;
+}
+#ListaMajiceZene{
+	list-style-type: none;
+}
+#ListaKosuljaZene{
+	list-style-type:none;
+}
+#ListaPoluveraZene{
+	list-style-type: none;
+}
+#ListaHaljine{
+	list-style-type: none;
+}
+#ListaHlacaZene{
+	list-style-type: none;
+}
+#ListaDonjeRublje{
+	list-style-type: none;
+}
+#ListaSuknje{
+	list-style-type: none;
+}
+#ListaGace{
+	list-style-type: none;
+}
+#ListaKupacih{
+	list-style-type: none;
+}
+#ListaGrudnjaka
+{
+	list-style-type: none;
+}
+#ListaPotkusulja
+{
+	list-style-type: none;
+}
+
+
+#DioSaSlikomZene{
+    background-color:#001A33;
+	margin-left: 1.2cm;
+	color: white;
+	margin-right: 1.2cm;
+	margin-top: -0.42cm;
+	padding-top: 2cm;
+	font-size: 14px;
+	height: 1500px;
+}
+#ListaMajiceMuskarci{
+	list-style-type:none;
+}
+#ListaKosulja{
+	list-style-type: none;
+}
+#ListaPoluveriMuskarci
+{
+	list-style-type: none;
+}
+#ListaHlacaMuskarci{
+	list-style-type: none;
+}
+#ListaDonjeRubljeMuskarci{
+	list-style-type: none;
+}
+#ListaGacaMuskarci
+{
+	list-style-type: none;
+}
+#ListaSorceva
+{
+	list-style-type: none;
+}
+#ListaJakni
+{
+	list-style-type: none;
+}
+#ListaJakniKaputa
+{
+	list-style-type: none;
+}
+.Ilvana
+{
+	color: red;
+}
+#ListaJakniKaputaMuskarci{
+	list-style-type: none;
+}
+#ListaJakniMuskarci
+{
+	list-style-type:none;
+}
+#ListaKaputaMuskarci
+{
+	list-style-type: none;
+}
+#ListaSorcevaMuskarci
+{
+	list-style-type:none;
+}
+#ListaKupacihMuskarci
+{
+	list-style-type: none;
+}
+#ListaKaputaZene
+{
+	list-style-type: none;
+}
+#ListaZene
+{
+	list-style-type: none;
+}
+#ListaMuskarci
+{
+	list-style-type: none;
+}
+#MenuLink1
+{
+	color: red;
+}
+#DodavanjeProizvodaDio
+{
+	background-color:#001A33 ;
+	margin-left: 1.2cm;
+	color: white;
+	margin-right: 1.2cm;
+	margin-top: -0.42cm;
+	padding-top: 3cm;
+	font-size: 13px;
+	height: 1500px;	
+}
+#AdministratorDio
+{
+background-color:#001A33 ;
+	margin-left: 1.2cm;
+	color: white;
+	margin-right: 1.2cm;
+	margin-top: -0.42cm;
+	padding-top: 3cm;
+	font-size: 14px;
+	height: 600px;	
+}
+#TabelaAdmin, td.NemaBoje2
+{
+	border:0.03cm;
+	color: white;
+	height: 0.4cm;
+	padding: 0.2cm;
+	font-size: 16px;
+	width:200px;
+
+}
+#TabelaAdmin
+{
+	margin-left:12cm;
+	padding: 0.2cm;
+}
+.Prosiri2
+{
+	height: 2cm;
+	width: 7cm;
+}
+
+#ProsiriDodavanje
+{
+	height: 2cm;
+}
+
+#TabelaProizvoda, td.NemaBoje4
+{
+border:0.03cm;
+	color: white;
+	height: 0.4cm;
+	padding: 0.2cm;
+	font-size: 13px;
+	width:200px;	
+}
+#TabelaProizvoda
+{
+	margin-left: 12cm;
+	padding:0.2cm;
+}
+#Poravnaj1
+{
+	text-align: right;
+}
+#DodavanjeProizvodaDioPoruka
+{
+    margin-left: 3cm;
+}
+#NazadButton
+{
+	margin-top: -1cm;
+	margin-right: 1cm;
+}
+#BrisanjeProizvodaDio
+{
+	background-color:#001A33 ;
+	margin-left: 1.2cm;
+	color: white;
+	margin-right: 1.2cm;
+	margin-top: -0.42cm;
+	padding-top: 3cm;
+	font-size: 13px;
+	height: 600px;	
+}
+#PrikaziTabeluDio
+{
+	background-color:#001A33 ;
+	margin-left: 1.2cm;
+	color: white;
+	margin-right: 1.2cm;
+	margin-top: -0.42cm;
+	padding-top: 3cm;
+	font-size: 13px;
+	height: 1600px;	
+}
+#BrisanjeProizvodaDioPoruka
+{
+	 margin-left: 3cm;
+}
+
+#MijenjanjeProizvodaDio
+{
+	background-color:#001A33 ;
+	margin-left: 1.2cm;
+	color: white;
+	margin-right: 1.2cm;
+	margin-top: -0.42cm;
+	padding-top: 3cm;
+	font-size: 13px;
+	height: 600px;	
+}
+#MijenjanjeProizvodaDioPoruka
+{
+margin-left: 3cm;
+}
+#Tabelica
+{
+	margin-left: 12cm;
+	margin-top: -1cm;
+}
+#submit
+{
+
+}
+#PrikaziTabeluPoruka
+{
+	margin-left: 4cm;
+	margin-top: -1cm;
+}
+.SlikaPrikaz
+{
+	width: 80px;
+	height: 80px;
+}

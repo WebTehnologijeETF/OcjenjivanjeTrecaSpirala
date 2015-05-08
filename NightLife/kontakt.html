@@ -1,0 +1,31 @@
+      <form action="#" onsubmit="return validno()">
+        <label for="ime" class="tekst">Ime:</label> <input id="ime" type="text" name="ime" onchange="provjeriIme()"><span id="errorIme" class="error"></span><br />
+        <label for="prezime" class="tekst">Prezime:</label> <input id="prezime" type="text" name="prezime" onchange="provjeriPrezime()"><span id="errorPrezime" class="error"></span><br />
+        <label for="datumRodjenja" class="tekst">Datum ro&#273;enja:</label> <input id="datumRodjenja" type="date" name="datumRodjenja" onchange="provjeriDatum()"><span id="errorDatumRodjenja" class="error"></span><br />
+        <label for="mail" class="tekst">E-mail:</label> <input id="mail" type="email" name="mail" onchange="provjeriMail()"><span id="errorMail" class="error"></span><br />
+        <label for="grad" class="tekst">Grad:</label> <input id="grad" list="gradovi" name="grad"><span id="errorGrad" class="error"></span><br />
+        <datalist id="gradovi">
+          <option value="Sarajevo">
+          <option value="Mostar">
+          <option value="Zenica">
+          <option value="Biha&#263;">
+          <option value="Tuzla">
+          <option value="Travnik">
+          <option value="Jajce">
+          <option value="Cazin">
+          <option value="Konjic">
+          <option value="Jablanica">
+        </datalist>
+        <label for="pbroj" class="tekst">Po&#353;tanski broj:</label> <input id="pbroj" type="text" ><span id="errorPbroj" class="error"></span><br />
+        <select id="vrstaKontakta" name="vrstaKontakta" onchange="provjeriKontakt()">
+          <option value="">Izaberite...</option>
+          <option value="pitanje">Pitanje</option>
+          <option value="sugestija">Sugestija</option>
+          <option value="kritika">Kritika</option>
+          <option value="pohvala">Pohvala</option>
+        </select><br />
+        <textarea id="kontakt" name="kontakt" onchange="provjeriKontakt()">
+        </textarea><span id="errorKontakt" class="error"></span><br />
+        <label for="ocjena" class="tekst">Ocjena: </label><span class="tekst">0</span> <input id="ocjena" type="range" name="ocjena"> <span class="tekst">5</span><br />
+        <input type="submit" value="Po&#353;alji" onclick="provjeriPbroj()">
+      </form>

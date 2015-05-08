@@ -1,0 +1,37 @@
+<link rel="stylesheet" type="text/css" href="site.css">
+<script src="validacija.js"></script>
+<title>Kontakt</title>
+<h3><b>Kontak informacije</b></h3>
+<h5><i>Budite slobodni i kontaktirajte nas!</i></h5>
+</br></br>
+<div>
+<table>
+<tr id = "sss" style="color:red">Talent's doo Sarajevo</br></tr>
+<tr>Adresa: Saraèi 10,</br></tr>
+<tr>71000 Sarajevo</br></tr>
+<tr>Tel: +38761111112</br></tr>
+<tr><a href="index.html">www.talents.ba</a></br></tr>
+<tr>Email: info@talents.ba</br></br></div></tr>
+</table>
+<form id="ContactForm" onsubmit="return toSubmit();">
+<input type="text" name="Ime" id="name" placeholder="Unesite ime" required></input></br>
+<label id="label1"></label></br></br>
+<input type="text" name="PrezIme" id="surname" placeholder="Unesite prezime"></input></br></br>
+<input type="email" name="Email" id="mail" placeholder="Unesite mail" required></input></br>
+<label id="label2"></label></br></br>
+<input type="text" name="Poruka" id="message" placeholder="Unesite poruku" required></input></br>
+<label id="label3"></label></br></br>
+<select id="list" name="sometext" onchange="listaGradova()">
+  <option>-- Odaberi državu --</option>
+  <option>BiH</option>
+  <option>Srbija</option>
+  <option>Hrvatska</option>
+  <option>Slovenija</option>
+</select>
+</br></br>
+<select id="list2">
+  <option>-- Odaberi grad --</option>
+</select>
+</br></br>	
+<button id="dugme1" onclick="validation()">Pošalji</button>
+</form>

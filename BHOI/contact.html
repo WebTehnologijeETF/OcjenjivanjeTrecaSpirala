@@ -1,0 +1,51 @@
+﻿<h1>Kontakt</h1>
+<div id="contact">
+    <p>
+        Telefon: +387 33 100 001<br>
+        Fax: +387 33 100 002<br>
+        Email: email@email.com<br>
+        Adresa: Ulica Zmaja od Bosne b.b., 71000 Sarajevo, Bosna i Hercegovina<br>
+    </p>
+    <h4>Kontaktirajte nas putem WEB obrasca</h4>
+    <p>Polja označena sa * su obavezna</p>
+    <p>
+        Ime: *<br>
+        <input type="text" id="ime"><img src="images/error.png" id="err1" class="error1" alt="Error" title="Polje je prazno ili sadrži nedozvoljene znakove">
+        <br>
+        <br>
+        Email: *<br>
+        <input type="text" id="email"><img src="images/error.png" id="err2" class="error1" alt="Error" title="Polje je prazno ili ne predstavlja email adresu">
+        <br>
+        <br>
+        Općina: *<br>
+        <input type="text" id="opcina"><img src="images/error.png" id="err5" class="error1" alt="Error" title="Validacija općine nije u skladu sa korištenim web servisom">
+        <br>
+        <br>
+        Mjesto: *<br>
+        <input type="text" id="mjesto"><img src="images/error.png" id="err6" class="error1" alt="Error" title="Validacija mjesta nije u skladu sa korištenim web servisom">
+        <br>
+        <br>
+        Imate li website?<br>
+        <select id="ddl" onchange="return update()">
+            <option value="Ne">Ne</option>
+            <option value="Da">Da</option>
+        </select>
+        <br>
+    </p>
+    <div id="website">
+        <p>Website URL: *</p>
+        <input type="text" id="websiteURL"><img src="images/error.png" id="err3" class="error1" alt="Error" title="Polje je prazno ili ne predstavlja website URL">
+    </div>
+    <p>
+        <br>
+        Poruka: *<br>
+        <textarea rows="10" cols="80" id="message"></textarea><img src="images/error.png" id="err4" class="error2" alt="Error" title="Polje je prazno"><br>
+        <br>
+        <input type="submit" value="Pošalji" onclick="return validation()">
+    </p>
+    <p class="status" id="status">
+        Poruka uspješno poslana!
+    </p>
+    <br>
+    <br>
+</div>

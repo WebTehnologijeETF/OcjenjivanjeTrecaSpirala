@@ -1,0 +1,549 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(http://fonts.googleapis.com/css?family=Sigmar+One);
+@import url(http://fonts.googleapis.com/css?family=Coming+Soon);
+
+html, body {
+	margin: 0;
+	padding: 0;
+} 
+
+body {
+	background: url(slike/background.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+#okvir
+{
+    width: 1024px;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+#zaglavlje h1 
+{
+    font-family: 'Lobster'; 
+    font-size: 400%; 
+    color: #571946;
+    text-align: right;  
+    float: right;
+    overflow: auto; 
+    padding: 1px; 
+    margin-right: 29px; 
+}
+
+#zaglavlje 
+{
+    width: 100%;
+    float: none;
+    overflow: auto;
+    background-color: #bb74cc;
+       
+}
+
+#logo img
+{
+    float: left; 
+    padding: 1px; 
+}
+
+
+#meni
+{
+    float: left;
+	margin: 0;
+	padding: 0;
+    width: 100%;
+    height: 126px;
+    background-color: #d7a4d6;
+}
+
+#nav li {
+    float: left;
+    list-style: none;
+    margin-right: 1em;
+    font-family:'Sigmar One'; 
+    
+}
+ 
+#nav li a {
+    color: #571946;
+    text-decoration: none;
+    float: left;
+    font-size: 25px;
+    padding: 20px;
+}
+ 
+#nav li a:hover {
+    color: White;
+    -webkit-transform: rotate(-10deg) scale(1.2);
+    -moz-transform: rotate(-10deg) scale(1.2);
+    -o-transform: rotate(-10deg) scale(1.2);
+}
+
+
+
+.clanak
+{
+    background-color: #efcbe6;
+	border: 2px solid #571946 ;
+    border-bottom: 1px;
+    padding: 15px;
+	text-align: justify;
+	overflow: auto;
+}
+
+.clanak > a
+{
+    text-align: right;
+    font-family: 'Coming Soon', helvetica; 
+    color: #571946;
+    font-weight: 700;
+    float: right;    
+}
+
+.clanak > a:hover
+{
+    color: #000;
+    text-decoration: underline; 
+}
+.clanak > h1
+{
+    color: #571946;
+    font-family: 'Coming Soon', helvetica;
+    font-style: italic;
+}
+
+.clanak > img {
+	width: 30%;
+	height: auto;
+	margin: 5px 10px 5px 0;
+	float: left;
+	border: 4px solid #571946;
+	border-radius:inherit; 
+    
+}
+
+.clanak > p {
+    font-family: 'Coming Soon', helvetica;
+	font-size: 100%;
+    color: #571946;
+    text-align: justify; 
+    
+}
+
+/*o nama*/
+.onama 
+{
+    background-color: #efcbe6;
+	border: 2px solid #571946 ;
+    border-bottom: 1px;
+    padding: 15px;
+	text-align: justify;
+	overflow: auto;
+    border-bottom: 2px solid #571946;
+}
+
+.onama > img
+{
+    width: 30%;
+	height: auto;
+	margin: 5px 10px 5px 0;
+	float: left;
+	border: 4px solid #571946;
+	border-radius:inherit; 
+    margin-bottom: 50px; 
+}
+
+.onama > h1
+{
+    font-family: 'Coming Soon', helvetica;
+    color: #571946;
+}
+
+.onama > p
+{
+    font-family: 'Coming Soon', helvetica;
+	font-size: 100%;
+    color: #571946;
+    text-align: justify;
+    
+}
+
+/*partneri*/
+.partneri > h1
+{
+    font-family:'Coming Soon', helvetica;
+    color: #571946;     
+}
+
+.partneri > p
+{
+    font-family:'Coming Soon', helvetica;
+    color: #571946;     
+}
+.partneri > ul
+{
+    list-style-image: url(slike/ikona.png);
+    font-family: 'Coming Soon', helvetica;
+    color: #571946;
+    
+}
+
+.onama > h3
+{
+    font-family: 'Coming Soon', helvetica;
+    font-size: 14pt; 
+    font-weight: 700; 
+    color: #571946;
+    text-align: right;
+    
+}
+
+#cjenovnik
+{
+    background-color: #efcbe6;
+	border: 2px solid #571946 ;
+    padding: 15px;
+	text-align: justify;
+	overflow: auto;
+}
+
+
+#tabela {
+    
+    float: left; 
+    width: 800px;    
+	overflow: auto;
+	margin: 80px;
+    border-collapse: collapse;
+    border: 1px solid #571946; 
+    font-family:'Coming Soon', helvetica;
+    background-color: #d2d1d1;
+    color: #571946;
+    
+   
+}
+    
+
+
+table, td, th
+{
+    border: 2px solid #571946; 
+    border-collapse: collapse; 
+    width: 800px;  
+}
+
+td.manikir
+{
+    font-weight: 700; 
+    background-color: #f0ddf4;
+       
+}
+
+td.pedikir
+{
+    font-weight: 700;  
+    background-color: #f0ddf4;
+}
+
+td.solarij
+{
+    font-weight: 700;
+    background-color: #f0ddf4;
+}
+
+td.rtl
+{
+    font-weight: 700;
+    background-color: #f0ddf4;
+}
+
+td.masaze
+{
+    font-weight: 700;
+     background-color: #f0ddf4;
+}
+
+td.depilacija
+{
+    font-weight: 700;
+     background-color: #f0ddf4;
+}
+
+td.lice
+{
+    font-weight: 700;
+    background-color: #f0ddf4;
+}
+
+td.makeup {
+    font-weight: 700;
+     background-color: #f0ddf4;
+}
+
+td.Usluga
+{
+    font-weight: 700;
+    background-color: #977b9c;
+}
+
+td.Cijena
+{
+    font-weight: 700;
+    background-color:  #977b9c;
+}
+
+td.Trajanje
+{
+    font-weight: 700;
+    background-color:  #977b9c;
+}
+
+#tabela td
+{
+    text-align: center; 
+    vertical-align: middle;    
+        
+}
+
+table#cijene th,
+table#cijene td {
+	padding: 10px 8px;
+    font-size: 16pt;
+}
+
+
+
+
+/*kontakt*/
+.kontakt
+{
+    background-color: #efcbe6;
+	border: 2px solid #571946 ;
+    border-bottom: 2px solid #571946;
+    padding: 15px;
+	text-align: justify;
+	overflow: auto;
+}
+
+.kontaktinfo
+{
+    width: 500px;    
+   
+}
+
+.kontaktinfo > h4
+{
+    font-family: 'Coming Soon', helvetica;
+    font-size: 14pt; 
+    margin:20px;
+}
+
+.kontaktinfo > p
+{
+    font-family: 'Coming Soon', helvetica;
+    font-size: 14pt; 
+    margin:10px;
+    text-align: justify; 
+}
+
+
+.kontaktforma
+{
+    font-family: 'Coming Soon', helvetica;
+    font-size: 14pt; 
+    color: #571946;
+    margin:30px;
+    width: 400px;
+    height: 380px;
+    border: 2px solid #571946;
+    border-radius: 5px;
+    padding-left: 10px;   
+    font-weight: 700;
+    float: left;
+}
+
+
+
+.kontaktforma > form > input
+{
+    float: right;
+    margin-right: 80pt;
+    border: 1px solid #571946; 
+    border-radius: 5px; 
+    width: 200px; 
+    height: 20px;
+    display: inline-block;
+         
+}
+
+.kontaktforma > form > textarea
+{
+    float: right;
+    margin-right: 82pt;
+    border: 1px solid #571946; 
+    border-radius: 5px; 
+}
+
+.kontaktforma > form > #Dugme:hover
+{
+    background-color: #bb74cc;
+    color: White;
+    font-size: 14pt;
+}
+
+.informacije
+{
+     font-family: 'Coming Soon', helvetica;
+     font-size: 12pt; 
+     font-weight: 700; 
+     color: #571946;
+     float: right;
+    
+}
+
+
+.informacije > #ulica 
+{
+    margin-top: -60pt;
+    margin-left: 50pt;
+}
+
+.informacije > #telefon
+{
+    margin-top: -60pt;
+    margin-left: 50pt;
+}
+
+.informacije > #email
+{
+    margin-top: -50pt;
+    margin-bottom: 20pt;
+    margin-left: 50pt;
+}
+
+.informacije > #vrijeme
+{
+    margin-top: -60pt;
+    margin-left: 50pt;
+}
+
+
+.informacije > img
+{
+    margin-bottom: 10pt;
+}
+
+.drustvenemreze
+{
+    float: left; 
+    font-family: 'Coming Soon', helvetica;
+    border: 2px solid #571946; 
+    border-radius: 15px; 
+    margin-left: 29px;
+    color: #571946;
+    padding: 15px; 
+    margin-top: 10px; 
+    margin-right: 200px; 
+    
+}
+
+.drustvenemreze > h3
+{
+    font-weight: 700; 
+    margin-left:  28px; 
+}
+
+.drustvenemreze > img
+{
+    margin: 10px;
+    
+}
+
+.drustvenemreze > a
+{
+    margin: 10px;
+      
+    
+}
+
+
+.kontaktforma > form > #Dugme
+{
+    float: right;
+    margin-top: 10pt;
+    margin-right: 155pt;
+    bottom: 7px;
+    background-color: #f0ddf4; 
+    height:30px;
+    width: 100px;
+    color: #571946;
+    font-weight: 700;
+    font-family: 'Coming Soon', helvetica;
+    border: 1px solid #571946; 
+    border-radius: 15px; 
+   
+    
+}
+    
+
+/*podnozje*/
+#dno {
+    margin: 0;
+    padding: 5px 5px 5px 25px;
+    float: none;
+    text-align: center;
+    font-family: 'Times New Roman';
+    font-size: 12pt;
+    font-weight: 700;
+    color: #571946;
+  
+}
+
+/*Treeview*/
+.treeview 
+{
+    background-color: #efcbe6;
+	border: 2px solid #571946 ;
+    border-bottom: 2px solid #571946;
+    padding: 15px;
+	text-align: justify;
+	overflow: auto;
+    color: #571946;
+    font-weight: 700;
+    font-family: 'Coming Soon', helvetica;
+    
+}
+
+#glavna, #podstablo1, #podstablo2, #podstablo3, #podpodstablo1, #podpodstablo2
+{
+    list-style-type: none;
+}
+
+#podstablo1, #podstablo2, #podstablo3, #podpodstablo1, #podpodstablo2
+{
+    list-style-type: none;
+    display: none;
+}
+
+#podpodstablo1
+{
+    list-style-image: url(slike/staricon.png);
+}
+
+#podpodstablo2
+{
+    list-style-image: url(slike/staricon.png);
+}
+
+#podstablo2
+{
+    list-style-image: url(slike/staricon.png);
+}
+
+#podstablo3
+{
+    list-style-image: url(slike/staricon.png);
+}
+
+

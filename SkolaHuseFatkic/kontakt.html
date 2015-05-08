@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<!--<meta http-equiv="refresh" content=""/>-->
+<TITLE>Kontakt forma</TITLE>
+<link href="css/stil.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="http://sstatic.net/stackoverflow/img/favicon.ico">
+</HEAD>
+<BODY> 
+
+	
+	
+
+		<div id="lijevoTijelo">
+			<h3> Informacije</h3>
+			<p><b>Naziv škole:</b><br> Srednja škola "Huse Fatkić"</p>
+			<p><b>Adresa:</b><br> Zmaja od Bosne bb, 71000, Sarajevo</p>
+			<p><b>Telefon:</b><br> (+387)32665987</p>
+			<p><b>Telefon:</b><br> (+387)32665033</p>
+			<p><b>Email:</b><br> husefatkic@unsa.ba</p>
+
+		</div>
+				<div id="desnoTijelo">
+					<h3> Prijava</h3>
+				<div id="login">	
+					<form  name="loginForma"  method="post" onsubmit="return validateLogin()" >
+						Email: <input type="text" name="email" ><br>
+						Lozinka: <input type="text" name="lozinka" ><br>
+						<input type="submit" value="PRIJAVA" id="prijava"> 
+					</form>
+
+				</div>	
+				<h3> Registracija</h3>
+				<div id="registracija">	
+					<form  name="regForma" >
+						Ime: <input type="text" name="ime" >
+						<p id="greskaIme"> </p>
+						Prezime: <input type="text" name="prezime" >
+						<p id="greskaPrezime"> </p>
+						Email: <input type="text" name="email" >
+						<p id="greskaEmail"> </p>
+						
+						Lozinka: <input type="text" name="lozinka" >
+						<p id="greskaLozinka"> </p>
+						Broj mobitela(Neobavezno): <input type="text" name="mobitel" >
+						Spol: <select> 
+								  <option value="Musko">Muško</option>
+								  <option value="Zensko">Žensko</option>
+							   </select>
+						<br>
+						<br>
+						Općina: <input type="text" name="opcina" >
+						<p id="greskaOpcina"> </p>
+						Mjesto: <input type="text" name="mjesto" >
+						<p id="greskaMjesto"> </p>
+						<input type="button" value="REGISTRACIJA" name="posalji" onclick="return validateRegistration()"> 
+					</form>
+
+				</div>	
+					
+				</div>
+		<div class= "sadrzaj">
+			<h1> Kontaktirajte nas: </h1>
+				<div>
+					<table id="kontaktTabela">
+					<tr><td><p>Ime:</p></td><td><input type="text"></td></tr>
+					<tr><td><p>Prezime:</p></td><td><input type="text"></td></tr>
+					<tr><td><p>Adresa:</p></td><td><input type="text"></td></tr>
+					<tr><td><p>Email:</p></td><td><input type="email"></td></tr>
+					<tr><td><p>Spol:</p></td><td>
+					<form>
+						<input type="radio" name="spol" value="musko" checked>Muško
+						<br>
+						<input type="radio" name="spol" value="zensko">Žensko
+					</form>
+					</tr>
+					<tr><td><p>Poruka:</p></td><td><textarea name="text" id="PorukaZaSlanje"></textarea></td></tr>
+					
+					<tr><td><p></p></td><td><input type="button" value="POŠALJI" id="posaljiPoruku"></td></tr>
+
+					</table>
+				</div>
+		</div>
+	
+
+	
+	<SCRIPT src="javaScript/skripte.js"></SCRIPT>
+</BODY>
+</HTML>

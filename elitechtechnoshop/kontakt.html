@@ -1,0 +1,43 @@
+
+    <div id="header">
+        <a onclick = "prebaci('naslovnica.html')"><img src="slike/logo.png" alt="logo_pic"></a>
+    		<ul class="nav_left">
+                <li><a onclick = "prebaci('naslovnica.html')">Naslovnica</a></li>
+                <li id = "zapr" class = "opens_menu"   onclick="prikaziMeniKatalog();" onmouseleave="sakrijMeniKatalog();">Katalog
+                    <ul id="meni_katalog">
+                        <li class = "menu_item_katalog"><a onclick = "prebaci('katalog.html')">Laptopi</a></li>
+                        <li class = "menu_item_katalog">Televizori</li>
+                        <li class = "menu_item_katalog">Mobiteli</li>
+                        <li class = "menu_item_katalog">Tableti</li>
+                    </ul>
+                </li>
+                <li><a onclick = "prebaci('partneri.html')">Partneri</a></li>
+                <li id="act"><a onclick = "prebaci('kontakt.html')">Kontakt</a></li>
+            </ul>
+            <ul class="nav_right">
+                <li><a onclick = "prebaci('registracija.html')">Registracija</a></li>
+                <li><a onclick = "prebaci('prijava.html')">Prijava</a></li> 
+            </ul>
+    </div>
+    <div id="wrapper">
+        <div id="content">
+        	<h3 id="form_heading">Kontaktirajte nas!</h3>
+            <form id = "contact_form">
+                <label for="a">Ime i prezime:</label>
+                <input id="a" type="text">
+                <p id="p1">*</p>
+                <label for="b">E-mail:</label>
+                <input id="b" type="email">
+                <p id="p2">*</p>
+                <label for="c">Broj telefona:</label>
+                <input id="c" type="tel">
+                <label for="d">Web stranica:</label>
+                <input id="d" type="url">
+                <label for="e">Poruka:</label>
+                <textarea id="e" rows="10"></textarea>
+                <p id="p3">*</p>
+                <input id ="sbmt" type="submit" value="Pošalji">
+            </form>
+            <p id="p4">* Obavezna polja</p>
+        </div>
+    </div>

@@ -1,0 +1,404 @@
+		@import url(http://fonts.googleapis.com/css?family=Cinzel);
+		@import url(http://fonts.googleapis.com/css?family=Marck+Script&subset=latin,latin-ext);
+			
+			body{
+				
+				background-image: url('pozadina.jpg');
+				background-size: auto;
+                
+			}
+			
+			#frame{
+				width: 1024px;
+				margin-left: auto;
+				margin-right: auto;
+				
+				position: relative;
+				top: 30px;
+				border-style: solid;
+				border-color: lightgray;
+				border-width: 2px;
+				margin-bottom: 40px;
+				background-color: rgba(255,255,255,0.6);
+
+
+			}
+			
+			h1{				
+				font-family: Cinzel;
+				font-size: 46px;
+				position: relative;
+				left: 5px;
+				color: gray;
+				top: -40px;
+				
+			}
+			
+			#palace{
+				height: 70px;
+				width: 74px;
+				background-image: url('palace.gif');
+				background-size: contain;
+				background-repeat: no-repeat;
+				position: relative;
+				left: 50px;
+				
+			}
+			
+			#header{
+				padding: 20px;
+				width: 0px;				
+			}
+
+			#header a{
+				text-decoration: none;
+			}
+			
+			#nav{
+				
+				position: relative;
+				top: -140px;
+				width: 440px;	
+				position: relative;
+				left: 574px;
+				
+				
+			}
+			
+			#nav ul{
+				padding: 5px;
+				
+			}
+			
+			#nav li{
+				display: inline;				
+				margin-left:30px;
+				
+			}
+			
+			#nav li a{
+				text-decoration: none;
+				color: gray;
+			}
+			
+			#slike{
+				width: 1024px;
+				height: 579px;
+				background-image: url("slika.jpg"); 
+				background-repeat: no-repeat;
+				position: relative;
+				top: -179px;
+			}
+			
+			#prijava{
+				height: 20px;
+				width: 20px;
+				position: relative;
+				bottom: 260px;
+				left:981px;
+				background-image: url('login2.png');
+				background-size: contain;
+				background-repeat: no-repeat;
+			}
+			
+						
+			#footer{
+				color: gray;
+				text-align: center;
+
+			}
+
+			
+			#kuhar{
+ 				height: 576px;
+ 				width: 1024px;
+ 				position: relative;
+ 				top: -179px;
+
+			}
+
+			#onama{
+				font-size: 18px;
+				margin-left: 10px;	
+				position: relative;
+				bottom: 120px;
+				width: 720px;
+				text-align: justify;
+
+			}
+            
+			#partneri{
+				float: right;
+				position: relative;
+				top: -100px;
+				right: 10px;
+				border-color: gainsboro;
+				border-left-style: solid;
+				border-top-style: solid;
+				border-bottom-style: solid;
+				border-top-right-radius: 20px;
+				border-bottom-right-radius: 20px;
+				border-right-style: solid; 
+
+			}
+
+			#partneri ul{
+				list-style-image: url('arrow.png');
+
+			}
+
+			#partneri li{
+				padding: 3px;
+				font-size: 19px;
+
+			}
+
+			#partneri a{
+				text-decoration: none;
+				color: grey;
+			}
+
+			#partneri p{
+				padding-left: 18px;
+				font-size: 18px;
+			}
+
+			#slikaRestorana{
+				height: 551px;
+				width: 1024px;
+				position: relative;
+				top: -179px;
+			}
+
+			#informacije{
+				font-size: 19px;
+				position: relative;
+				bottom: 120px;
+				padding: 10px;
+				left: 15px;
+				width: 300px;
+
+			}
+
+			.informacijep{
+				padding-top: 5px;
+				position: relative;
+				left: 15px;
+				color: gray;
+			}
+
+			#telefon{
+				height: 35px;
+				
+				float: left;
+			}
+
+			#mail{
+				padding-top: 5px;
+				height: 25px;
+				float:	left;
+			}
+
+			
+
+			#location{
+				height: 35px;
+				float: left;
+				margin-left: -10px;
+				margin-right: -9px;
+			}
+
+			#fb{
+				position: relative;
+				bottom: 353px;
+				left:978px;
+				height: 30px;
+				width: 30px;
+				position: relative;
+				background-image: url('fb.png');
+				background-size: contain;
+				background-repeat: no-repeat;
+			}
+
+			#forma{
+				font-size: 19px;
+				padding: 10px;
+				position: relative;
+				left: 710px;
+				bottom: 363px;
+				margin-bottom: -160px;
+				line-height: 30px;
+				width: 260px
+			}
+
+			#posalji{
+				position: relative;
+				bottom: 5px;
+				left: 120px;
+				width: 100px;
+			}
+
+			#rvrijeme{
+				font-size: 19px;
+				position: absolute;
+				left: 380px;
+				bottom: 976px;
+				margin-bottom: -320px;
+				width: 250px;
+				color: gray
+
+			}
+
+			#rvrijemep{
+				color: black;
+			}
+
+			#tabela{
+				margin-top: -100px;
+			}
+
+			table{
+				
+				font-family: cinzel;
+			}
+
+			table, th, td {
+    			border: 2px solid lightgray;
+    			border-collapse: collapse;
+    			font-size: 23px;
+    			text-align: center;
+    			border-right: 0px;
+    			border-left: 0px;
+    			
+			}
+
+			table td{
+				width: 341px;
+				padding: 5px;
+			}
+			
+			.meni{
+				text-align: center;
+				font-size: 32px;
+				
+				color: gray;
+				font-family: cinzel;
+
+
+			}
+			
+			.menid{
+				font-size: 15px;
+				color: gray;
+				font-family: times new roman;
+			}
+
+			.cijena{
+				color: LightSlateGray;
+			}
+
+			#cijenek{
+				text-align: center;
+				color: gray;
+				margin-bottom: 70px;
+				
+			}
+
+			.novosti{
+				padding: 10px;
+				font-size: 18px;
+				border-top: 2px solid lightgray; 
+				width: 590px
+				
+			}
+
+			#nov{
+				font-size: 33px;
+				padding: 10px;
+				margin-top: -100px;
+				margin-bottom: 0px;
+				color: gray;
+			}
+
+			.naslov{
+				font-size: 25px;
+			}
+
+			.datum{
+				margin-top: -30px;
+			}
+
+			#uzv1{
+				height: 20px;
+				width:20px;
+				background-image: url('uzvicnik.gif');
+				background-size: contain;
+				background-repeat: no-repeat;
+				position: relative;
+				left: 685px;
+				bottom: 668px;
+				opacity: 0;	
+
+			}
+
+			#uzv2{
+				height: 20px;
+				width:20px;
+				background-image: url('uzvicnik.gif');
+				background-size: contain;
+				background-repeat: no-repeat;
+				position: relative;
+				left: 685px;
+				bottom: 628px;
+				opacity: 0;	
+						
+			}
+
+			#uzv3{
+				height: 20px;
+				width:20px;
+				background-image: url('uzvicnik.gif');
+				background-size: contain;
+				background-repeat: no-repeat;
+				position: relative;
+				left: 685px;
+				bottom: 534px;	
+				opacity: 0;			
+			}
+
+			#alert1{
+				position: absolute;
+				left: 905px;
+				bottom: 780px;
+				color: red;
+				font-size: 14px;
+			}
+
+			#alert2{
+				position: absolute;
+				left: 905px;
+				bottom: 718px;
+				color: red;
+				font-size: 14px;
+			}
+			
+
+			#alert3{
+				position: absolute;
+				left: 905px;
+				bottom: 604px;
+				color: red;
+				font-size: 14px;
+			}
+
+			#inf{
+				position: absolute;
+				bottom: 380px;
+				left: 720px;
+				font-size: 12px;
+
+			}
+
+			
+
+			

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Auto-centar</title>
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" type="text/css" href="stil.css">
+		<script src="javascript.js"></script>
+	</head>
+
+	<body>
+
+		<h1 class="sredina menu"> Auto-centar Sarajevo </h1>
+
+		<div class="dodatakNaslovnoj">
+		</div>
+
+
+
+			<ul class="uredi">
+				
+				<li class="uredi2"><a class="uredi3" onclick="otvoriStranicu('Partneri.html')">Partneri</a></li>
+				<li class="uredi2"><a class="uredi3" onclick="otvoriStranicu('Kontakt.html')">Kontakt</a></li>
+				<li class="uredi2 uredi3 oznaceno" onclick="prikaziMeni()" onmouseout="sakrijMeni()">Usluge
+				
+					<ul id="padajuci" class="nemojPrikazati padajuciMeni" onmouseout="sakrijMeni()">
+						<li onmouseover="prikaziMeni(); oboji(this);" onmouseout="vratiBoju(this);">Ponuda</li>
+						<li onmouseover="prikaziMeni(); oboji(this);" onmouseout="vratiBoju(this);">Cjenovnik</li>
+					</ul>
+				
+				</li>
+				<li class="uredi2"><a class="uredi3" onclick="otvoriStranicu('Naslovna.html')">Naslovna</a></li>
+				
+			</ul>
+			
+			<br>
+			<br>
+			<br>
+			<br>
+			<br><br>
+			
+			<div class="zatvoreno">
+			
+			
+			<br>
+			<p class="menu tekstusredinu">Auto centar Sarajevo nudi profesionalne usluge po najpovoljnijim cijenama u gradu. Naši radnici će se potruditi uslužiti vas u najkraćem mogućem vremenskom periodu. Centar se nalazi u blizini RTV doma i prilaz istom je jako pristupačan. Mi smo najpovoljniji, najbrži i najljubazniji.</p><br>
+			<p class="menu tekstusredinu">Sve potrebne informacije (kontakt, telefona, adresa) pronađite klikom na KONTAKT u glavnom meniju naše internetske stranice. Na sva vaša pitanja odgovaramo najbrže što je moguće, a obećavamo direktan i konkretan odgovor kroz najdalje 24 sata.</p>
+			<br>
+			<p class="partner tekstusredinu">Naš auto centar nudi sljedeće:</p>
+			<ul class="partner">
+				<li>Punjenje auto klime</li>
+				<li>Zamjena ulja</li>
+				<li>Tehnički pregled vozila</li>
+				<li>Narudžbu dijelova za vozila</li>
+				<li>Usluge naših auto mehaničara</li>
+			</ul>
+			<br>
+			
+			<p class="partner">Pogledajte trenutnu ponudu automobila:</p>
+			<table class="partner" border=1>
+			
+			<tr class="prvired">
+			 <th>Naziv</th>
+			 <th>Godina proizvodnje</th>
+			 <th>Cijena</th>
+			</tr>
+			
+			<tr>
+			 <th class="ostaliredovi">Toyota Auris</th>
+			 <th class="ostaliredovi">2008.</th>
+			 <th class="ostaliredovi">14.000 KM</th>
+			</tr>
+			
+			<tr>
+			 <th class="ostaliredovi">Golf VI</th>
+			 <th class="ostaliredovi">2012.</th>
+			 <th class="ostaliredovi">19.000 KM</th>
+			</tr>
+			
+			<tr class="ostaliredovi">
+			 <th class="ostaliredovi">Škoda Fabia</th>
+			 <th class="ostaliredovi">2005.</th>
+			 <th class="ostaliredovi">8.000 KM</th>
+			</tr>
+			
+			<tr class="ostaliredovi">
+			 <th class="ostaliredovi">Volvo</th>
+			 <th class="ostaliredovi">2002.</th>
+			 <th class="ostaliredovi">11.000 KM</th>
+			</tr>
+			
+			<tr class="ostaliredovi">
+			 <th class="ostaliredovi">Renault Karavan</th>
+			 <th class="ostaliredovi">2004.</th>
+			 <th class="ostaliredovi">7.000 KM</th>
+			</tr>
+			
+			</table>
+			<br><br>
+			<hr>
+			<br>
+			
+			<table id="tabelaDodavanje" class="partner" border=1>
+			<p class="tekstusredinu">***Administrator može dodati i izbrisati proizvode u sljedećoj tabeli***</p><br>
+			<tr class="prvired">
+			 <th>ID</th>
+			 <th>Naziv</th>
+			 <th>Slika</th>
+			 <th>Opis</th>
+			</tr>
+			
+			
+			</table><br>
+			<form class="tekstusredinu" onsubmit="return false;">
+			<input type="submit" onclick="ucitaj();" value="Osvježi tabelu"> <br>
+			</form>
+			<br>
+			<hr>
+			<br>
+			
+			<form class="tekstusredinu" onsubmit="return false;">
+				
+				Dodavanje u tabelu:<br>
+			    Naziv<br>
+				<input id="nazivProizvodaID" class="hehe" type="text" name="nazivProizvoda" value=""><br>
+				Opis<br>
+				<input id="opisProizvodaID" class="hehe" type="text" name="opisProizvoda" value=""><br>
+				SlikaURL<br>
+				<input id="slikaURLID" class="hehe" type="text" name="slikaURL" value=""><br>
+				<input type="submit" onclick="dodajProizvod();" value="Dodaj proizvod u tabelu"> <br>
+			</form>
+			<hr><br>
+			
+			<form class="tekstusredinu" onsubmit="return false;">
+			Brisanje iz tabele<br>
+			    ID proizvoda<br>
+				<input required id="nazivBrisanje" class="hehe" type="text" name="nazivProizvodaBrisanje" value=""><br>
+				<input type="submit" onclick="obrisiProizvod();" value="Izbrisi proizvod"> <br>
+			</form>
+			
+			<hr>
+			<br>
+			
+			<form class="tekstusredinu" onsubmit="return false;">
+				
+				Izmjena u tabeli:<br>
+				ID<br>
+				<input required id="IDizmijeni" class="hehe" type="text" name="IDProizvoda" value=""><br>
+			    Naziv<br>
+				<input required id="nazivIzmijeni" class="hehe" type="text" name="nazivProizvoda" value=""><br>
+				Opis<br>
+				<input required id="opisIzmijeni" class="hehe" type="text" name="opisProizvoda" value=""><br>
+				SlikaURL<br>
+				<input required id="slikaIzmijeni" class="hehe" type="text" name="slikaURL" value=""><br>
+				<input type="submit" onclick="izmijeniProizvod();" value="Izmijeni proizvod"> <br>
+			</form>
+			<hr><br>
+			
+			</div>
+
+
+		<br>
+
+
+	</body>
+
+</html> 

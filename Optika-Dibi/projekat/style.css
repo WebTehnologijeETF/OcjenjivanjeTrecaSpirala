@@ -1,0 +1,312 @@
+
+*{
+margin-left:auto;
+margin-right:auto;
+margin-top:auto;
+
+}
+header.izbornik {
+
+	font-family: 'Source Sans Pro', sans-serif,'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 15pt;
+	line-height: 2em;
+	
+    letter-spacing: 4px;
+
+	color: SlateBlue;
+	text-shadow: 0 0 0.5px rgba(58,57,57,0.25);
+    background-color: lavender;
+
+	position:relative;
+	top:-10px;
+	width:100%;
+	
+}
+.header_underline{
+background-color: white;
+height: 4px;
+position:relative;
+margin-top: 0.8in;
+width:100%;
+}
+header>a{
+	position:relative;
+	top:80px;
+	text-decoration: none;
+	color: #0066b3;
+	width:100%;
+	z-index:10;
+}
+
+a {	
+	
+	color: #0066b3;
+}
+header>a:hover {
+	color: SlateBlue;
+	background-color: white;
+	padding:10px;
+	width:100%;
+}
+
+a:hover {
+	color: SlateBlue;
+	
+	
+	}
+
+a:active {
+	color: #0077b3;
+}
+
+
+body {
+background-image: url(naocale.jpg);
+background-repeat: no-repeat;
+
+	font-size: 13pt;
+  line-height: 1.3em;
+}
+h1{
+
+	color:SlateBlue;
+	font-size: 21pt;
+  line-height: 1.7em;
+		font-weight: 400;
+    letter-spacing: 2px;
+	font-weight:bold;
+		text-align: center;
+}
+
+h2{
+
+	color:SlateBlue;
+	font-size: 18pt;
+  line-height: 1.7em;
+		font-weight: 300;
+    letter-spacing: 3px;
+	font-weight:bold;
+}
+.dodatna {
+margin-left: 2%;
+margin-right: 2%;
+margin-top: 2%;
+margin-bottom: 4%;
+}
+strong,label {
+	color:SlateBlue;
+	font-size: 12pt;
+  line-height: 1.3em;
+}
+.podloga{
+margin-left: 7%;
+margin-right: 7%;
+margin-top: 2%;
+background:white;
+
+}
+li{
+	color:SlateBlue;
+}
+spam{
+	color:black;
+}
+h3,th{
+color:SlateBlue;
+}
+
+.lijeviKontakt{
+margin-left: 2%;
+margin-top: 2%;
+margin-bottom: 4%;
+margin-right: 2%;
+float:left;
+
+}
+p{
+clear:both;
+text-align:center;
+
+}
+.not{
+ visibility: hidden
+
+}
+
+.yes{
+visibility: hidden
+}
+img.NOTOK{
+ width:20px;
+ height:20px;
+ visibility: hidden
+
+}
+img.OK{
+ width:20px;
+ height:20px;
+ visibility: hidden
+
+}
+
+img {
+ width:325px;
+ height:225px;
+}
+.desniKontakt{
+margin-left: 2%;
+margin-right: 2%;
+margin-top: 7%;
+margin-bottom: 4%;
+
+float: none;
+}
+hr{
+width:80%;
+}
+
+input {
+font-size: 13pt;
+  line-height: 1.5em;
+    letter-spacing: 3px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+table, tr, td {
+  
+	 border: 2px solid SlateBlue;
+}
+
+
+tr {
+    height: 50px;
+}
+td{
+	text-align: center;
+}
+
+.scroll{
+ height: 350px;
+ overflow:auto;
+}
+
+.scroll2{
+ height: 650px;
+ overflow:auto;
+}
+
+.lista1{
+    list-style: square inside url("slikica.png");
+
+}
+header > img{
+ width:12%;
+ height:7%;
+ margin-top: 20px;
+ margin-left:15%;
+ float :left;
+ transform: rotate(-25deg);
+}
+
+footer#Copy{
+    position: relative;
+    background-color: SlateBlue;
+    text-align: center;
+   
+    color: white;
+    font-size:17px;
+}
+
+textarea {
+width: 250px;
+height: 110px;
+}
+
+#sddm
+{	margin: 0;
+	padding: 0;
+
+	
+font-family: 'Source Sans Pro', sans-serif,'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 15pt;
+	line-height: 2em;
+	
+    letter-spacing: 4px;
+
+	position:relative;
+	top:10px;
+	width:100%;
+	z-index: 10;
+	
+	}
+
+#sddm li
+{	margin: 15px;
+	padding: 0;
+	list-style: none;
+	float: left;
+	font: bold 11px arial;
+
+}
+
+#sddm li a
+{	display: block;
+	margin: 0 1px 0 0;
+	padding: 4px 30px;
+	width: 70px;
+	background: #5970B2;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	position:relative;
+
+	}
+
+#sddm li a:hover
+{	/*background: white;
+color: SlateBlue;*/
+color: SlateBlue;
+	background-color: white;
+	padding:10px;
+	width:100%;
+
+}
+
+#sddm div
+{	position: absolute;
+	visibility: hidden;
+	
+	background: white;
+	border: 1px solid SlateBlue}
+
+	#sddm div a
+	{	position: relative;
+		display: block;
+		margin: 0;
+		padding: 5px 10px;
+		width: auto;
+		white-space: nowrap;
+		text-align: left;
+		text-decoration: none;
+		background: white;
+		color: SlateBlue;
+		font: 11px arial}
+
+	#sddm div a:hover
+	{	background: lavender;
+		color: SlateBlue}
+
+
+.desniKontakt > img{
+	width:25%;
+	height:25%;
+	margin-top:  20px;
+	margin-left: 5%;
+
+
+}

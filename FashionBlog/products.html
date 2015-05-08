@@ -1,0 +1,21 @@
+<h3>Fashion products</h3>
+<form id="proizvod" action="">
+  <label>Naziv:</label><input type="text" id="naziv">
+  <label>Slika:</label><input type="text" id="slika">
+  <label>Cijena:</label><input type="number" id="cijena">
+  <input type="hidden" id="proizvodId">
+  <button type="button" onclick="spremiProizvod()">Spremi</button>
+</form>
+<table>
+  <thead>
+  <tr>
+    <th>ID</th>
+    <th>Slika</th>
+    <th>Naziv</th>
+    <th>Cijena</th>
+    <th></th>
+  </tr>
+  </thead>
+  <tbody id="listaProizvoda">
+  </tbody>
+</table>

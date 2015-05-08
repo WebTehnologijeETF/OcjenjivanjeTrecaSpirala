@@ -1,0 +1,69 @@
+body {background-color:#FFFFCC;
+overflow-y: scroll;
+overflow-x: hidden;}
+.navigacija{
+background-color: #FFCC99;
+text-align: center;
+
+color: #990033;
+}
+img.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.navigacija a{
+font-family: bold;
+color: #990033;
+font-size: x-large;
+
+}
+
+.naslovna h1{
+font-family: bold;
+text-align: left;
+color: #FF0000;
+}
+.naslovna h3{
+color:#990000;
+text-align: left;
+font-family: bold;
+
+}
+.naslovna h5{
+color:#990000;
+text-align: left;
+font-family: bold;
+
+}
+.naslovna a {
+color: #FF9966;}
+.naslovna p{
+text-align: left;
+font-style: italic;
+color:#990000;
+}
+ .dno p{
+ color: #990033;
+ text-align:center;
+ text-decoration: underline;
+ font-style: oblique;
+ background-color:#FFCC99;
+
+bottom:0;
+
+ }
+.MeniInformacija ul{
+	font-family: bold;
+color: #990033;
+font-size: x-large;
+list-style: none;
+}
+
+.MeniInformacija li {
+	font-family: bold;
+color: #990033;
+font-size: x-large;
+list-style: none;
+}
+

@@ -1,0 +1,704 @@
+@import url(http://fonts.googleapis.com/css?family=Gabriela);
+@import url(http://www.markmurray.co/codepen/entypostyle.css);
+*, *:after, *:before {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* ----------------------------------home page-----------------------------------------------------------*/
+body {
+  font-family: 'Source Sans Pro', sans-serif,'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 12pt;
+  line-height: 1.75em;
+		font-weight: 300;
+    letter-spacing: 1px;
+  text-align: left;
+  color: #3a3939;
+		text-shadow: 0 0 0.5px rgba(58,57,57,0.25);
+    background-color: white;
+}
+
+.navigator{
+    text-align: center;
+}
+
+.menulista {
+  text-align: center;
+  display: block;
+  margin: 0;
+  padding: 15px 4px 17px 0;
+  list-style: none;
+    overflow: hidden;
+    clear: both;
+    transition: 1s;
+}
+.menulista li {
+    text-align: center;
+  font: bold 12px/18px sans-serif;
+  display: inline-block;
+  margin-right: -4px;
+  position: relative;
+  padding: 15px 20px;
+  background: rgba(17, 101, 13, 0);
+  cursor: pointer;
+
+}
+
+.menulista a{
+    text-align: center;
+    color:rgba(11, 11, 11, 0.78);
+    text-decoration: none;
+}
+
+
+.menulista li:hover {
+  
+  color: #fff;
+}
+
+.menulista li:hover a{
+  color: #fff;
+}
+
+#menu{
+    transition: 1s;
+    
+}
+
+/*--------------------------submenu-----------------------------*/
+#menu li{
+    transition: 0.2s;
+    border-radius: 5%;    
+    clear: both;
+    text-align: center;
+    
+    padding: 0px 3px;
+    
+}
+
+
+.menulista li{
+    transition: 0.3s;
+}
+
+.menulista li:hover{
+    border-radius: 2%;
+    transition: 0.2s;
+    padding: 15px;
+}
+
+#menu li:hover{
+ padding: 8px;
+    margin: -25px 10px;
+    background-color:darkslategray;
+}
+
+
+
+.sadrzaj{
+    
+   top:20px;
+   /* border: 1px black;*/
+    height: auto;
+    display: block;
+    overflow:inherit;
+     margin-left: 100px;
+    margin-right: 98px;
+}
+
+.B_slika{
+    float: left;
+    width: 40%;
+}
+
+.b_slika{
+    float: left;
+    width: 100%;
+}
+.b_tekst{
+    text-align: left;
+   float: right;
+ width: 60%;   
+}
+
+.aboutus_div{
+    margin-top: 0px;
+    top:0px;
+    bottom:0px;
+   /* border: 1px solid black;*/
+    padding-left: 20px;
+   /*position: relative;*/
+    height: auto;
+    overflow: hidden;
+}
+
+.aboutus_div h1,p{
+    top: 0px;   
+    text-align: left;
+}
+
+
+.lijevi{
+    margin-top: 20px;
+    text-align: left;
+    font-family:Gabriela;
+   
+    float: left;
+    width: 18%;
+    height: auto;
+    color: white;
+   
+   
+}
+
+.lijevi h1{
+    height: auto;
+    bottom: 0;
+    text-align: center;
+}
+.lijeva_lista{
+    display:block;
+    padding-left: 0px;
+    top:0px;
+    width: 100%;
+    height: auto;
+    list-style: none;
+    text-align: center;
+}
+
+.lijeva_lista li a{
+    text-align: center;
+    color: white;
+}
+
+.lijeva_lista li{
+    
+  font: bold 12px/18px sans-serif;
+  
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    height: auto;
+    background: rgba(17, 101, 13, 0);
+  cursor: pointer;
+}
+
+.lijeva_lista li:hover {
+  background: rgba(42, 54, 42, 0.82);
+  color: #fff;
+}
+
+.sredina{
+    margin-top:20px;
+    float: right;
+    width: 81%;
+    
+}
+
+.navigator{
+    
+    display: inline;
+    width: 500px;
+    overflow:hidden;
+    clear: both;
+}
+
+
+.menulista .home{
+    background: rgba(28, 163, 28, 0.82);
+    
+}
+.menulista .home a{
+    color: white;
+}
+
+aside q{
+    font-style: italic;
+    text-align: center;
+}
+.slika12{
+ width: 100%;   
+    clear:both;
+}
+
+.slika1{
+    float: left;
+   position: relative;
+    margin-top: 20px;
+    
+    height: 150px;
+    width:0%;
+    overflow: hidden;
+    
+}
+.slika2{
+    float: left;
+    position: relative;
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+   overflow: hidden;    
+}
+
+.slika3{
+    float: left;
+    position: relative;
+    margin-top: 20px;
+    height: 150px;
+    width:0%;
+   
+   overflow: hidden;
+}
+
+
+.whatwedo_div {
+    margin-top: 0px;
+    top:0px;
+    bottom:0px;
+    /*border: 1px solid black;*/
+    padding-left: 20px;
+   /*position: relative;*/
+    height: auto;
+    overflow: hidden;
+}
+.whatwedo_article p{
+    text-align: left;
+}
+.readmore {
+	background-color:#616c64;
+	
+	border-radius:28px;
+	border:1px solid #151916;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:0px 10px;
+	text-decoration:none;
+}
+.readmore:hover {
+	background-color:#343931;
+}
+.readmore:active {
+	position:relative;
+	top:1px;
+}
+
+.products_article{   
+    overflow: hidden;
+}
+
+.products_article h1{
+    text-align: center;
+}
+.products_a{
+    margin: 0px 5px 5px 5px;
+   
+    overflow: hidden;
+    clear: both;
+    height: auto;
+}
+
+.products_a p{
+    text-align: left;
+}
+.p_aa{
+    height: 200px;
+    width: 100%;
+    background-color: red;
+    clear: both;
+}
+.p_ab{
+    text-align: center;
+}
+.product_a1{
+    width: 49%;
+   
+    float: left;
+    
+}
+
+.product_a2{
+    width: 49%;
+   
+    float: right;
+    
+}
+.partners_article {
+    overflow: hidden;
+}
+.partners_article h1{
+    text-align: center;
+}
+.partners_div{
+   
+    width: 100%;
+    clear: both;
+}
+
+.partners{
+    margin: 0 5px 5px 5px;
+   
+    overflow: hidden;
+}
+.partner1{
+    
+    height: auto;
+    width:auto;
+    overflow: hidden;
+    float: left;
+    padding-left: 37px;
+    padding-right: 37px;
+}
+
+.partner1_div{
+    
+    margin: 2px 5px 5px 5px;
+    
+    width: 140px;
+	height: 140px;
+	border-radius: 70px;
+    
+}
+.round_img{
+    width: 140px;
+	height: 140px;
+	border-radius: 50px;
+    box-shadow: 10px 10px 5px #383535;
+}
+.footer{
+    text-align: center;
+    width: 100%;
+    
+    overflow: hidden;
+    color: white;
+    
+}
+.validator{
+    margin: 0;
+    float: right;
+}
+
+.lijevi,.footer,.menulista li:hover{
+    background: rgba(28, 163, 28, 0.82);
+}
+
+.sredina_godine article p{
+    text-align: left;
+}
+
+
+        
+/* ----------------------summary page----------------------------------- */
+
+
+table {
+    margin-top:20px;
+    align-self: center;
+    border-collapse: collapse;
+    width: 100%;
+    background: #fff;
+text-align:center;
+
+}
+td, th {
+    padding: 0.0em 1.5em;
+    
+}
+th {
+    background-color: #31bc46;
+    font-weight: bold;
+    color: #fff;
+    white-space: nowrap;
+}
+tbody th {
+	background-color: rgba(49, 188, 70, 0.81);
+}
+tbody tr:nth-child(2n-1) {
+    background-color: #f5f5f5;
+    transition: all .125s ease-in-out;
+}
+tbody td:hover {
+    background-color: rgba(129,208,177,.3);
+}
+
+#saldo {
+background-color:darkgreen;
+}
+
+#summary_intro p{
+    text-align: left;
+}
+.negativ_saldo{
+    background-color: rgba(188, 14, 14, 0.64);
+}
+/*-------------------------products page----------------------------------*/
+.produkti{
+    margin-top: 20px;
+}
+    
+.slikatekst,.tekstslika{
+    height: auto;
+    width: 100%;
+    
+    overflow: hidden;
+    display: inline-block;
+    padding-bottom:20px;
+}
+
+.slikatekst .slika{
+    width: 26%;
+    overflow: hidden;
+    height: 300px;
+    background-color: red;
+    float: left;
+    
+}
+.slikatekst .tekst{
+    padding-left: 10px;
+    width: 70%;
+    float: left;
+    overflow: hidden;
+}
+
+.tekst h2{
+    text-align: center;
+}
+.tekst p{
+    text-align: left;
+}
+
+.tekstslika .tekst{
+    width:74%;
+    float: left;
+    overflow: hidden;
+}
+
+.tekstslika .slika{
+    float: right;
+    overflow: hidden;
+    height: 300px;
+    background-color: blue;
+    width: 26%;
+    
+}
+
+/*------------------contact page-----------------------------*/
+
+
+
+/* ===========================
+   ====== Contact Form ======= 
+   =========================== */
+.form{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    
+}
+input, textarea {
+	padding: 10px;
+	border: 1px solid #E5E5E5;
+	width: 200px;
+	color: #999999;
+	box-shadow: rgba(13, 13, 13, 0.7) 0px 0px 8px;	
+    overflow: hidden;
+}
+#checkbox{
+    overflow: hidden;
+    width: auto;
+}
+
+.cb{
+    margin-top: 00px;
+}
+
+textarea {
+	width: 400px;
+	height: 150px;
+	max-width: 400px;
+	line-height: 18px;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+	border: 1px solid #C9C9C9;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+	
+}
+
+.form label {
+	margin-left: 10px;
+	color: #999999;
+}
+
+/* ===========================
+   ====== Submit Button ====== 
+   =========================== */
+
+.submit button {
+	width: 100px; 
+	height: 40px;
+	background-color: #474E69; 
+	color: #FFF;
+	border-radius: 3px;
+	
+}
+
+.form p{
+   
+    display: inline-block;
+    text-align:left;
+    
+}
+
+
+
+#email,#subject, #femailcb{
+    width:330px;
+    text-align: left;
+    overflow: hidden;
+    display: inline-block;
+}
+#femailcb{
+    display: inline-block;
+}
+#name{
+    width:330px;
+    text-align: left;
+}
+
+#forma{
+    width: 40%;
+    float: left;
+    overflow:auto;
+    padding-right: 5px;
+    display: inline-block;
+}
+#forma p{
+    float: right;
+    display: inline-block;
+}
+.servisniDiv{
+	
+	height: 100px;
+   
+   display: inline-block;
+    margin-bottom: 0;
+}
+
+.servisniDiv p{
+   display: block;
+    margin: 1px;
+    padding: 1px;
+    
+}
+
+
+.submit{
+    float: right;
+}
+
+.mapa{
+    width: 50%;
+    margin-top:35px;
+    height: 435px;
+    
+    float: right;
+}
+
+iframe{
+    height: 100%;
+    width: 100%;
+    border: 0;
+}
+
+#checkbox{
+   
+}
+.cbox{
+    width: auto;
+}
+
+.container {
+    background-color: transparent;
+  padding-top: 20px;
+    padding-bottom: 20px;
+  position:absolute;
+   right: 100px;
+    overflow: hidden;
+}
+
+.row {
+  float: right;
+}
+.row i {
+  cursor: pointer;
+  display: inline-block;
+ 
+  transition: all 0.15s ease;
+}
+.row1  {
+  background: transparent;
+}
+.row1  i {
+  color: white;
+  padding: 10px;
+  position: relative;
+  background: transparent;
+}
+.row1  i:hover {
+  border-radius: 50%;
+}
+.row1  i:not(:first-child) {
+  margin-left: 1em;
+}
+.row1  i:nth-child(1) {
+  color: #3b5998;
+  border: 2px solid #3b5998;
+}
+.row1  i:nth-child(1):hover {
+  color: white;
+  background: #3b5998;
+}
+.row1  i:nth-child(2) {
+  color: #00a0d1;
+  border: 2px solid #00a0d1;
+}
+.row1  i:nth-child(2):hover {
+  color: white;
+  background: #00a0d1;
+}
+.row1  i:nth-child(3) {
+  color: #db4a39;
+  border: 2px solid #db4a39;
+}
+.row1  i:nth-child(3):hover {
+  color: white;
+  background: #db4a39;
+}
+.row1  i:nth-child(4) {
+  color: #c8232c;
+  border: 2px solid #c8232c;
+}
+.row1  i:nth-child(4):hover {
+  color: white;
+  background: #c8232c;
+}
+.row1  i:nth-child(5) {
+  color: #ea4c89;
+  border: 2px solid #ea4c89;
+}
+.row1  i:nth-child(5):hover {
+  color: white;
+  background: #ea4c89;
+}
+
+
+
+
+
+
+

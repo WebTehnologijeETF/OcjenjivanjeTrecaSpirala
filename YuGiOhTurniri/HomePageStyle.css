@@ -1,0 +1,456 @@
+
+#bg {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+	
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+.logo_class{
+	position:absolute;
+	top: 40px;
+	left: 2%;
+	height: 200px;
+}
+.logo_class2 {
+	font-family:'Varela Round', sans-serif;
+	text-transform: uppercase;
+}
+.logo_class2 h2{
+	margin-left: 30px;
+	margin-top: -20px;
+	font-weight: bold;
+	color: white;
+	text-shadow: 2px 2px 8px black;
+}
+
+.logo_class2{
+	position:absolute;
+	top: 40px;
+	left: 15%;
+	height: 200px;
+}
+.logo_class {
+	font-family:'Varela Round', sans-serif;
+	text-transform: uppercase;
+}
+.logo_class h2{
+	margin-left: 30px;
+	margin-top: -20px;
+	font-weight: bold;
+	color: white;
+	text-shadow: 2px 2px 8px black;
+}
+
+.persona_nav {
+	position: absolute;
+	top: 8px;
+	right: 3%;
+	width: 350px;
+	height: auto;
+}
+
+.persona_nav #message_icon {
+	margin-right: 6px;
+	float: right;
+
+}
+.persona_nav #profile_icon {
+	float: right;
+	margin-right: 3px;
+
+}
+.persona_nav #profile_icon img{
+	padding-top: 2%;
+	margin-top: 1px;
+
+}
+
+.persona_nav a{
+	float: right;
+
+}
+.persona_nav #search_text{
+	margin-right: 6px;
+	margin-left: 1px;
+	float: right;
+}
+.persona_nav #search_im{
+	float:right;
+}
+
+.menu{
+	position: relative;
+	margin-top: 200px;
+	margin-left: 25%;
+	padding-left: 0px;
+	width: 850px;
+	height: 28px;
+
+}
+.menu ul{
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+
+}
+.menu li{
+	background-image: url("Slike/Silver.jpg");
+	display: inline;
+	border-top :2px solid lightgray;
+	border-right:  :2px solid lightgray;
+	border-left :2px solid lightgray;
+	border-bottom:  :2px solid darkgray;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	padding: 7px 28px 4px 28px;
+	margin-right: 6px;
+
+}
+.menu li a {
+	font-size: 14px;
+	font-weight: bold;
+	font-family:Verdana ,Arial,sans-serif;
+	color: #5a5a5a;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.menu #home{
+	background-image: url("Slike/Zatamljeno.jpg");
+
+}
+.menu #home a{
+	color: darkred;
+
+}
+.menu li:hover{
+	background-image: url("Slike/Zatamljeno.jpg");
+
+}
+.menu #events a{
+	color: darkred;
+
+}
+.menu #about a{
+	color: darkred;
+}
+.menu #banlist{
+	background-color: darkgray;
+
+}
+.menu #banlist a{
+	color: darkred;
+
+}
+.container {
+	background-color: rgba(165, 165, 165,0.5);
+	position: relative;
+	margin-top: 10px;
+	margin-left: 25%;
+	width: 825px;
+	min-height: 775px;
+}
+.container .novosti {
+	clear: both;
+	width: 775px;
+	margin-left: 25px;
+	margin-right: 25px;
+	border-bottom: 1px solid #CCCCCC;
+	text-align: left;
+	overflow: auto;
+}
+.novosti img{
+
+float: left;
+margin: 3px 15px 15px 0;
+}
+.novosti #uploaded{
+position: relative;
+float: right;
+margin-bottom: 25px;
+margin-right: 25px;
+
+}
+
+
+
+
+
+.container table{
+    border: 3px outset #000;
+    background-color: #FFC;
+    width: 775px;
+    margin-left: 25px;
+
+}
+.container h2{
+	margin-left: 25px;
+}
+.container table td{
+	border: 1px solid gray;
+}
+.container table th{
+		padding: 5px 10px 5px 10px;
+
+}
+.container #karte{
+	    background-color: rgba(255, 184, 112,0.5);
+}
+.container #dodajKartu{
+	border: 3px outset #000;
+	margin-top: 20px;
+	background-color: rgba(255, 184, 112,0.5);
+    margin-left: 25px;
+	width: 775px;
+
+
+}
+#dodajKartu section input{
+	width: 250px;
+	height: 30px;
+	margin-left: 20px;
+	margin-top: 5px;
+	display: inline;
+}
+#dodajKartu section p{
+	width: 200px;
+	height: 20px;
+	margin-top: 5px;
+	margin-bottom: 0px;
+	padding-left: 50px;
+}
+#dodaj_kartu{
+	margin-left: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#left{
+	width: 600px;
+	height: 550px;
+	background-color: rgba(165, 165, 165,0.5);
+	position: relative;
+	float: left;
+	margin-left: 25%;
+}
+#right{
+	width: 225px;
+	height:550px;
+	background-color: rgba(165, 165, 165,0.5);
+	position: relative;
+	float: left;
+}
+#left header{
+	margin: 15px;
+	font-size: 20px;
+}
+#left #subject{
+	width: 550px;
+	margin: 15px;
+	margin-bottom: 0%;
+
+}
+#left #message{
+	width: 90%;
+	height: 180px;
+	margin: 2%;
+
+}
+#left #submit{
+	margin: 15px;
+}
+
+#left #subject_p{
+	display: inline;
+	width: 452px;
+}  
+
+#left #subject p{
+	margin-right: 28px;
+	display: inline;
+} 
+#left #email p{
+	margin-left: 15px;
+	display: inline;
+	margin-right: 25px;
+}
+#left #telephone p{
+	margin-left: 15px;
+	display: inline;
+	margin-right: 5px;
+}
+#left #telephone{
+	margin-top: 10px;
+}
+#left #home p{
+	margin-left: 15px;
+	display: inline;
+	margin-right: 2px;
+}
+#left #home{
+	margin-top: 10px;
+}
+
+#right ul{
+	list-style-image: url("Slike/card.jpg");
+}
+
+.turniri{
+	position: relative;
+	float: left;
+	width: 412.5px;
+	height: 500px;
+	background-color: rgba(165, 165, 165,0.5); 
+	text-align: left;
+
+}
+#svi_uzrasti{
+	margin-left: 25%;
+	border-right: 2px solid darkgray;
+}
+ .turniri #about{
+	margin-left: 15px;
+}
+.turniri img{
+	float: left;
+	margin: 15px;
+}
+.turniri h2{
+	margin-left: 15px;
+}
+.turniri #location{
+	margin-top: 30px;
+	margin-bottom: 120px;
+}
+.turniri p{
+	margin-right: 25px;
+}
+.turniri button{
+	background-image: url("Slike/Silver.jpg");
+	width:100px;
+	height:40px;
+	border-radius: 10px;
+	font-family: verdana;
+	text-transform: uppercase;
+	margin-left: 156.25px;
+}
+.turniri button:hover{
+		background-image: url("Slike/Zatamljeno.jpg");
+}
+
+
+#drop_down_list li{
+	background-image: url("Slike/Silver.jpg");
+	border-top :2px solid lightgray;
+	border-right:  :2px solid lightgray;
+	border-left :2px solid lightgray;
+	border-bottom:  :2px solid darkgray;
+	padding-left: 5px;
+	padding-bottom: 0px;
+	background-color: red;
+}
+#drop_down_list{
+	position:  absolute;
+	height: 12px;
+	list-style-type: none;
+	margin-right: 3%;
+	width: 230px;
+	margin-top: 5px;
+
+}
+#drop_down_list li:hover{
+	background-image: url("Slike/Zatamljeno.jpg");
+}
+
+li ul{
+display: none;
+		list-style-type: none;
+
+}
+
+
+#reg{
+		margin-top: 200px;
+	width: 600px;
+	height: 850px;
+	background-color: rgba(165, 165, 165,0.5);
+	position: relative;
+	float: left;
+	margin-left: 2%;
+	display: inline;
+}
+#log{
+		margin-top: 200px;
+	width: 600px;
+	height: 850px;
+	background-color: rgba(165, 165, 165,0.5);
+	position: relative;
+	float: left;
+	border-left: 2px solid  black;
+}
+
+#reg h1{
+	margin-left: 200px;
+	margin-top: 50px;
+}
+#reg_polja {
+	padding-top: 20px;
+	padding-left: 130px;
+
+}
+#reg_polja section input{
+	width: 250px;
+	height: 30px;
+	margin-top: 5px;
+}
+#reg_polja section p{
+	width: 200px;
+	height: 20px;
+	margin-top: 5px;
+	margin-bottom: 0px;
+	padding-left: 50px;
+}
+#sign_up{
+	background-image: url("Slike/Silver.jpg");
+	width: 150px;
+	height: 50px;
+	margin-left: 170px;
+	margin-top: 50px;
+}
+#sign_up:hover{
+	background-image: url("Slike/Zatamljeno.jpg");
+
+}
+#log h1{
+	margin-left: 230px;
+	margin-top: 10px;
+}
+#log img{
+	margin-left: 170px;
+	margin-top: 70px;
+
+}
+#log_polja {
+	padding-left: 100px;
+
+}
+#log_polja input{
+	width: 300px;
+	height: 50px;
+	margin-left: 50px;
+	margin-top: 20px;
+}
+#sign_in{
+	background-image: url("Slike/Silver.jpg");
+	width: 150px;
+	height: 50px;
+	margin-left: 230px;
+	margin-top: 50px;
+}
+#sign_in:hover{
+	background-image: url("Slike/Zatamljeno.jpg");
+
+}

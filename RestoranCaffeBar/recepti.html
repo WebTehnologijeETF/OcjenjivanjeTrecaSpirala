@@ -1,0 +1,120 @@
+<!-- Restoran Aurora - Recepti -->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Aurora | Recepti</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+	</head>
+<body id="str4">
+<div class="body4">
+	<div class="body1">
+		<div class="main grid">
+			<header>
+				<a onclick="ucitavajStranicuAsinhrono('index.html')">
+					<h1><img src="slike/logo.png" alt=""></h1>
+				</a>
+				<nav>
+					<ul id="vrh_nav">
+						<li><a onclick="ucitajStranicuAsinhrono('index.html')"><img src="slike/ikona_1.gif" alt=""></a></li>
+						<li><a onclick="ucitajStranicuAsinhrono('galerija.html')"><img src="slike/ikona_2.gif" alt=""></a></li>
+						<li class="kraj"><a onclick="ucitajStranicuAsinhrono('kontakt.html')"><img src="slike/ikona_3.gif" alt=""></a></li>
+					</ul>
+				</nav>
+				<nav>
+					<ul id="meni">
+						<li><a href="index.html">Naslovnica</a></li>
+						<li id="galerija" onmouseover="galerija_Prikazi()" onmouseout="galerija_Sakrij()"><a onclick="ucitajStranicuAsinhrono('galerija.html')">Galerija</a>
+							<ul id="submeni" onmouseover="galerija_Prikazi()">
+								<li><a onclick="ucitajStranicuAsinhrono('galerija.html')">Enterijer</a></li>
+								<li><a onclick="ucitajStranicuAsinhrono('galerija.html')">Eksterijer</a></li>
+								<li><a onclick="ucitajStranicuAsinhrono('ponuda.html')">Ponuda</a></li>
+							</ul>
+						</li>
+						<li><a onclick="ucitajStranicuAsinhrono('meni.html')">Meni</a></li>
+						<li class="active"><a onclick="ucitajStranicuAsinhrono('recepti.html')">Recepti</a></li>
+						<li><a onclick="ucitajStranicuAsinhrono('kontakt.html')">Kontakt</a></li>
+					</ul>
+				</nav>
+			</header>
+			<article id="sadrzaj">
+				<div class="wrap">
+					<section class="col-1-3">
+						<div class="wrap-col">
+							<div class="box">
+								<div>
+									<h2><br>Aurora <span>Saradnici</span></h2>
+									<ul class="list1 pad_dno1">
+										<li><a href="http://www.hotel-hollywood.ba/2/index.php/en/">Hotel Holywood</a></li>
+										<li><a href="http://www.bosniahotels.com/">Hotel Bosna</a></li>
+										<li><a href="http://www.turkuazrestaurant.com/">Restoran Turkuaz</a></li>
+										<li><a href="http://www.parkprinceva.ba/">Restoran Park prinčeva</a><li>
+										<li><a href="http://www.kulindvor.com/">Restoran Kulin dvor</a></li>
+										<li><a href="http://pravaprica.ba/">Restoran Prava priča</a></li>
+									</ul>
+									<div>
+										<p class="pad_dno1">
+											Gosti navedenih hotela mogu koristiti usluge Restorana Aurora. Za detaljnije informacije, kliknite na dugme ispod.
+										</p>
+									</div>
+									<a href="http://www.hoteliilidza.ba/hoteli/" class="dugme1">Detaljnije...</a>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+			</article>
+		</div>
+	</div>
+</div>
+<div class="body2">
+	<div class="main grid">
+		<article id="sadrzaj2">
+			<section>
+				<div class="wrapper">
+					<div class="col-2-3">
+						<div class="wrap-col">
+							<h2><br>Neki recepti i preporuke</h2>
+							 <table id="tabela"></table>
+						</div>
+					</div>
+				</div>
+			</section>
+		</article>
+	</div>
+</div>
+<div class="body3">
+	<div class="main grid">
+		<footer>
+			<div class="wrapper">
+				<section class="col-2-3">
+					<div class="wrap-col"></div>
+				</section>
+				<section class="col-1-4">
+					<div class="wrap-col">
+						<h3>&nbsp; Copyright © 2015<br>&nbsp; Restoran Aurora, Sarajevo</h3>
+						<ul id="ikone">
+							<li>
+								<a href="https://www.google.ba/maps/place/Velika+Aleja,+Ilid%C5%BEa/@43.8226402,18.2958098,17z/data=!3m1!4b1!4m2!3m1!1s0x4758ca71fbb0b335:0xb67b017264e23e9" class="normaltip" title="Location"><img src="slike/ikona4.png" alt=""></a>
+							</li>
+							<li>	
+								<a href="#" class="normaltip" title="Twitter"><img src="slike/ikona3.png" alt=""></a>
+							</li>
+							<li>
+								<a href="https://www.linkedin.com/pub/anesa-drakovac/72/114/b44" class="normaltip" title="LinkedIn"><img src="slike/ikona2.png" alt=""></a>
+							</li>
+							<li>
+								<a href="#" class="normaltip" title="Facebook"><img src="slike/ikona1.png" alt=""></a>
+							</li>
+						</ul>				
+					</div>
+				</section>
+			</div>
+		</footer>
+	</div>
+</div>
+<script src="js/submeni.js"></script>
+<script src="js/ucitajStranicuAsinhrono.js"></script>
+</body>
+</html>

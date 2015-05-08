@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+	<meta charset="utf-8" />
+	<TITLE>LittleHope</TITLE>
+	<script src="lstablo.js"></script>
+	<script src="LittleHope.js"></script>
+	<link rel="stylesheet" type="text/css" href="LittleHope_stil.css">
+</HEAD>
+	<div id="Promjena"><div id="Proizvodi_modifikacija">
+			<p>MODIFICIRANJE PROIZVODA</p>
+			<form class="forma" onsubmit="Validacija_forme_modificiranje_proizvoda(); return false;" >
+
+			<p class="id_proizvoda"><input type="number" name="id_proizvoda" id="id_proizvoda"/>
+				<label for="id_proizvoda">ID proizvoda</label> <div id="error_id"></div>
+			
+
+			<p class="naziv"><input type="text" name="naziv" id="naziv"/>
+				<label for="naziv">Naziv</label><img id="naziv-slika" src="http://icons.iconarchive.com/icons/fatcow/farm-fresh/24/exclamation-icon.png" alt="nesto"> <div id="error_naziv"></div>
+			
+
+			<p class="url_slike"><input type="text" name="url_slike" id="url_slike"/>
+				<label for="url_slike">Url slike</label> <img id="url-slika" src="http://icons.iconarchive.com/icons/fatcow/farm-fresh/24/exclamation-icon.png" alt="nesto"> <div id="error_url"></div>
+			
+
+			<p class="opis"><textarea id="opis" name="opis" placeholder="Opis proizvoda" ></textarea><img id="opis-slika" src="http://icons.iconarchive.com/icons/fatcow/farm-fresh/24/exclamation-icon.png" alt="nesto">  <div id="error_opis"></div>
+			
+			 <p class="submit"><input type="submit" value="Promjeni predmet"/></p>
+
+			 </form>
+			
+		</div>
+		</div>

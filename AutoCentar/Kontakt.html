@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Auto-centar</title>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="stil.css">
+<script src="javascript.js"></script>
+</head>
+
+<body>
+
+<h1 class="sredina menu"> Auto-centar Sarajevo </h1>
+
+<div class="dodatakNaslovnoj">
+</div>
+
+
+
+	<ul class="uredi">
+	
+		<li class="uredi2"><a class="uredi3" onclick="otvoriStranicu('Partneri.html')">Partneri</a></li>
+		<li class="uredi2 uredi3 oznaceno" onclick="prikaziMeni()" onmouseout="sakrijMeni()">Kontakt
+		
+			<ul id="padajuci" class="nemojPrikazati padajuciMeni" onmouseout="sakrijMeni()">
+						<li onmouseover="prikaziMeni(); oboji(this);" onmouseout="vratiBoju(this);">Adresa</li>
+						<li onmouseover="prikaziMeni(); oboji(this);" onmouseout="vratiBoju(this);">Telefon</li>
+					</ul>
+		
+		</li>
+		<li class="uredi2"><a class="uredi3" onclick="otvoriStranicu('Usluge.html')">Usluge</a></li>
+		<li class="uredi2"><a class="uredi3" onclick="otvoriStranicu('Naslovna.html')">Naslovna</a></li>
+	</ul>
+	
+	<br>
+	<br>
+	<br>
+			<br><br>
+	
+	<br>
+
+	
+	<div class="zatvoreno"> 
+	<p class="tekstusredinu povecaj">Pošaljite nam vaša pitanja, sugestije ili kritike. Odgovaramo u roku od 24 sata.</p><br>
+			<div class="tekstusredinu">
+			
+
+			
+			
+			
+				<form name="mojaForma" onsubmit="provjeriFormu(); return false;">
+				Ime i prezime:*<br>
+				<input class="hehe" type="text" name="Imeprezime" required x-moz-errormessage="Unesite ime i prezime odvojeno razmakom">
+				<br>	
+				E-mail:*<br>
+				<input class="hehe" type="text" name="email" required x-moz-errormessage="Unesite email formata text@domena.com">
+				<br>
+				Telefon:<br>
+				<input class="hehe" type="text" name="telefon" value="">
+				<br>
+				Drzava:*<br>
+					
+						<select id="drzava" name="OdaberiDrzavu" class="hehe1" required x-moz-errormessage="Izaberite vašu državu">
+						  <option value="" disabled selected>Izaberite vašu državu</option>
+						  <option value="BiH">BiH</option>
+						  <option value="Hrvatska">Hrvatska</option>
+						  <option value="Druga">Druga</option>
+						</select>
+						<br>
+						<input type="submit" value="Potvrdi državu" onclick="provjeriGrad()"><br>
+				Grad:*<br>
+					
+						<select id="grad" name="OdaberiGrad" class="hehe1" required x-moz-errormessage="Izaberite (najbliži) grad (prije toga potvrdite državu klikom na istoimeno dugme)">
+						   <option value="" disabled selected>Izaberite vaš grad</option>
+						</select><br><br>
+	
+
+		<textarea required  x-moz-errormessage="Unesite poruku" class="tekstarea" placeholder="Ovdje ukucajte vašu poruku(formular izgleda ispravno u Firefoxu)"></textarea>
+				<p>* - obavezno za popuniti</p><br>
+				
+
+		<input type="submit" value="Pošalji">
+		</form>	
+		<br><br><hr><br><br>
+		
+		<form onsubmit="return false;">
+		Dodatno za ajax validaciju:<br>
+				Općina<br>
+				<input required id="ajaxOpcina" class="hehe" type="text" name="opcina" value=""><br>
+				Mjesto<br>
+				<input required id="ajaxMjesto" class="hehe" type="text" name="mjesto" value=""><br>
+			<input type="submit" onclick="validirajAjax();" value="Submit"> <br>
+		</form>
+
+		
+		<img class="sugestije" src="sugestije.png" alt="">
+		<br>
+		
+	</div>
+	</div>
+
+
+</body>
+
+</html> 

@@ -1,0 +1,636 @@
+
+@import url(http://fonts.googleapis.com/css?family=Gabriela);
+@import url(http://fonts.googleapis.com/css?family=Lato);
+body{
+	overflow-x:hidden;
+	width: 100%;
+	margin: auto;
+}
+.contact_us{
+	border-style: hidden;
+	border-left: solid;
+	border-right: hidden;
+	border-width: 1pt;
+	padding-left:0.3cm;
+	padding-right:0.3cm;
+	border-color: grey;
+	position: absolute;
+	top: 0.25cm;
+	right:2.3cm;
+	width: 2cm;
+}
+.contact_us{
+	text-decoration: none;
+	color: grey;
+
+}
+.contact_us:hover{
+	text-decoration: underline;
+	
+}
+.Home{
+	border-style: hidden;
+	border-left: hidden;
+	border-right: hidden;
+	border-width: 1pt;
+	padding-left:0.3cm;
+	padding-right:0.3cm;
+	border-color: grey;
+	position: absolute;
+	top: 0.25cm;
+	right:3.7cm;
+}
+.Home{
+	text-decoration: none;
+	color: grey;
+
+}
+.Home:hover{
+	text-decoration: underline;
+	
+}
+.Login{
+	border-style: hidden;
+	border-left: solid;
+	border-right: hidden;
+	border-width: 1pt;
+	padding-left:0.3cm;
+	padding-right:0.3cm;
+	border-color: grey;
+	position: absolute;
+	top: 0.25cm;
+	right:1.5cm;
+}
+.Login{
+	text-decoration: none;
+	color: grey;
+
+}
+.Login:hover{
+	text-decoration: underline;
+	
+}
+div#logotip{
+	position: absolute;
+	border-radius: 15pt;
+	top: 1cm;
+	left: 1.5cm;
+}
+#logotip img{
+	height: 5cm;
+	width: 5cm;
+}
+div#facebook{
+	position: fixed;
+	top: 2cm;
+	right: 0.2cm;
+}
+div#twitter{
+	position: fixed;
+	top: 3cm;
+	right: 0.2cm;
+}
+
+div#unicef{
+	position: fixed;
+	top: 6.5cm;
+	right: 0.2cm;
+}
+div#narodna_kuhinja{
+	position: fixed;
+	top: 7.5cm;
+	right: 0.2cm;
+}
+div#otvorena_mreza{
+	position: fixed;
+	top: 8.5cm;
+	right: 0.2cm;
+}
+div#crveni_krst{
+	position: fixed;
+	top: 9.5cm;
+	right: 0.2cm;
+}
+/*#Srodne_stranice1{
+	position: fixed;
+	top:5;
+	right: 0.2;
+}*/
+
+#narodna_kuhinja img{
+	height: 1cm;
+	width: 1cm;
+}
+#otvorena_mreza img{
+	height: 1cm;
+	width: 1cm;
+}
+#crveni_krst img{
+	height: 1cm;
+	width: 1cm;
+}
+#unicef img{
+	height: 1cm;
+	width: 1cm;
+}
+#naslov_sa_strane{
+	position: fixed;
+	top: 5.5cm;
+	right: 0.2cm;
+	color: grey;
+	font-size: 8pt;
+}
+
+
+div#okvir{
+	position: absolute;
+	border-style: hidden;
+	box-shadow: 6px 7px 42px grey;
+	background-color:#FFFFCC;
+	left: 3cm;
+	right: 3cm;
+	width: 850pt;/*fiksira okvir */
+	height: 900pt;
+}
+#naslov1 p{
+	border-style: solid;
+	border-color: #FFFFCC;
+	margin-left: 11.5cm;
+	margin-right: 23cm;
+	margin-top: 2cm;
+	margin-bottom: 0.003cm;
+	font-size: 15pt;
+	font-family: Gabriela;
+	color: #996633;
+}
+#naslov2 p{
+	border-style: solid;
+	border-color: #FFFFCC;
+	margin-left: 10.5cm;
+	margin-right: 4cm;
+	margin-top: 0.003cm;
+	margin-bottom: 0.003cm;
+	font-size: 40pt;
+	font-weight: bold;
+	font-family: Gabriela;
+	color: #996633;
+}
+#meni{
+	margin-top: 2cm;
+}
+#naslov3 p{
+	border-style: solid;
+	border-color: #FFFFCC;
+	margin-left: 15cm;
+	margin-right: 7.5cm;
+	margin-top: 0.003cm;
+	font-size: 10pt;
+	font-family: Gabriela;
+	color: #996633;
+	text-align: left;
+
+	
+}
+.meni_lista{
+
+	text-align: left;
+	list-style-type: none;
+	display: inline;
+	font-size: 12pt;
+	font-weight: bold;
+	border-style: solid;
+	border-color:   #FFCC77;
+	background-color: #FFCC77;
+	padding-bottom: 0.2cm;
+	padding-top: 0.2cm;
+}
+.a_meni{
+	text-decoration: none;
+	font-family: Gabriela;
+	color:#996633 ;
+	padding-bottom: 0.2cm;
+	padding-top: 0.2cm;
+	padding-left: 3.2cm;
+	padding-right: 3.2cm;
+
+	
+}
+.ax_meni{
+	text-decoration: none;
+	color: white;
+	font-family: Gabriela;
+	background-color: #996633;
+	border-color:  #996633;
+	padding-bottom: 0.2cm;
+	padding-top: 0.2cm;
+	padding-left: 3.2cm;
+	padding-right: 3.2cm;
+}
+.a_meni:hover{
+	color: white;
+	background-color: #996633;
+	border-color:  #996633;
+	
+}
+#Kategorije{
+	margin-top: 1.5cm;
+	border-style: dashed;
+	border-left: hidden;
+	border-top:hidden;
+	border-bottom: hidden;
+	width: 150pt;
+	float: left;
+	height: 530pt;
+	padding-right: 1cm;
+	border-color: grey;
+
+}
+#Kategorije p{
+	border-style: hidden;
+	background-color: #F0F0F0;
+	margin-left: 1cm;
+	font-family: sans-serif;
+	color:  #996633;
+	text-align:left;
+	padding: 0.1cm;
+
+}
+.kategorije_lista{
+	border-style: hidden;
+	background-color:#FFFFCC;
+	padding: 0.2cm;
+	list-style-type: none;
+	text-align: right;
+}
+.a_kategorije{
+	list-style-type: none;
+	text-decoration: none;
+	color: #996633;
+}
+#ax_kategorije{
+	text-decoration: underline;
+	color:  #996633;
+}
+.a_kategorije:hover{
+	text-decoration: underline;
+}
+#Novosti{
+
+	overflow-y:scroll; 
+	border-style: hidden;
+	float: right;
+	width: 650pt;
+	height: 500pt;
+	border-bottom: solid;
+	border-color: grey;
+}
+#Naslov p{
+	color: #996633;
+	font-weight: bold;
+	font-size: 20pt;
+	font-family: Lato;
+	margin-left: 7cm;
+	margin-top: 2cm;
+}
+.novosti_lista{ 
+	border-style: solid;
+	border-width: 1pt;
+	border-color: grey;
+	border-radius: 15pt;
+	box-shadow: 10pt 10pt 5pt grey;
+	background-color: white;
+	list-style: none;
+	height: 4cm;
+	margin-top: 1cm;
+	margin-right: 1cm;
+	padding:0.25cm;
+
+}
+.predmeti_slika img{
+	float: right;
+	margin-left: 0.3cm;
+	margin-top: 0.3cm;
+	width: 3cm;
+	height:3cm;
+	padding: 0.2cm;
+}
+.a_novosti{
+	list-style-type: none;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	margin-left: 0.5cm;
+
+}
+.a_novosti img{
+	float: left;
+	margin-left: 0.3cm;
+	margin-top: 0.3cm;
+	width: 3cm;
+	height:3cm;
+	padding: 0.2cm;
+}
+
+.Opis{
+
+}
+.Opsirnije{
+	color: blue;
+	float: right;
+}
+#Srodne_stranice{
+	float: left;
+	margin-top: 4cm;
+	margin-bottom: 2cm;
+	border-style: hidden;
+	background-color:#FFFFCC;
+	box-shadow: 6px 7px 42px grey;
+	padding-top: 1.5cm;
+	padding-left: 1cm;
+	float: left;
+	width: 820pt;
+	height: 150pt;
+	
+}
+#Srodne_stranice p{
+	color:#996633;
+	font-weight: bold;
+	font-family: Gabriela;
+	font-weight: bold;
+}
+#Srodne_stranice li{
+	padding: 0.2cm;
+	list-style-type: none;
+	display: inline;
+}
+#lista_stranica{
+	list-style-type: none;
+	display: inline;
+}
+
+.a_str img{
+	border-style:solid;
+	color: #FFFFCC;
+	padding: 0.1cm;
+	height: 2cm;
+	width: 2cm;
+}
+.a_str img:hover{
+	border-style:ridge;
+	color:#FFFFCC;
+}
+#Partneri{
+	margin-top: 5cm;
+	float: left;
+	margin-bottom: 2cm;
+	border-style: hidden;
+	background-color:#FFFFCC;
+	box-shadow: 6px 7px 42px grey;
+	padding-top: 1.5cm;
+	padding-left: 1cm;
+	float: left;
+	width: 820pt;
+	height: 150pt;
+}
+#Partneri p{
+	color:#996633;
+	font-weight: bold;
+	font-family: Gabriela;
+	font-weight: bold;
+}
+#Proizvodi p{
+	margin-top: 2cm;
+	margin-left: 2cm;
+	color:#996633;
+	font-weight: bold;
+	font-family: Gabriela;
+	font-weight: bold;
+}
+#lista_partnerax{
+	list-style-image: url(http://icons.iconarchive.com/icons/emoticonshd.com/emoji/16/Emoticon-Cat-Kitty-Pussycat-icon.png);
+	margin-top: 1cm;
+	margin-left: 2cm;
+}
+.a_parx{
+	
+	text-decoration: none;
+	color: black;
+	padding: 0.1cm;
+}
+.a_parx:hover{
+	text-decoration: underline;
+}
+#Partneri li{
+	padding: 0.2cm;
+	list-style-type: none;
+	display: inline;
+}
+.a_par img{
+	border-style:solid;
+	color: #FFFFCC;
+	padding: 0.1cm;
+	height: 2cm;
+	width: 2cm;
+}
+.a_par img:hover{
+	border-style:ridge;
+	color:#FFFFCC;
+}
+
+#video_aboutUs{
+	margin-left: 4.5cm;
+}
+#Opis_organizacije{
+	border-style: hidden;
+	padding: 3cm;
+	font-family: sans-serif;
+}
+#poravnato{
+	text-align: justify;
+}
+iframe{
+	width: 854px;
+	height: 510px;
+	border-style: hidden;
+}
+#video_aboutUs{
+	width: 15cm;
+	height: 12cm;
+	margin-top: 2cm;
+}
+#event1,#event2{
+	margin:2cm;
+	margin-bottom: 1cm;
+	color:#996633;
+	font-weight: bold;
+	font-family: Gabriela;
+	font-weight: bold;	
+}
+table{
+	margin: 2cm;
+	font-weight: bold;
+	font-style: italic;
+	 border: 4px solid #D8D8D8;
+}
+tr{
+	height: 50px;
+	border: 4px solid #D8D8D8;
+}
+td,th{
+	width: 50px;
+	text-align: center;
+	border: 4px solid #D8D8D8;
+}
+#event3{
+	margin-left: 2cm;
+	margin-right: 2cm;
+	border-style: solid;
+	border-color:  #D8D8D8;
+	color: grey;
+	padding-left: 0.5cm;
+	height: 4cm;
+	width: 15cm;
+}
+.event_konkretan{
+	text-decoration: none;
+	color: blue;
+	font-style: italic;
+}
+.event_konkretanx{
+	text-decoration: none;
+	color: blue;
+	font-size: 15pt;
+	text-decoration: underline;
+	font-style: italic;
+}
+.event_konkretan:hover{
+	text-decoration: none;
+	color: blue;
+	font-size: 15pt;
+	text-decoration: underline;
+	font-style: italic;
+}
+#formica{
+	border-style: hidden;
+	padding: 2cm;
+}
+#formica h1{
+	padding: 0.4cm;
+	padding-left: 0cm;
+	color: #996633;
+	font-family: Gabriela;
+	font-size: 15pt;
+}
+#formica input:hover, #Proizvodi input:hover{
+	border-width: 1px;
+	border-style: solid;
+	border-color: #C9C9C9;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+}
+#formica textarea:hover,  #Proizvodi textarea:hover{
+	border-width: 1px;
+	border-style: solid;
+	border-color: #C9C9C9;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+}
+#name,#email,#web,#text,#tel,#township,#location,#naziv,#opis,#url_slike{
+	padding: 10px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #E5E5E5;
+	width: 200px;
+	color: #999999;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+}
+#formica textarea,#Proizvodi textarea {
+	width: 400px;
+	height: 150px;
+	max-width: 400px;
+	line-height: 18px;
+}
+.submit input {
+	width: 100px; 
+	height: 40px;
+	background-color: grey;
+		color: #FFF;
+	border-radius: 3px;
+}
+.submit input:hover {
+	width: 100px; 
+	height: 40px;
+	background-color: #FFCC77;
+	color: #FFF;
+	border-radius: 3px;
+	box-shadow: rgba(0, 0, 0, 0.2) 5px 5px 16px;
+}
+#error {
+	color: red;
+	font-size: 15pt;
+}
+#email-slika,#text-slika,#tel-slika,#web-slika,#township-slika,#location-slika,#opis-slika,#naziv-slika,#url-slika
+{
+	visibility: hidden;
+}
+#error_email,#error_tel,#error_text,#error_township,#error_location,#error_opis,#error_url,#error_naziv
+{
+	color: red;
+	padding-left: 2cm;
+}
+#Glavna_lista,#Podlista1,#Podlista2,#Podlista3,#Podlista4,#Podlista5,#Podpodlista1,#Podpodlista2,#Podpodlista3,#Podpodlista4,#Podpodlista5{
+	list-style-type: none;
+}
+.lista_za_proizvode:hover{
+	color: red;
+}
+#Kategorije a{
+	color: #996633;
+	font-size: 12pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+}
+#Charity a,#Other a,#Australia a, #MostRecent a{
+	color:#996633;
+}
+#Kategorije li{
+	color: #996633;
+	font-weight: bold;
+	font-size: 12pt;
+	padding: 0.2cm;
+}
+#Podpodlista1 a{
+	color: #996633;
+}
+#Podpodlista2 a{
+	color: #996633;
+}
+#Podpodlista3 a{
+	color: #996633;
+}
+#Podpodlista4 a{
+	color: #996633;
+}
+#Podpodlista5 a{
+	color: #996633;
+}
+#Podlista1 a{
+	color: #996633;
+}
+#Podlista2 a{
+	color: #996633;
+}
+#Podlista3 a{
+	color: #996633;
+}
+#Podlista4 a{
+	color: #996633;
+}
+#Podlista5 a{
+	color: #996633;
+}
+#Podlista5 li:hover,#Podlista4 li:hover,#Podlista3 li:hover,#Podlista2 li:hover,#Podpodlista1 li:hover, #Podpodlista2 li:hover, #Podpodlista3 li:hover, #Podpodlista4 li:hover, #Podpodlista5 li:hover{
+	text-decoration: underline;
+}
+
+
+

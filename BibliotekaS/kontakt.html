@@ -1,0 +1,72 @@
+<!DOCTYPE HTML >
+<HTML>
+<head>
+<meta charset="UTF-8">
+<TITLE> BIBLIOTEKA SARAJEVO </TITLE>
+<link rel="stylesheet" type="text/css" href="kontakt.css">
+<script src="validacija.js"></script>
+</head>
+
+<body>
+
+<img src="bib.jpg"  class="center" alt="logo">
+
+<div class="navigacija" >
+<a   onclick="otvoriStranicu('naslov.html')"> NASLOVNICA </a> 
+<a   onclick="otvoriStranicu('tabela.html')"> ADRESAR </a>
+<a   onclick="otvoriStranicu('linkovi.html')"> LINKOVI</a>
+</div>
+
+
+<H1 > KONTAKT FORMA</h1>
+
+ <form name="myForm">
+        <div>
+            Ime: *
+            <br>
+            <input type="text" name="ime" size="25" class="required">
+        </div>
+        <div>
+            Prezime:
+            <br>
+            <input type="text" name="prezime" size="25"  > <div> </div>
+
+        </div>
+        <div>
+            Email: *
+            <br>
+            <input types="email" name="email" size="25"class=" required" > <div>  </div>
+        </div>
+       
+        
+        <br>
+        <div>
+            Poruka: *
+            <br>
+            <textarea name="poruka" rows="6" cols="40" class=" required" ></textarea> <div>  </div>
+        </div>
+		<div>
+            Polja sa * se moraju ispuniti! 
+        </div>
+        <br>
+        <input name="submit" type="submit" value="Potvrdi" />
+        <br>
+		
+    </form>
+
+    <form onsubmit="return false;">
+<br>
+
+        Dodatna polja:<br>
+                Općina *<br>
+                <input required id="ajaxOpcina" class="hehe" type="text" name="opcina" value=""><br>
+                Mjesto *<br>
+                <input required id="ajaxMjesto" class="hehe" type="text" name="mjesto" value=""><br>
+            <input type="submit" onclick="validirajAjax();" value="Potvrdi"> <br>
+        </form>
+
+
+
+
+</body> 
+</HTML>

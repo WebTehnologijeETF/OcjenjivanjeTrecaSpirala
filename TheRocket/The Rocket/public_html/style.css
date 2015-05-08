@@ -1,0 +1,583 @@
+body{
+    background-color:gainsboro;
+   margin:0;
+   padding:0;
+   display: inline-block;
+   font-family:fantasy;
+   height: 100%;
+  
+ 
+}
+.parentWrapper{
+    	min-height:100%;
+position:relative;
+}
+.content {
+padding:10px;
+padding-bottom:80px; 
+
+
+}
+
+#parentFooter {
+width:100%;
+height: 0px;
+position:absolute;
+bottom:0;
+left:0;
+
+}
+.wrapper{
+     margin-left:auto;
+    margin-right:auto;
+    width:1000px;
+}
+
+.container{
+    width: 100%;
+     margin: 0 auto;
+     padding: 0 auto;
+     display: inline-block;
+}
+
+.header{ 
+  background-image: url('The Rocket-images/Snooker Wallpapers3.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height:240px;
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+  padding:0 auto; 
+  
+    
+}
+
+.header h1{ 
+    margin-left:30px;
+    margin-top:0px;
+    color:#08430d;
+   text-align: left;
+    padding:0px;
+    font-size:42px;
+}
+
+.header h2{
+    
+    margin:-67px 365px;   
+}
+
+
+.menu{ 
+    background-color:#c9cacc;
+    height: 50px;
+    margin-top: 0px;  
+    
+    width: 100%;
+    
+     -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    cursor: pointer;
+    
+    
+}
+.menu ul{
+    list-style-type: none;
+   
+    font-size:20px;
+    margin:5px;
+    margin-top: 7px;
+    padding: 5px;
+    
+   
+}
+.menu ul li{
+    
+   
+    padding:5px;
+     margin: 0;
+    display: inline-block;
+    
+    
+}
+.menu #prva li a{
+ background-color: #e8e8e9;
+ border-radius: 10%;
+    border: #e8e8e9 solid 1px;
+    padding:5px;   
+   
+}
+
+.menu #druga li a{
+     background-color: #e8e8e9;
+ border-radius: 10%;
+    border: #e8e8e9 solid 1px;
+    padding:5px;   
+}
+.menu ul li ul{
+    
+}
+    
+
+.menu #prva{
+  float:left;
+ 
+}
+.menu #druga{
+     float:right; 
+    
+     
+     
+}
+
+
+
+.tekst{
+     position: relative;
+     background-color:#c9cacc;
+     width: 500px;
+     padding:20px;
+     padding-top:0px;
+     margin-top:50px;
+     margin-bottom:10px;
+     
+     display: inline-block;
+     float:left;
+     height: auto;
+     color:#08430d;
+}
+.tekst p{
+    font-size:17px;
+    
+}
+.tekst h1{
+    margin-top:5px;
+    padding-top:10px;
+}
+.tekst  p span {
+    font-weight: bold;
+  }
+
+
+
+.slika {
+    
+    margin-top:70px;
+    display: inline-block;
+    position:relative;
+   
+    float:right;
+    
+}
+.slika img{
+    position:relative;
+    height: 300px; 
+    width: 400px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+
+
+
+
+.tekst1{
+    
+     background-color:#c9cacc;
+     width: 100%;
+     height:auto;
+     color:#08430d;
+     display: inline-block;
+     padding:0;
+     margin-top:50px;
+     margin-bottom:50px;
+}
+#LN{
+    text-decoration: underline;
+    color:#9e0303;
+    text-align: center;
+    margin-top: 20px;
+}
+.tekst2 .slikica img{
+    position: relative;
+    display: inline-block;
+    margin:auto;
+     margin-top: 25px;
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 100px;
+    height: 100px;
+    float:left;
+     
+}
+
+.tekst2{
+    float:left;    
+    margin-bottom:20px;
+   width: 100%;
+   
+    
+}
+.tekst2 p{
+    
+     
+   
+    text-align: left;
+     width: 100%;
+    
+   
+}
+.tekst2 h3 a{
+    margin-left: 80px;
+}
+
+.tekst2  .shaded{
+   color:gray;
+   margin-top: 10px;
+   display: inline-block;
+   float:left;
+}
+
+a:link{
+  color:#9e0303;
+  text-decoration: none;
+  
+}
+a:hover {
+    color:#f92e2e;
+   
+     text-decoration: none;
+}
+a:visited{
+    color:#08430d; 
+    
+     text-decoration: none;
+}
+ a:active{
+   
+    text-decoration: underline;
+}
+li a:link{
+    color:#08430d;
+    text-decoration: none;
+}
+li a:hover{
+    color:#9e0303;
+     text-decoration: none;
+}
+
+/*
+a.link, a.visited{
+    color:green;
+}
+a.visited{
+    color:#08430d; 
+    
+     text-decoration: none;
+}
+a.selected:link, a.selected:visited{
+    color:#9e0303;
+}*/
+
+
+.footer{
+   color:#08430d; 
+  
+  width:100%;
+  
+  background-color:#c9cacc;
+   
+ 
+  display: inline-block;
+
+   
+  
+}
+.FT{
+ margin-top: 20px; 
+ margin-left: 140px;
+ margin-right: 20px;
+ font-size: 18px;
+  display: inline-block;
+}
+.FT h2{
+     float:left;
+}
+.FT img{
+    float:left;
+    margin-left: 15px;
+    margin-top: 20px; 
+    display: inline-block;
+}
+.FT1{
+    position: relative;
+    width:400px;
+    margin-right: -50px;
+  display: inline;
+ 
+   
+}
+.FT1 h4{
+    
+    margin-left: 0px;
+    width:80%;
+    padding-right: 0px;
+    font-size: 17px;
+    margin-top: 0px;
+    margin-left: -200px;
+    margin-top: 80px;
+    float:left;
+    display: inline-block;
+}
+
+/*
+.FT2 {
+    float:right;
+    display: inline-block;
+    font-size: 20px;
+    padding: 0;
+    margin-top: 40px;
+    font-weight: bold;
+    position: fixed;
+    margin-right: 50px;
+    
+    left: 10px;
+    
+    width: 400px;
+    b
+   
+}
+
+.FT2 h2{
+    float:right;
+    padding-top: 0;
+    margin-top: 0;
+   margin-right: 280px;
+     position: relative;
+    text-align: left;
+    display: inline-block;
+}
+
+
+.FT2 p{
+    font-size: 17px;
+    float:right;
+     position: relative;
+    margin-top: -5px;
+    display: inline-block;
+}
+.FT2 img{
+    
+    margin-top: -60px;
+   float:right;
+    margin-right: 400px;
+     position: relative;
+     display: inline-block;
+}
+*/
+/* 
+    Created on : Mar 25, 2015, 2:29:43 PM
+    Author     : azra
+*/
+
+/*RANKINGS.HTML -------------------------------------------------------*/
+
+table{
+    margin-top: 50px;
+}
+table,th,td{
+    //border: 1px solid black;
+    width:900px;
+    
+}
+th{
+    color:#9e0303;
+    font-size:25px;
+}
+td{
+    color:#08430d;
+    font-size: 20px;
+    text-align: center;
+}
+
+/*PRODUCTS.HTML----------------------------------------------------------*/
+
+#products li{
+    padding-top: -25px;
+    list-style-image:  url('The Rocket-images/icon.png');
+    resize: both;
+    font-weight: bold;
+    font-size:20px;
+}
+
+#products p{
+    color:#08430d;
+    padding-left: 40px;
+}
+
+/*CONTACT.HTML----------------------------------------------------------
+Radi na Chrome-u i Mozilli*/
+form input,select{
+    display: block;
+    margin-bottom: 10px;
+}
+
+form{
+    margin-top: 50px;
+    margin-left: 100px;
+    font-size: 18px;
+}
+#forma h4,p{
+    color:#08430d;
+}
+
+#forma p{
+    margin: 0px;
+    padding-left: 5px;
+    
+}
+#forma h2{
+    color:#9e0303;
+}
+#forma span{
+    font-weight: bold;
+    margin-right: 5px;
+    
+}
+
+.my-input {
+    display: inline;    
+}
+
+.validation-thumbnail-visible {
+    display: inline;
+}
+
+.validation-thumbnail-invisible {
+    display: none;
+}
+
+.menu-invisible{
+    width:100px;
+    visibility: hidden;
+   
+}
+.menu-invisible li{
+   
+}
+.menu-visible{
+    border-radius: 10%;
+    border: #e8e8e9 solid 1px;
+    background-color: #e8e8e9;
+    width: 100px;
+    visibility:visible;
+}
+.menu-visible li{
+
+   
+}
+.menu-visible li a{
+   
+   
+}
+#dine-drink{
+    
+       position:relative;
+       top:73px;
+
+}
+.menu #prva {
+     position: absolute;
+     //bottom: 75px;
+     top: 165px;
+     
+}
+
+.validation-error {
+    color: red;
+    font-size: 15px;
+    opacity: 0.70;
+}
+.zeleno{
+    width: 15px;
+    height: 15px;
+}
+
+.crveno{
+    width: 15px;
+    height: 15px;
+}
+.redstar{
+    color:#9e0303;
+    
+}
+
+#required-fields{
+    margin-top: 10px;
+    padding-top:10px;
+    
+}
+
+//------------------------------------TABLE----------------------------------------------
+#description-input{
+width:300px;
+height: 80px;
+padding: 1px;
+}
+
+.profile-picture{
+    width: 50px;
+    height: 50px;
+}
+.missing-profile-picture{
+    height:50px;
+    width:100px;
+}
+
+#modify-player{
+    margin-top: 0px;
+    border: 1px solid black;
+    width: 400px;
+    padding: 50px;
+    
+}
+#modify-player-title{
+   color: #9e0303;
+   margin-left: 280px;
+   margin-top:70px;
+   padding: 0px;
+   
+}
+
+.player-field{
+    margin-top: 10px;
+}
+#ID{
+    //visibility: hidden;
+}
+
+#player-buttons{
+    display: block;
+    //width:44%;
+    margin:0 auto;
+    //margin-top: 50px;  
+    padding-left: 60px;
+}
+#player-buttons input{
+    display:inline-block;
+    height:30px;
+    width: 100px;
+    
+    //margin-left:10px;
+       
+}
+.data{
+    border:1px solid black;
+}
+.table-header{
+    border:1px solid black;
+}
+

@@ -1,0 +1,570 @@
+@import url('http://fonts.googleapis.com/css?family=Stalemate&subset=latin,latin-ext');
+@import url('http://fonts.googleapis.com/css?family=Indie+Flower|Dancing+Script|Handlee&subset=latin,latin-ext');
+
+* {
+padding:1px;
+margin:2px;
+text-decoration:none;
+}
+
+body 
+{
+
+width:1240px;
+height:750px;
+background:url('http://wallfoy.com/wp-content/uploads/2014/03/Grey-Background-67.jpg')no-repeat center center fixed;
+-moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;      
+overflow-x:hidden;	
+}
+
+
+
+
+body > #okvir
+{
+	
+      width:1230px;
+        height:740px;
+ margin-left: 40px;
+}
+
+
+#okvir > #zaglavlje
+{
+padding:1px;
+font-size: 46px;
+  text-shadow: 4px 4px 4px #aaa;
+}
+
+#okvir > #zaglavlje2
+{
+padding:1px;
+font-size: 46px;
+  text-shadow: 4px 4px 4px #aaa;
+}
+
+
+.logo {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+ 
+.logo:hover {
+  border-radius: 50%;
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+h1 
+{
+width:500px;
+height:59px;
+text-align: center;
+font-size: 56px;
+font-family: 'Stalemate', cursive;
+color:#2F4F4F;
+padding: 5px;
+
+}
+
+
+h3
+{
+width:500px;
+height:59px;
+
+ text-align: center;
+
+font-family: 'Stalemate', cursive;
+color:#2F4F4F;
+padding: 5px;
+
+}
+
+h2{
+width:420px;
+height:39px;
+text-align: left;
+font-size:25px;
+font-family: 'Handlee';
+color:#2F4F4F;
+padding: 5px;
+border:1px solid black;
+
+}
+
+
+form { 
+    min-width: 150px;
+ 
+   width: 75%;
+ 
+   max-width: 400px;
+
+  margin-left:10px;
+
+margin-top:2px;
+
+border: 2px solid #a1a1a1;
+    
+border-radius: 25px;
+
+
+}
+
+
+
+.kontaktforma { 
+    min-width: 70px;
+ 
+   width: 55%;
+ 
+   max-width: 400px;
+
+  margin-left:10px;
+
+margin-top:2px;
+
+border: 2px solid #a1a1a1;
+    
+border-radius: 25px;
+
+
+}
+
+form input { 
+    width: 80%;
+}
+
+
+div > #meni
+{
+        width:1220px;
+       
+	float:left;
+text-decoration: none;
+      border: 2px solid #2F4F4F;
+	  border-radius: 25px;
+
+}
+
+
+
+
+
+#meni > ul li
+{
+	display: inline-table;
+	padding: 5px 0px;
+}
+
+#meni >
+a:link {color: #2F4F4F;}
+a:visited {color: #000000;}
+a:hover {color: #2F4F4F;}
+a:active {color: #2F4F4F;}
+
+
+
+div > #glavni
+{
+background-color: #E0E0E0 ;
+        width:1220px;
+         height:450px;
+	float:left;
+
+}
+div > #glavni2
+{background-color:transparent ;
+        width:1220px;
+         height:550px;
+	float:left;
+}
+div > #glavnipocetna
+{
+
+        width:1220px;
+         height:450px;
+	float:left;
+
+}
+
+
+.ScrollStyle
+{
+    max-height: 420px;
+   max-width: 450px;
+    overflow-y: scroll;
+	background-color: #E0E0E0 ;
+margin-left:740px;
+margin-top:-398px;
+border:2px inset #2F4F4F;
+}
+
+.ScrollStyle2
+{
+  overflow-y:scroll;
+    width: 1100px;
+    height:200px;
+
+ 
+margin-top:30px;
+
+
+}
+
+
+#sidebar {
+ background-color: #E0E0E0 ;
+    top:30px; bottom:0; left:0;
+    width:200px;
+height:540px;
+border:1px solid #000;
+}
+
+
+#content { 
+
+ width:900px; 
+height:500px;
+    margin-top:-540px;
+margin-left:230px;
+}
+
+
+p.pos_fixed {
+    position: fixed;
+    top: 30px;
+    right: 5px;
+    color: black;
+}
+
+
+.ScrollStyle3
+{
+  overflow-y:scroll;
+    width: 1100px;
+    height: 200px;
+margin-top:30px;
+
+
+}
+
+div.img {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #0000ff;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+}	
+
+div.img img {
+    display: inline;
+    margin: 5px;
+ border:1px solid #2f4f4f;
+}
+
+div.img a:hover img {
+    border: 1px solid #2F4F4F;
+}
+
+div.cijena {
+  text-align: center;
+  font-weight: normal;
+  width: 120px;
+  margin: 5px;
+}
+
+
+
+div.image{
+
+ max-width:796px;
+max-height:400px;
+    text-align:justify;
+   opacity:0.8;
+   
+ 
+background-size:100%
+}
+
+div.imageonama{
+max-width:600px;
+height:600px;
+    text-align:justify;
+   opacity:0.8;
+    background:url('http://data2.whicdn.com/images/22845994/large.jpg')no-repeat ;
+ 
+background-size:80%
+
+}
+
+
+div.image1 {
+
+ max-width:500px;
+height:400px;
+    text-align:justify;
+   opacity:0.8;
+   background:url('http://www.neckersjewelers.com/media/slides/hearts_on_fire_2.jpg')no-repeat ;
+ 
+background-size:88%;
+margin-top:250px;
+}
+  
+div > #dno
+{
+background-color: #E0E0E0 ;
+	padding: 10px 10px;
+  
+}
+
+div.image2 {
+
+ max-width:500px;
+    height:400px;
+    text-align:justify;
+   opacity:0.8;
+   background:url('http://www.bridalguide.com/sites/default/files/article-images/planning/DT_eternal.jpg')no-repeat ;
+background-size:55%;
+margin-left:448px;
+margin-top:-405px;
+}
+
+
+div.logo{
+
+ max-width:160px;
+    height:150px;
+    text-align:justify;
+   opacity:0.8;
+   background:url('http://i59.tinypic.com/2dlumxe_th.png')no-repeat ;
+background-size:90%;
+margin-top:-90px;
+
+}
+
+
+div.Onamapodaci{
+ width:550px;
+         height:300px;
+	float:right;
+margin-right:120px;
+border: 2px solid #a1a1a1;
+    border-radius: 25px;
+}
+
+div.Kontaktpodaci{
+width:600px;
+         height:500px;
+	float:right;
+margin-right:110px;
+}
+
+
+table.gridtable {
+	 font-family: Arial, Helvetica, sans-serif;
+	font-size:20px;
+	
+	border-width:10px;
+	border-color:#2F4F4F;
+ border-radius: 100px;
+	
+}
+table.gridtable th {
+	border-width: 15px;
+	padding: 15px;
+	border-style: solid;
+	border-color:#2F4F4F;;
+   border-radius: 25px;
+	background-color: #666666;
+
+}
+table.gridtable td {
+
+	border-width: 1px;
+
+	padding: 5px;
+border-style: solid;
+	border-color:#2F4F4F ;
+   border-radius: 25px;
+color:#2f4f4f;
+	
+}
+
+
+
+
+
+#dno > ul
+{
+margin-bottom: 50px;
+
+    list-style-image: url('http://www.fordesigner.com/pic/zip/2009161245116877780111.gif');
+
+
+}
+
+ul.mojilinkovi{
+list-style-image: url('http://www.fordesigner.com/pic/zip/2009161245116877780111.gif');
+
+
+}
+div > #podnozje
+{
+background-color: #E0E0E0 ;
+width: 1200px;
+height:40px;
+margin-top:550px;
+padding:0px 5px 0px 15px;
+
+}
+
+div > #podnozje2
+{
+background-color: #E0E0E0 ;
+width: 1240px;
+height:23px;
+margin-top:550px;
+padding:0px 5px 0px 15px;
+
+}
+
+
+#p{
+color:black;
+padding:1px;}
+
+
+table.tabeleposlovnica {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#000000;
+	border-width:10px;
+	border-color:#666666;
+ 
+width:400px;
+         height:200px;
+	float:right;
+margin-right:-10px;
+	
+}
+table.tabeleposlovnica th {
+	border-width: 15px;
+	padding: 15px;
+	border-style: solid;
+	border-color:#666666;
+   
+	background-color: #666666;
+
+}
+table.tabeleposlovnica td {
+
+	border-width: 1px;
+
+	padding: 5px;
+border-style: solid;
+	border-color:#2F4F4F ;
+  
+color:black;
+	
+}
+
+
+ #KategorijeMeni
+{
+	visibility: hidden;
+
+	
+}
+#KategorijeMeni a
+{
+
+ text-align: left;
+
+font-family: Arial, Helvetica, sans-serif;
+color:#2F4F4F;
+padding: 5px;
+
+	font-size: 15px;
+	
+	
+
+}
+
+ #KategorijeMeni a:hover
+{
+	background-color: #5f5f5f;
+	box-shadow: 0px 3px 5px 0px rgba(0,0,0,1);
+}
+
+
+.greska {
+	height: 25px;
+	width: 30px;
+	margin-bottom: -7px;
+	margin-left: 5px;
+	visibility: visible;
+}
+
+.greska_invisible {
+	height: 25px;
+	width: 30px;
+	margin-bottom: -7px;
+	margin-left: 5px;
+	visibility: hidden; 
+}
+
+.greska_poruka {
+	height: 25px;
+	width: 30px;
+	margin-bottom: 120px;
+	margin-left: 5px;
+	visibility: visible;
+}
+
+.greska_poruka_invisible {
+	height: 25px;
+	width: 30px;
+	margin-bottom: 120px;
+	margin-left: 5px;
+	visibility: hidden; 
+}
+
+.poruka {
+	margin-bottom: 72px;
+	margin-left: 5px;
+	visibility: visible;
+	color: red;
+}
+
+.poruka_invisible {
+	margin-bottom: -7px;
+	margin-left: 5px;
+	visibility: hidden;
+	color: red;
+}
+
+.poruka_komentar {
+	position: relative;
+	bottom: 125px;
+	visibility: visible;
+	color: red;
+}
+
+.poruka_komentar_invisible {
+	position: relative;
+	bottom: 125px;
+	visibility: hidden; 
+	color:red;
+}

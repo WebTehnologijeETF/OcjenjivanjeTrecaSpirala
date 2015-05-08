@@ -1,0 +1,491 @@
+﻿@import url("http://fonts.googleapis.com/css?family=Lato:400,700,400italic");
+
+/*mali fix za citace gdje nije implementiran HTML5*/
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+ 
+
+/*Whole Page*/
+html{
+	padding: 0;
+}
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	font-size: 15px;
+	font-family: Lato, Arial,  Sans-serif;
+	background-color: #0B0F13;
+}
+body{
+	overflow: auto;
+}
+a{
+	text-decoration: none;
+}
+/*Whole page - END*/
+
+/*Navbar*/
+.navbar{
+	min-height: 60px;
+	font-size: 20px;
+  	padding-left: 15px;
+  	padding-right: 15px;
+  	margin-right: auto;
+  	margin-left: auto;
+  	overflow: auto;
+}
+
+.navbar-small{
+	min-height: 50px;
+	font-size: 16px;
+}
+
+.navbar ul{
+	margin: 0;
+	list-style-type: none; 
+	float: left;
+	overflow: hidden;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+
+
+.navbar>ul>li{
+	float: left;
+	
+	padding: 0 10px;
+}
+.navbar>ul>li>a{
+	display: block;
+	padding-top: 18px;
+	padding-bottom: 18px; 
+}
+
+.navbar-small>ul>li>a{
+	padding-top: 14px;
+	padding-bottom: 14px;
+}
+
+/*proba*/
+.navbar>ul>li>a:hover .ca-icon{
+    color: #fff;
+    font-size: 90px;
+}
+/*.navbar>ul>li>a:hover{
+    color: #00ccff;
+    -webkit-animation: moveFromLeftRotate 600ms ease;
+    animation: moveFromLeftRotate 600ms ease;
+    -webkit-animation-delay: 100ms;
+    animation-delay: 100ms;
+}*/
+
+/*proba*/
+
+
+.navbar-tamni{
+	background-color: #2c3e50;
+	color: white;
+}
+.navbar-tamni a{
+	color: white;
+}
+.navbar-tamni li.active, .navbar-tamni li:hover:not(.no-hover){
+	background-color: #1d2935;
+}
+.navbar-tamni li.active{
+	/*Udustali od sjene
+	box-shadow: 0px 0px 3px 0px black;*/
+}
+
+@media (max-width: 500px){
+	.navbar>ul>li{
+		clear: both;
+	}
+	.navbar ul{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	
+}
+
+/*
+@-webkit-keyframes moveFromLeftRotate{
+    from {
+        transform: translateX(-100%) rotate(-90deg);
+    }
+    to {
+        transform: translateX(0%) rotate(0deg);
+    }
+}
+
+@keyframes moveFromLeftRotate{
+    from {
+        transform: translateX(-100%) rotate(-90deg);
+    }
+    to {
+        transform: translateX(0%) rotate(0deg);
+    }
+}*/
+
+.logo{
+	width: auto;
+	height: 56px;
+	margin: 0 0 0 -20px;
+	padding: 12px 0 !important;
+	font-size: 28px;
+}
+.logo>img{
+	margin: -15px 4px -13px 0;
+	height: 50px;
+	vertical-align: middle;
+	display: inline;
+}
+
+.navbar{
+	box-shadow: 0px 0px 6px -1px black;
+}
+/*Navbar - END*/
+
+/*Warrnig: footer is not very good, test it before use, 
+and use it with .navbar and .navbar-tamni*/
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+footer{
+	display: none;
+	background-color: #1d2935;
+	color: white;
+	min-height: 50px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	overflow: auto;
+	text-align:center;
+   	padding:5px;
+}
+footer a{
+	color: white;
+}
+
+/*Footer - END*/
+
+.ng-scoope{
+	display: block;
+	overflow: hidden;
+}
+/*Modal*/
+.modal{
+	display: block;
+	position: relative;
+	margin-top:50px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	max-width: 700px;
+	width: 50%;
+	background-color: transparent;
+	padding: 0px;
+
+	overflow: auto;
+}
+
+.modal-content{
+	border-radius: 6px;
+	padding: 15px;
+}
+
+.modal-content>a{
+	display: block;
+	
+}
+.modal-tamni{
+	color: white;
+	background-color: #172029;
+	box-shadow: 0px 0px 6px black;
+}
+.modal-tamni a{
+	color: white;
+}
+/*Modal - END*/
+
+/*Buttons*/
+.btn{
+	display: block;
+	border-radius: 6px;
+	box-shadow: 0px 0px 4px black;
+	padding: 10px;
+}
+
+.btn-wide{
+	width:100%;
+	font-size: 23px;
+	padding: 15px;
+}
+
+.btn-orange{
+	background-color: #bd4028;
+	color: white;
+}
+
+.btn-violet{
+	background-color: #6C0EA3;
+	color: white;
+}
+.btn-blue{
+	background-color: #1A74AB;
+	color: white;
+}
+
+.btn-group-vertical>.btn:not(:first-child):not(:last-child){
+	border-radius: 0px;
+}
+.btn-group-vertical>.btn:first-child{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+.btn-group-vertical>.btn:last-child{
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+
+.link  {
+  color: white;
+  cursor:pointer;
+  display:block;
+  border-radius: 0px;
+  padding: 10px;
+  padding-top: 0px;
+  padding-left: 26px;
+  border-right: 1px solid #172029;
+  border-bottom: 1px solid #172029;
+  border-left: 1px solid #172029;
+  background-color: #172029;
+  border-top: 1px solid #172029;
+  font-size: medium;
+  font-family: Lato, Arial, Sans-serif;
+  background:url("https://cdn4.iconfinder.com/data/icons/linecon/512/file-20.png")no-repeat scroll left top transparent;
+}
+
+/*Buttons - END*/
+
+/*Forms*/
+	form  *{
+		font-family: Lato, Arial, Sans-serif;
+		font-size: 15px;
+	}
+	.form-block, .form-block *{
+		display: block;
+	}
+
+	.form-group{
+		margin-top: 7px;
+		margin-bottom: 7px;
+	}
+
+	#loginButton{
+		border: 0px solid black;
+		outline: 0px;
+		margin-top: 12px;
+		margin-left: auto;
+		margin-right: 0;
+	}
+
+	.text-box{
+		/*pravimo mjesto za ikonicu i stavljeno inline da moze u jednom redu biti prikazano*/
+		width: 90%;
+		display: inline-block;
+
+		border-radius: 6px;
+		padding: 8px 13px;
+		box-shadow: inset 0px 0px 0px;
+		outline: 0 none;
+		/*Promjena: ispravljeno čudno ponašanje na focus*/;
+		border: 4px solid;
+	}
+	.text-box:focus{
+		padding: 8px 13px;
+		border-radius: 6px;
+		/*
+		Promjena: ispravljeno čudno ponašanje na focus, i dodana druga boja na focus
+		border: 1px solid #999999;
+		*/
+		border-color: #1A74AB; 
+		box-shadow: inset 0px 0px 0px;
+		outline: 0 none;
+	}
+	.form-label{
+		padding: 8px 13px;
+	}
+/*Forms-END*/
+
+
+/*Home**/
+#menu-left{
+  /*margin: 0px;
+  float: left;
+  width: 33%;
+  padding: 5px;
+  border: solid;
+  height: 100%;*/
+  /*border-style: groove;*/
+  overflow: auto;
+  background-color: #172029;
+  position: absolute;
+  box-sizing: border-box;
+}
+
+#menu-left::after{
+	clear: both;
+}
+
+#menu-left>h2{
+    margin-left: 5px;
+	color: white;
+}
+
+#main-right{
+   
+  margin-top: 0px;
+  float: right;
+  width: 70%;
+  height: 100px;
+  padding: 5px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  /*border: solid;?/
+	clear: both;
+  /*border-style: groove;*/
+}
+
+.editor{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+#home-w, #template, #main{
+	position: relative;
+	min-height: 100%;
+}
+
+#main{
+	box-sizing: content-box;
+}
+
+ul#projectTree{
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type: none;
+
+}
+ul#projectTree>li{
+		 display:block;
+		 list-style-image:none;
+}
+
+
+/*Folder style - begin*/
+
+.folder{
+	display:block;
+}
+
+.folder>ul{
+
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type: none;
+}
+
+.folder>ul>li
+	{
+	display: block;
+	list-style-image:none;
+
+}
+
+.folder>span.link{
+
+  text-decoration: underline;
+  font-weight: bolder;
+  list-style-type: none;
+  background: url("https://cdn2.iconfinder.com/data/icons/thesquid-ink-40-free-flat-icon-pack/64/folder-20.png") no-repeat scroll left top transparent;
+}
+
+.folder>span.icon{
+	cursor:pointer;
+}
+
+.folder>span{
+	display:inline;
+}
+
+.expanded>span.icon:after{
+content: url("https://cdn4.iconfinder.com/data/icons/linecon/512/sub-20.png");
+
+}
+
+.unexpanded>span.icon:after{
+ content: url("https://cdn4.iconfinder.com/data/icons/linecon/512/add-20.png");
+}
+/*Folder style - END*/
+
+/*Home - END*/
+@media (min-width: 900px){
+	.right-fix{
+		position: fixed;
+		top: 60px;
+		right: 20px;
+		width: 200px;
+	}
+}
+
+#PartnersList{
+	list-style-image: url('/images/bullet02.png');
+}
+
+#project-list a, #editor a{
+	color: white;
+	text-decoration: none;
+}
+#editor{
+	height: 200px;
+}
+
+#errors{
+	width: 100%;
+	border-radius: 6px;
+	background-color: red;
+	color: white;
+	padding: 10px 12px;
+	display: none;
+}
+
+.error-icon{
+	width: 32px;
+	max-width: 10%;
+	max-height: 32px;
+	display: none;
+}
+
+#r1, #r2, .radio-label{
+	display: inline-block;
+	max-width: 100px;
+}

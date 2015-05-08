@@ -1,0 +1,480 @@
+@import url(http://fonts.googleapis.com/css?family=Gabriela);
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(http://fonts.googleapis.com/css?family=Fredericka+the+Great);
+
+/*All Pages*/
+body {
+    overflow-y: scroll;
+}
+
+.bgimg {
+    min-height: 100%;
+    min-width: 100%;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -2;
+}
+
+/*Menu*/
+.menu {
+    position: relative;
+    margin: 0 auto;
+    width: 796px;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: Lobster, Serif;
+}
+
+.menu:hover {
+    cursor: pointer;
+}
+
+.menu li > a {
+    display: block;
+    height: 35px;
+    width: 200px;
+    text-decoration: none;
+    color: red;
+}
+
+.menu ul {
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+    width: 200px;
+    list-style-type: none;
+    font-size: 30px;
+    margin-right: -2px;
+    margin-left: -2px;
+}
+
+.menu ul li:hover {
+    background-image: url("../Images/mbuttonformhover.png");
+    background-repeat: no-repeat;
+    background-size: 215px 45px;
+    background-position: -5px -5px;
+}
+
+.menu li:active {
+    background-image: url("../Images/mbuttonform.png");
+    background-repeat: no-repeat;
+    background-size: 215px 45px;
+    background-position: -5px -5px;
+}
+
+.notClicked {
+    /* background-color: #fff059;
+     background-repeat: no-repeat;
+     background-size: 200px 45px;*/
+    background-image: url("../Images/mbutton.png");
+    background-repeat: no-repeat;
+    background-size: 215px 80px;
+    background-position: -5px -20px;
+}
+
+.Clicked {
+    background-image: url("../Images/mbuttonform.png");
+    background-repeat: no-repeat;
+    background-size: 215px 45px;
+    background-position: -5px -5px;
+}
+
+/*SubMenu*/
+
+.menu li > ul {
+    display: none;
+}
+
+ul > li {
+    position: relative;
+}
+
+ul > li ul {
+    display: none;
+    position: absolute;
+    z-index: 99;
+}
+
+ul > li ul li {
+    display: block;
+}
+
+ul#ONamaSub li > ul#ONamaSubB {
+    display: none;
+}
+
+ul#ONamaSub li {
+    position: relative;
+}
+
+ul#ONamaSub > li {
+    float: left;
+}
+
+ul#ONamaSub a {
+    text-decoration: none;
+    font-size: 25px;
+}
+
+ul#ONamaSub > li ul#ONamaSubB {
+    position: absolute;
+}
+
+ul#ONamaSubB {
+    left: -198px;
+    top: 0;
+}
+
+ul#ONamaSub > li ul#ONamaSubB li {
+    display: block;
+}
+
+ul#ONamaSub {
+    top: 35px;
+    left: 2px;
+}
+
+/*Logo*/
+.logoPozicija {
+    background-image: url("../Images/logo.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 100px;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    z-index: -1;
+}
+
+.logoPozicija > p.test {
+
+    font-family: "Fredericka the Great", Serif;
+    font-size: 72px;
+    color: white;
+    position: relative;
+    bottom: 150px;
+    right: -25px;
+}
+
+/*Okviri*/
+.mainOkvir {
+    padding: 20px;
+    width: 640px;
+    top: 50px;
+    position: relative;
+    float: left;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-family: Gabriela, Serif;
+    font-size: 85%;
+    margin-left: 20px;
+}
+
+.mainOkvirOnama {
+    padding: 20px;
+    width: 640px;
+    position: relative;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-family: Arial, Serif;
+    font-size: 85%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.mainOkvir1 {
+    padding: 20px;
+    width: 1024px;
+    top: 50px;
+    position: relative;
+    float: left;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-family: Rockwell, Serif;
+    font-size: 85%;
+    margin-left: 20px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.right {
+    float: right;
+}
+
+span.img1 {
+    position: relative;
+}
+
+span.img1:hover:after {
+    background-image: url("http://urbanbug.net/uploads/useruploads/Mart-2015/Ema-Ema-izlo%C5%BEba-res.jpg");
+    content: "";
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 314px;
+    position: absolute;
+    top: -157px;
+    left: 50px;
+    display: block;
+}
+
+.MainP {
+    margin: 20px;
+    text-align: justify;
+    min-height: 240px;
+}
+
+.ArticleLinks {
+    text-decoration: none;
+    color: yellow;
+    font-weight: bold;
+}
+
+.BeoFestIMG {
+
+    background-image: url("http://urbanbug.net/uploads/events/thumb_1423087252-bdf%2015%201%20-%20Copy.jpg");
+    background-size: 100%;
+    width: 200px;
+    height: 144px;
+    float: left;
+    margin-right: 20px;
+}
+
+.textdecoration {
+    font-weight: bold;
+    padding-right: 2px;
+    font-family: Arial, Serif;
+
+}
+
+.iframePozicija {
+    position: relative;
+}
+
+iframe {
+    width: 320px;
+    height: 240px;
+    position: absolute;
+    margin: auto;
+    left: 700px;
+    border: 0;
+
+}
+
+td {
+    width: 170px;
+    height: 160px;
+    padding-left: 5px;
+}
+
+caption {
+    font-weight: bolder;
+    font-size: 20px;
+
+}
+
+th {
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+table, td, th {
+    border-bottom: 1px solid white;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.prazanRed > td {
+    height: 0;
+    border-bottom-color: rgba(255, 255, 255, 0);
+}
+
+th {
+    text-align: center;
+}
+
+td {
+    font-family: Arial, Serif;
+    text-align: center;
+}
+
+td > a {
+    text-decoration: none;
+    color: yellow;
+    font-weight: bolder;
+    font-size: large;
+    display: block;
+
+}
+
+.opisTabela {
+    font-size: small;
+    text-align: left;
+}
+
+.mainOkvirForma {
+    padding: 20px;
+    width: 700px;
+    height: 420px;
+    margin: auto;
+    margin-top: 100px;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-family: Rockwell, Serif;
+    font-size: 85%;
+    position: relative;
+}
+
+audio {
+
+    position: fixed;
+    top: 20px;
+    left: 0;
+    width: 45px;
+}
+
+audio:hover {
+
+    width: 300px;
+}
+
+.formaWrap {
+    width: 150px;
+    padding-right: 10px;
+    padding-top: 20px;
+    position: relative;
+    float: left;
+}
+
+.validation {
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: 0;
+    bottom: 2px;
+    background-image: url("../Images/validateme.png");
+    background-repeat: no-repeat;
+    background-size: 21px 21px;
+}
+
+.formaWrap .labelA {
+    margin: 20px;
+}
+
+.formaWrap .labelB {
+    margin: 50px;
+}
+
+.formaWrap > input {
+    width: 130px;
+    text-indent: 2px;
+}
+
+.formaDugme1 {
+
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.formaDugme2 {
+
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.formaDugme1 > input, .formaDugme2 > input {
+    width: 75px;
+    height: 25px;
+    border: none;
+    background: rgba(0, 0, 0, 0);
+    background-image: url("../Images/mbuttonform.png");
+    background-repeat: no-repeat;
+    background-size: 75px 25px;
+    background-position: center;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.formaDugme1 > input:hover, .formaDugme2 > input:hover {
+    width: 75px;
+    height: 25px;
+    border: none;
+    background: rgba(0, 0, 0, 0);
+    background-image: url("../Images/mbuttonformhover.png");
+    background-repeat: no-repeat;
+    background-size: 75px 25px;
+    background-position: center;
+    color: black;
+    font-weight: bold;
+}
+
+.formaDugme1 > input:active, .formaDugme2 > input:active {
+    width: 75px;
+    height: 25px;
+    border: none;
+    background: rgba(0, 0, 0, 0);
+    background-image: url("../Images/mbuttonform.png");
+    background-repeat: no-repeat;
+    background-size: 75px 25px;
+    background-position: center;
+    color: black;
+    font-weight: bold;
+}
+
+.dugmeWrap {
+    padding-top: 100px;
+}
+
+.formaText1 {
+    display: block;
+    position: absolute;
+    top: 220px;
+    left: 40px;
+}
+
+.formaText2 > textarea {
+    position: absolute;
+    top: 200px;
+    right: 115px;
+    margin-top: 20px;
+    width: 440px;
+    height: 128px;
+    resize: none;
+}
+
+.bold {
+
+    font-weight: bold;
+}
+
+.sponzori > li {
+    list-style-image: url("../Images/tray.png");
+}
+
+
+#Kontrola{
+    cursor: pointer;
+    color: #20b6ba;
+    font-size: small;
+    text-decoration: underline;
+}
+
+
+
+
+
+

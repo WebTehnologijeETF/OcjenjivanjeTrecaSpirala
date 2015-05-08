@@ -1,0 +1,297 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+html, body {
+  height: 100%;
+}
+
+nav {
+	height: 50px;
+}
+
+header {
+	height: 97px;
+}
+
+nav ul#menu {
+	position: fixed;
+	left: 150px;
+	top: 42px;
+	padding: 0px 0px;
+	margin: 0px;
+	width: 100%;
+	border-bottom: 3px solid white;
+	background-color: SteelBlue;
+	z-index: 1;
+}
+
+nav ul#menu li {
+	float: left;
+	padding: 0px 0px;
+	display: inline;
+	font-family: 'Dosis', sans-serif;
+}
+
+nav ul#menu li a{
+	background-color: SteelBlue;
+	display: block;
+    color: white;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+nav ul#menu li a:hover {
+	background-color: #1C3448;
+	outline: none;
+}
+
+nav ul#menu li a:active {
+	background-color: #1C3448;
+	outline: none;
+}
+
+nav ul#menu li a:focus, a:visited {
+	outline: none;
+}
+
+#menu a.active {
+	background-color: #1C3448;
+}
+
+img.logo {
+	width: 150px;
+	height: 97px;
+}
+
+div#logo {
+	position: fixed;
+	float:left;
+	background-color: SteelBlue;
+	padding: 0;
+	z-index: 1;
+}
+
+h3#logonaslov {
+	z-index: 1;
+	left: 150px;
+	position: fixed;
+	width: 100%;
+	font-family: 'Pacifico', cursive;
+	font-size: 180%;
+	background-color: SteelBlue;
+}
+
+div.menuList {
+	position: fixed;
+	top: 100px;
+	z-index: 1;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 0.15s linear;
+}
+
+ul.subList {
+	list-style-type:none;
+	background-color: SteelBlue;
+	font-family: 'Dosis', sans-serif;
+}
+
+ul.subList li {
+	padding: 20px;
+}
+
+ul.subList li:hover {
+	background-color: #1C3448;
+}
+
+ul.subList li a {
+	color: white;
+	text-decoration: none;
+}
+
+ul.subList li a:hover {
+	background-color: #1C3448;
+	outline: none;
+}
+
+ul.subList li a:active {
+	background-color: #1C3448;
+	outline: none;
+}
+
+ul.subList li a:focus, a:visited {
+	outline: none;
+}
+
+section {
+	font-family: 'Dosis', sans-serif;
+	top: 100px;
+	width: 45%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	text-align: left;
+}
+
+div.content {
+	padding: 20px;
+	position: relative;
+	width: 45%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 70px;
+	text-align: left;
+	clear: both;
+}
+
+h2 {
+	font-family: 'Dosis', sans-serif;
+	font-size: 150%;
+	padding: 10px;
+}
+
+div.nekretnina {
+	overflow: auto;
+	width: 95%;
+	top: 5px;
+	padding: 15px;
+	background-color: SteelBlue;
+	color: white;
+	border: solid 5px white;
+	border-radius: 12px;
+}
+
+img.nekretnina {
+	display: inline-block;
+	float: right;
+	max-width: 290px;
+	max-height: 290px;
+	border: solid 3px white;
+	border-radius: 8px;
+}
+
+h3.nekretnina {
+	font-family: 'Dosis', sans-serif;
+	font-size: 120%;
+	padding: 5px;
+}
+
+sup {
+    vertical-align: super;
+    font-size: smaller;
+} 
+
+p.nekretnina {
+	font-family: 'Dosis', sans-serif;
+	padding: 15px;
+}
+
+p.detalji {
+	font-family: 'Dosis', sans-serif;
+	font-size: small;
+	padding: 5px;
+}
+
+p.nekretnina a {
+	color: LightSteelBlue;
+}
+
+footer {
+	clear: both;
+	margin-top: -60px;
+	height: 60px;
+	width: 100%;
+	background-color: SteelBlue;
+    font-family: 'Dosis', sans-serif;
+}
+
+p.footer {
+	position: relative;
+	color: white;
+	text-align: center;
+	top: 15px;
+}
+
+table {
+	font-family: 'Dosis', sans-serif;
+	height: 100%;
+	width: 100%;
+}
+
+table tr:nth-child(even) {
+    background-color: #eee;
+}
+table tr:nth-child(odd) {
+   background-color: LightSteelBlue;
+}
+table, th, td {
+	padding: 20px;
+	border: 1px solid white;
+	border-collapse: collapse;
+}
+
+table th {
+    background-color: SteelBlue;
+    color: white;
+    font-size: 110%;
+    font-family: 'Dosis', sans-serif;
+	text-align: center;
+}
+
+div.wrapper {
+	display: block;
+	min-height: 89.9%;
+	margin-bottom: -60px;
+}
+
+form {
+	font-family: 'Dosis', sans-serif;
+}
+
+li#fb {
+	list-style-image: url("resources/fb.png");
+}
+
+li#ios {
+	list-style-image: url("resources/apple.png");
+}
+
+li#android {
+	list-style-image: url("resources/android.png");
+}
+
+li#market, li#market1 {
+	list-style-image: url("resources/shop.png");
+}
+
+a.external {
+	vertical-align: 50%;
+	font-family: 'Dosis', sans-serif;
+}
+
+div.ep {
+	display: inline-block;
+	visibility: hidden;
+	color: red;
+	font-style: italic;
+	font-family: 'Dosis', sans-serif;
+	font-size: small;
+}

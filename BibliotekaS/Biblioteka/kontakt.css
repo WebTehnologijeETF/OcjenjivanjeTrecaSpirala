@@ -1,0 +1,23 @@
+body {background-color:#FFFFCC;
+overflow-y: scroll;
+overflow-x: hidden;}
+.navigacija{
+background-color: #FFCC99;
+text-align: center;
+
+color: #990033;
+}
+.navigacija a{
+
+color: #990033;
+
+}
+ H1{
+color:#990033;
+text-align:left;
+}
+form {
+background-color: #FFFFCC;
+color:#990033;
+
+}

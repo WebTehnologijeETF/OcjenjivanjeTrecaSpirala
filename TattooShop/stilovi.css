@@ -1,0 +1,295 @@
+
+*{
+	margin:0;
+	padding: 0;
+	}
+	
+ #back{
+
+	z-index:-1; 
+	background-image:url("../nadin/images/blackwall.jpg");
+	background-size:cover;
+	min-height: 100%;
+	min-width: 100px;
+	width: 100%;
+	height: auto;
+	position: fixed;
+	top: 0;
+	left: 0;
+	overflow:auto; 
+	
+	 
+ }
+ #banner{
+	position:relative;
+	width:38%;
+	min-width:38%;
+	margin:0 auto;
+	margin-bottom:30px;
+	}
+	
+	#logo{
+	position:relative;
+	margin-top:5%;
+	max-width: 100%;
+	height: auto;
+	white-space:nowrap;
+	}
+	
+
+	
+#tijelo{
+	
+	text-align:center;
+	}
+	
+#meni {
+	position:fixed;
+	width: 50%;
+	display:block;
+	z-index:10;
+	background:#7E7F88;
+	left:50%;
+	margin-left:-25%;
+	margin-bottom:50px;
+	}
+	/* ovo izmijenit    meni sekcija  */
+#meni ul {
+	width:100%;
+	min-width:100%;
+	list-style-type: none;
+	display:flex;
+	height:50px;
+	white-space:nowrap;
+	
+	}
+
+	#meni li {
+	display:inline-block;
+	width:20%;
+	height:50px;
+	text-align:center;
+	color:#51086B;
+	}
+
+	#meni a{
+	display:block;
+	width:100%;
+	text-align: center;
+	padding: 16px 0px;
+	text-decoration: none;
+	color:#831010;
+	}
+	/* promjena pilikom mouse over  */
+	
+	#meni li:hover{
+		background-color:#6D6E77;
+	}
+	
+	/* boje teksta menija */
+	
+	#naslovna{
+	
+	color:#831010;
+	}
+	
+	/* novosti njihov izgled */
+	
+	#novosti{
+	position:relative;
+	width:60%;
+	margin: 100px auto; 
+	height:auto;
+	color:#6e301a;
+	text-align:center;
+	border: 2px solid #6D6E77;
+	}
+	#novosti1{
+	position:relative;
+	width:60%;
+	margin: 100px auto; 
+	height:auto;
+	color:#6e301a;
+	text-align:center;
+	border: 2px solid #6D6E77;
+	}
+	h3{
+	position:relative;
+	text-align:left;
+	text-decoration:underline;
+	font-size:35px;
+	color:#FF4400;
+	}
+	
+	#autor{
+	position:relative;
+	text-align:left;
+	font-style:italic;
+	margin-bottom:30px;
+	margin-top:10px;
+	margin-left:15px;
+	color:#FF4400;
+	}
+	#autor1{
+	position:relative;
+	text-align:left;
+	font-style:italic;
+	margin-bottom:30px;
+	margin-top:10px;
+	margin-left:15px;
+	color:#FF4400;
+	}
+	/*sadrzaj stranice*/
+	#detaljnije{
+	color:#FF4400;
+	}
+	#detaljnije1{
+	color:#FF4400;
+	}
+	#tekstNovosti{
+      color:white;
+	  text-align:justify;
+	  margin-left: 10px;
+	}	
+	#tekstNovosti1{
+      color:white;
+	  text-align:justify;
+	  margin-left: 10px;
+	}	
+	/* Linkovi */               /*    /////////////  */
+ 
+	h1{
+		font-size:50px;
+		margin-bottom:20px;
+		color:#C54212;
+		/*background:black; */
+		display:inline;
+	}
+	#naslov3 {
+		position:relative;
+		width:60%;
+		margin:20px auto;
+		font-size:20px;
+	}
+	
+	#listaLinkova{
+	position:relative;
+	width:60%;
+	margin: 100px auto; 
+	height:auto;
+	color:#C54212;  /* ovdje pise preporuceni linkovi */
+	text-align:center;
+	border: 2px solid #6D6E77;
+	
+	}
+	
+	#listaLinkova li{
+	list-style-type:none;
+	text-align:left;
+	padding: 10px 0px 20px 100px;
+	background:url("../nadin/images/tattoo.jpg") no-repeat center left;
+	
+	}
+	
+	#listaLinkova ul{ 
+		padding-left:40px;
+	}
+	#listaLinkova a{
+		color:#F74B0C;
+		font-size:20px;
+		text-decoration:none;
+	}
+		#listaLinkova a:hover{
+		color:#F74B0C;
+		background-color:silver;
+		display:inline;
+		text-decoration:underline;
+	}
+	
+	/* kontakti pocinju     /////////////////////////// */
+	
+	#kontaktiDiv{
+	position:relative;
+	width:50%;
+	margin: 100px auto; 
+	height:auto;
+	color:#6e301a;
+	border: 2px solid #6D6E77;
+	
+	}
+	
+	#kontaktiDiv li{
+	list-style-type:none;
+	 text-align:left;
+	 padding: 20px 10px 10px 80px;
+	 color:#FF4400;
+	}
+	/*  odmicanje boxova za unos */
+	#unos1 {
+		margin-left:40px;
+	}
+	
+	#unos2 {
+		margin-left:14px;
+	}
+	
+	#unos3 {
+		margin-left:24px;
+	}
+	
+	/* poruka       ///////////////////7 */
+	
+	textarea{
+	 
+	 width:400px;
+	 height:150px;
+	 margin-bottom:30px;
+	 margin-left:120px;
+	}
+	
+	/*butoni         ///////////////7 */
+	
+	#buton1{
+	 color:#FF4400;
+	background-color:white;
+	height:20px;
+	width:60px;
+	margin-top:50px;
+	}
+	#buton2{
+	background-color:white;
+	color:#FF4400;
+	height:20px;
+	width:60px;
+	}
+	#buton1:hover,#buton2:hover{
+		background-color:#BFB4B0;
+	}
+	
+	
+	/*  tabela */  
+	
+	
+	table{
+	width:100%;
+	font-size:20px;
+	}
+	
+	tr{
+	
+		height:50px;
+		color:white;
+	}
+	
+	#kolona{
+	color:#FF4400;
+	}
+	
+	tr:hover{
+		color:#6e301a;
+		background-color:white;
+	}
+	
+	#kolona:hover{
+	color:#FF4400;
+	}

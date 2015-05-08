@@ -1,0 +1,146 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <link rel="shortcut icon" href="favicon5.ico">
+<link href='http://fonts.googleapis.com/css?family=Paytone+One' rel='stylesheet' type='text/css'>
+
+      <title> iProgIT Obrazovni centar</title>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script >
+    function showHide(shID) {
+	if (document.getElementById(shID)) {
+		if (document.getElementById(shID+'-show').style.display != 'none') {
+			document.getElementById(shID+'-show').style.display = 'none';
+			document.getElementById(shID).style.display = 'block';
+		}
+		else {
+			document.getElementById(shID+'-show').style.display = 'inline';
+			document.getElementById(shID).style.display = 'none';
+		}
+	}
+}</script>
+   <script>
+   window.onload = function () {
+  var z = document.getElementById('kursevi');
+z.style.display="block"; 
+z.style.display="none"; 
+var k = document.getElementById('partneri');
+k.style.display="block"; 
+k.style.display="none"; 
+}
+
+function Prikazi1(){
+var z = document.getElementById('kursevi');
+ var k = document.getElementById('partneri');
+	 k.style.display="none"; 
+if(z.style.display=="none")
+  z.style.display="block"; 
+else
+	  z.style.display="none"; 
+
+
+}
+function Prikazi2(){
+  var z = document.getElementById('partneri');
+   var k = document.getElementById('kursevi');
+	 k.style.display="none"; 
+if(z.style.display=="none")
+  z.style.display="block"; 
+else
+	  z.style.display="none"; 
+
+}
+function Sakrij(){
+ var z = document.getElementById('partneri');
+ var k = document.getElementById('kursevi');
+	 k.style.display="none"; 
+	  z.style.display="none"; 
+
+}
+   </script>
+
+  </head>
+  <body >
+
+ <div id="wrapper" >
+	<div id="header" onclick="Sakrij()"> <img id="icon" src="icon.png" >
+	<br>
+     <pre id="naslov" > iProgIT</pre> 
+	</div>
+
+	<nav >
+	<ul id="lista">
+		<li><a href="index.html" onclick="Sakrij()">Home</a></li>
+		<li><a href="zasto.html"  onclick="Prikazi1()">Zašto iProgIT</a>
+			<ul id = "kursevi">
+			
+			</ul>
+		</li>
+		<li><a href="#" onclick="Prikazi2()">Obrazovni centri</a>
+			<ul id="partneri">
+				<li><a href="http://ivora.hr/obrazovni-centar-zagreb.html">Zagreb</a></li>
+				<li><a href="http://www.nadji.info/rs/it-centar-skola-racunara-pariske-komune-beograd/ve26892/">Beograd</a></li>
+			</ul>
+		</li>
+		<li><a href="utisci.html" onclick="Sakrij()">Utisci</a></li>
+		<li><a href="about.html" onclick="Sakrij()">O nama</a></li>
+		
+	</ul>
+</nav>
+
+
+	<div id="content" onclick="Sakrij()">
+		<div id="content-left">
+			
+<div class="menu">
+                        <a class="menu" href="index.html"> Najnovije </a>
+                        <a class="menu" href="kursevi.html"> Kursevi </a>
+                        <a  class="menu" href="partneri.html"> Partneri </a>
+                        <a class="menu" href="kontakt.html"> Kontakt </a>
+                     </div>
+
+		</div>
+
+		<div id="content-main">
+			
+			<div id="div_content" >
+		<h1> Obrazovni centar iProgIT </h1>
+			 <p class = "desc">
+
+	<img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS7OnPi5ZZc8G7GqJAlVomus4b86GrjezdH-UdlD1M8Ib5X0Ykn" align="left"
+                     > iProgIT - obrazovni centar Sarajevo, smiješten je u samom centru grada u ulici Titova, na broju 3. Otvoreni smo još od 2004. godine. Vrhunska kvaliteta obrazovanja, sa vrhunskim predavačima i najmodernijom opremom, garancija su Vašeg poslovnog uspjeha nakon završene edukacije. Međunarodno priznati i validirani nastavni programi obrazovanja sa Cambridge certifikatima  prepoznati su od strane potencijalnih kandidata i poslodavaca, i zbog toga smo br.1 u Sarajevu i široj okolici. Jedina smo Cambridge obrazovna ustanova u Sarajevu. Provjerite zašto. <br>
+                     Dođite i uvjerite se sami, čekamo Vas! <br></p>
+
+     	  
+     	   </p>
+
+     	  <h1> Kursevi </h1>
+                     <p   class="desc"> Upišite najpraktičniju školu za dobijanje posla u IT sektoru. Učite preko interneta i ovladajte praktičnim znanjima za visokoplaćena zanimanja.
+
+Steknite profitabilne vještine i međunarodno priznate diplome obezbeđene na iProgIT učenjem na daljinu, iz svog grada.
+
+Školovanjem preko jedinog pravog sistema za e-Learning u našoj zemlji, koji se koristi na ITAcademy, dobićete stručna zvanja iz Cambridgea, Microsofta i Adobea, kao i svetski priznate certifikate kao što su Linux Professional Institute, ZEND PHP i Oracle.
+                   <br>
+<a href="#" id="example-show" class="showLink" 
+onclick="showHide('example');return false;"> Opširnije</a>
+</p>
+<div id="example" class="more">
+	<p class="desc1">Potražnja za mrežnim i sistem administratorima je u konstantnom porastu poslednjih godina informatičke revolucije. Po Forbsovoj listi najtraženijih poslova u 2013. godini, u prvih 10 navedenih zanimanja su se našli i eksperti za mrežnu sigurnost, kao i mrežni i sistem administratori. U BiH, IT administratori imaju prednost na tržištu rada jer im zvanične fakultetske diplome nisu potrebne, a pronalaženje posla je lakše uz mogućnost biranja istog. 
+
+iProgIT je otvoren za sve IT entuzijaste, bilo da su u pitanju studenti koji traže svoju buduću profesiju, zaposleni u IT sektoru koji žele dodatno znanje i napredak u karijeri ili drugi koji bi da se prekvalifikuju kako bi izabrali novu karijeru. 
+    </p>
+	<p class="desc1"><a href="#" id="example-hide" class="hideLink" 
+	onclick="showHide('example');return false;">Sakrij</a></p>
+</div>
+
+		</div>
+	</div>
+	<div id="footer"> <center>Web Tehnologije 2015. </center></div>
+
+	
+
+  </body>
+
+</html>

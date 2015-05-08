@@ -1,0 +1,50 @@
+body {background-color:#FFFFCC;
+overflow-y: scroll;
+overflow-x: hidden;}
+.navigacija{
+background-color: #FFCC99;
+text-align: center;
+
+color: #990033;
+}
+.navigacija a{
+font-family: bold;
+color: #990033;
+
+}
+
+.info h1{
+font-family: bold;
+text-align: left;
+color: #FF0000;
+}
+.info h3{
+color:#990000;
+text-align: left;
+font-family: bold;
+
+}
+.info h5{
+color:#990000;
+text-align: left;
+font-family: bold;
+
+}
+.info a {
+color: #FF9966;}
+.info p{
+text-align: left;
+font-style: italic;
+color:#990000;
+}
+ .dno p{
+ color: #990033;
+ text-align:center;
+ text-decoration: underline;
+ font-style: oblique;
+ background-color:#FFCC99;
+
+bottom:0;
+
+ }
+

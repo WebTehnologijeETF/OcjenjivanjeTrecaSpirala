@@ -1,0 +1,1023 @@
+@import url(http://fonts.googleapis.com/css?family=Dancing+Script:700);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700&subset=latin,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,500,700&subset=latin,latin-ext);
+
+html, body {
+	margin: 0;
+	padding: 0;
+} 
+
+body {
+	background-image: url(../images/pattern.png);
+	background-repeat: repeat;
+	/*background-position-x: initial;
+	background-position-y: initial;
+	background-size: initial;
+	background-repeat-x: initial;
+	background-repeat-y: initial;
+	background-attachment: initial;
+	background-origin: initial;
+	background-clip: initial;
+	background-color: initial;*/
+}
+
+.okvir {
+	width: 1024px;
+	margin: 0 auto;
+	overflow: auto;
+	box-shadow: 3px 0px 5px 1px#888888;
+}
+.zaglavlje {
+    width: 100%;
+	height: 46px;
+    float: none;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 1;
+}
+/*Logo*/
+.spanLogo{
+	color: gold;
+}
+
+/*Navbar*/
+.meni {
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+    float: none;
+	margin: 0;
+	padding: 0;
+    width: 1024px;
+	position: relative;
+	margin: 0 auto;
+	z-index: 1;
+	height: 46px;
+	background: #39b1cc;
+	background: -moz-linear-gradient(top, #51bbd2 0%, #2d97af 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #51bbd2), color-stop(100%, #2d97af));
+	background: -webkit-linear-gradient(top, #51bbd2 0%, #2d97af 100%);
+	background: -o-linear-gradient(top, #51bbd2 0%, #2d97af 100%);
+	background: -ms-linear-gradient(top, #51bbd2 0%, #2d97af 100%);
+	background: linear-gradient(to bottom, #51bbd2 0%, #2d97af 100%);
+}
+.meni ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;	
+}
+.meni li {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+.meni ul > li > a:link, 
+.meni ul > li > a:visited, 
+.meni ul > li > a:active{
+	display: block;
+	margin: 0;
+	padding: 13px 15px 13px 15px;
+    border-right: 1px solid rgba(80, 80, 80, 0.12);
+	text-decoration: none;
+	font-weight: 700;
+	color: #d3eced;
+	letter-spacing: 1px;
+}
+.meni > ul > li:hover > a,
+.meni > ul > li > a:hover{
+	color: #ffffff;
+	background: #32a9c3;
+	background: rgba(0, 0, 0, 0.1);
+}
+.meni > ul > li.fokus > a {
+	color: gold;
+	padding-bottom: 10px;
+}
+.meni > ul > li.fokus{
+	border-bottom: 3px solid gold;
+}
+#search {
+	float: right;
+    margin: 4px;
+	border: 1px solid white;
+	border-radius: 10px;
+	padding: 0;
+	background: whitesmoke;
+	width: 200px;
+}
+#search_text{
+    width: 150px;
+    padding: 5px 0 5px 10px;
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    border: 0 none;
+    height: 35px;
+    margin-right: 0;
+    color: #32a9c3;
+    outline: none;
+    background: whitesmoke;
+    float: left;
+    box-sizing: border-box;
+    transition: all 0.15s;
+	border-radius: 10px;
+}
+	::-webkit-input-placeholder {
+		color: #2d97af;
+	}
+	:-moz-placeholder {
+		color: #2d97af;
+	}
+	::-moz-placeholder {
+		color: #2d97af;
+	}
+	:-ms-input-placeholder {
+		color: #2d97af;
+	}
+#search_button {
+    border: 0 none;
+    background: url('../images/search.png') center no-repeat;
+	background-color: whitesmoke;
+    width: 50px;
+    float: left;
+    padding: 0;
+    text-align: center;
+    height: 35px;
+    cursor: pointer;
+	border-radius: 10px;
+}
+/*Podmeni*/
+.padajuci > ul {
+	position:absolute;
+	visibility:hidden;
+	margin:0;
+	padding:0;
+	border-radius: 3px;
+}
+.padajuci > ul > li{
+	display:inline;
+	float:none;	
+}
+.padajuci ul li a:link, 
+.padajuci ul li a:active,
+.padajuci ul li a:visited {
+	width:auto;
+	border-top: 1px solid rgba(80, 80, 80, 0.12);
+	background-color: whitesmoke;
+	color: #32a9c3 !important;
+	border-left: 1px solid darkgrey; 
+	border-right: 1px solid darkgrey; 
+	border-bottom: 2px solid darkgrey; 
+	border-radius: 3px;
+	font-size: 90%;
+	padding: 8px 15px 11px 15px;
+}
+.padajuci > ul{
+	padding-top: 5px;
+}
+.padajuci ul li a:hover {
+	color: white !important;
+	background-color: #32a9c3;
+}
+/*Logo*/
+.logoSlika {
+	background: url(../images/logo.png) no-repeat center;
+	background-size: contain;
+	height: 20px;
+	width: 20px;
+	border-right: none !important;
+}
+.logoSlika:hover {
+	background: url(../images/logo.png) no-repeat center !important;
+	background-size: contain !important;
+}
+.logo{
+	font-family: 'Dancing Script', cursive;
+	color: white !important;
+	text-transform: none;
+	font-size: 35px;
+	margin: 0 !important;
+	padding: 0 !important;
+	padding-right: 15px !important;
+}
+.logo:hover{
+	background: none !important;
+}
+/*Sjena ispod menija*/
+.sjena {     	
+   display: none;
+    height: 7px;
+}
+/*Sadržaj*/
+.sadrzaj {
+	background-image: url(../images/brushed.png);
+	background-repeat: repeat;
+	/*background-position-x: initial;
+	background-position-y: initial;
+	background-size: initial;
+	background-repeat-x: initial;
+	background-repeat-y: initial;
+	background-attachment: initial;
+	background-origin: initial;
+	background-clip: initial;
+	background-color: initial;*/
+    overflow: auto;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+	margin-top: 46px;
+}
+/*Naslovnica*/
+.desno {
+    float: left;
+    width: 20%;
+    margin: 35px 0 0 0;
+    padding: 10px;
+}
+.desno > .uvod_desno {
+    margin: 0;
+    padding: 0;
+    color: grey;
+}
+.feed {
+    position: relative;
+    border: 2px solid #2d97af;
+    border-radius: 4px;
+    margin: 0 0 10px 0;
+    padding: 1px;
+    overflow: auto;
+}
+.desno > .feed > img {
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	vertical-align: middle;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.desno > .feed > p {
+    margin: 0;
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    color: white; 
+    letter-spacing: -1px;  
+    background: rgba(45, 151, 175, 0.8);
+    padding: 5px; 
+}
+.lijevo {
+    width: 20%;
+    float: left;
+    padding: 0 5px 5px 10px;
+    margin-top: 45px;
+}
+.social_feed > .social_feed_content > a > img {
+    width: 34px;
+	border-radius: 100%;
+}
+.social_feed > .social_feed_content > a > img:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.social_feed {
+    margin-bottom: 10px;
+	background-color: #2d97af;
+    padding: 1px;
+    border-radius: 2px;
+}
+.social_feed > h4 {
+    font-family: 'Ubuntu' , sans-serif;
+    margin: 0;
+    padding: 5px;
+    color: white;
+    border-bottom: 1px solid grey;
+}
+.social_feed > .social_feed_content {
+    background-image: url(../images/kockice.png);
+    background-repeat: repeat;
+    /*
+	background-position-x: initial;
+	background-position-y: initial;
+	background-size: initial;
+	background-repeat-x: initial;
+	background-repeat-y: initial;
+	background-attachment: initial;
+	background-origin: initial;
+	background-clip: initial;
+	background-color: initial;*/
+    margin-top: 1px;
+    padding: 5px 5px 0 5px;
+    border-radius: 2px;
+}
+.centar {
+    display: inline-block;
+    float: left;
+    width: 53%;
+    margin: 0;
+    padding: 10px;
+}
+.uvod_centar {
+    color: dimgrey;
+    text-align: left;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0 0 10px 0;
+    padding: 0;
+	text-align: center;
+}
+.centar > .uvod_centar > h3 {
+    margin: 0;
+    padding: 0;
+}
+/*Članci*/
+.clanak {
+	width: 95%;
+	background-image: url(../images/kockice.png);
+	background-repeat: repeat;
+	/*
+	background-position-x: initial;
+	background-position-y: initial;
+	background-size: initial;
+	background-repeat-x: initial;
+	background-repeat-y: initial;
+	background-attachment: initial;
+	background-origin: initial;
+	background-clip: initial;
+	background-color: initial;*/
+	border: 1px solid darkslategrey;
+	border-radius: 2px;
+	padding: 5px 10px 10px 10px;
+	text-align: justify;
+	margin-bottom: 10px;
+	overflow: auto;
+}
+.clanak > img {
+	width: 30%;
+	height: auto;
+	margin: 5px 10px 5px 0;
+	float: left;
+	padding: 1px;
+	border: 2px solid #2d97af;
+	border-radius: 3%;
+}
+.clanak > p {
+    font-family: 'Ubuntu', sans-serif;
+	font-size: 90%;
+    color: darkslategrey;
+	padding-bottom: 8px;
+	border-bottom: 1px solid silver;
+}
+.clanak > h3 {
+    color: #2d97af;
+	border-bottom: 2px solid gold;
+	border-radius: 3px;
+	background-color: rgba(0, 0, 0, 0.1);
+	margin: 0;
+	text-align: center;
+	padding: 5px;
+}
+img.datum {
+	width: 15px;
+	margin-right: 5px;
+	margin-bottom: -2px;
+}
+img.author{
+	width: 17px;
+	margin-bottom: -3px;
+	margin-right: 5px;
+}
+.clanak > .clanak_info > p {
+    color: indianred;
+	border-bottom: 1px solid silver;
+	padding-bottom: 3px;
+}
+.clanak a:link, .clanak a:visited, .clanak a:active {
+	text-decoration: none;
+	color: white;
+	border: 1px solid gold;
+	background-color: #2d97af;
+	border-radius: 5px;
+	padding: 5px;
+	float: right;
+}
+.clanak a:hover{
+	color: #2d97af;
+	background-color: white;
+}
+.clanak .clanak_info {
+	margin: 0;
+	padding: 0;
+}
+.clanak .autor {
+	float: left;
+	width: 70%;
+}
+.clanak .vrijeme {
+	float: right;
+    text-align: right;
+	width: 30%;
+} 
+div.clanak > div.clanak_info{
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+/*Nazad na vrh*/
+.vrh {
+	position: fixed;
+	right: 3%;
+	bottom: 3%;
+	overflow: auto;
+	border-radius: 5px;
+	margin: 0;
+	padding: 0;
+
+}
+.vrh img:hover {
+	background-color: rgba(255, 215, 0, 0.8);
+}
+.vrh a {
+	margin: 0;
+	padding: 0;
+}
+.vrh img {
+	background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    width: 35px;
+	margin: 0;
+	padding: 0;
+}
+/*Podnožje (Footer)*/
+.podnozje {
+	background: #39b1cc;
+	background: -moz-linear-gradient(top, #51bbd2 0%, #2d97af 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #51bbd2), color-stop(100%, #2d97af));
+	background: -webkit-linear-gradient(top, #51bbd2 0%, #2d97af 100%);
+	background: -o-linear-gradient(top, #51bbd2 0%, #2d97af 100%);
+	background: -ms-linear-gradient(top, #51bbd2 0%, #2d97af 100%);
+	background: linear-gradient(to bottom, #51bbd2 0%, #2d97af 100%);
+    border-top: 2px solid silver;
+    margin: 0;
+	padding: 20px;
+    float: none;
+}
+.podnozje > p {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+	margin: 0;
+	padding: 0;
+	color: white;
+	text-align: center;
+	font-size: 110%;
+}
+/*Štednja stranica*/
+.stednja {
+	float: left;
+    width: 52%;
+	overflow: auto;
+	margin: 5px;
+    margin-top: 25px;
+	padding-left: 35px;
+}
+.stednja p{
+	font-family: 'Ubuntu', sans-serif;
+}
+.stednja > ul > li{
+	margin-bottom: 10px;
+}
+.stednja > ul > li > a:link,
+.stednja > ul > li > a:visited{
+	text-decoration: none;
+	color: #39b1cc;
+}
+.stednja > ul > li > a:hover{
+	border-bottom: 2px solid #2d97af;
+}
+.stednja > h4,
+.stednja > p{
+	font-size: 92%;
+	font-family: sans-serif;
+}
+.stednja h4{
+	text-align: center;
+}
+#tabela {
+    float: left;
+    width: 55%;
+	overflow: auto;
+	margin: 5px;
+    margin-top: 25px;
+}
+#tabela h4,
+#tabela p {
+	font-size: 93%;
+}
+#tabela h4{
+	text-align: center;
+}
+#stednja tr:nth-child(odd){ 
+	background-color:rgba(45, 151, 175, 0.5);
+}
+#stednja tr:nth-child(odd) > td{ 
+	color: black;
+	border-color: black;
+}
+#stednja th{
+	color: white;
+	border-color: black;
+	background-color: #2d97af;
+}
+table#stednja {
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.5);
+	border: 1px solid;
+	border-collapse: collapse;
+}
+tr, td, th{
+	border: 1px solid;
+	text-align: center;
+	border-collapse: collapse;
+}
+table#stednja th,
+table#stednja td {
+	padding: 5px 10px;
+    font-size: 80%;
+}
+table#stednja th {
+    font-size: 70%;
+}
+#stednja > tr > td:hover {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+td.iznos {
+	text-align: left;
+}
+td.eks {
+	font-weight: bold;
+}
+col#prva {
+	font-size: 110%;
+}
+
+.sadrzaj h2 {
+	text-align: center;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+.feed_content {
+    margin: 1px;
+    background-image: url(../images/kockice.png);
+    background-repeat: repeat;
+    /*
+	background-position-x: initial;
+	background-position-y: initial;
+	background-size: initial;
+	background-repeat-x: initial;
+	background-repeat-y: initial;
+	background-attachment: initial;
+	background-origin: initial;
+	background-clip: initial;
+	background-color: initial;*/
+    padding: 10px;
+    border-radius: 3px;
+}
+
+/*O nama stranica*/
+.about_desno {
+    width: 22%;
+    float: left;
+    padding: 10px;    
+    margin-top: 35px;
+}
+.about_centar {
+    width: 53%;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.about_centar_content {
+    padding: 0 15px 15px 15px;
+    background-image: url(../images/kockice.png);
+    background-repeat: repeat;
+    /*
+	background-position-x: initial;
+	background-position-y: initial;
+	background-size: initial;
+	background-repeat-x: initial;
+	background-repeat-y: initial;
+	background-attachment: initial;
+	background-origin: initial;
+	background-clip: initial;
+	background-color: initial;*/
+    color: dimgray;
+    font-size: 90%;
+    border: 2px solid #2d97af;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+.about_centar > h3 {
+    color: dimgrey;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0 0 0 5px;
+    padding: 0;
+	text-align: center;
+}
+/*Partneri*/
+.linkovi {
+	background-color: #2d97af;
+    margin: 0;
+    padding: 0;
+    border-radius: 3px;
+    overflow: auto;
+    padding: 1px;
+}
+.linkovi > h3 {
+    margin: 0;
+    padding: 5px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    border-bottom: 1px solid gray;
+}
+.linkovi_content {
+    background-image: url(../images/kockice.png);
+    background-repeat: repeat;
+    /*
+	background-position-x: initial;
+	background-position-y: initial;
+	background-size: initial;
+	background-repeat-x: initial;
+	background-repeat-y: initial;
+	background-attachment: initial;
+	background-origin: initial;
+	background-clip: initial;
+	background-color: initial;*/
+    color: slategray;
+    font-size: 90%;
+    margin: 0;
+    padding: 0;
+    border-radius: 3px;
+}
+.linkovi_content > ul {
+	list-style-image: url(../images/link.png);
+    margin: 0;
+    padding: 10px 5px 10px 25px;
+}
+.linkovi_content > ul > li {
+    margin: 0;
+}
+.linkovi_content > ul > li > a:link,
+.linkovi_content > ul > li > a:visited,
+.linkovi_content > ul > li > a:active {
+	text-decoration: none;
+    color: grey;
+}
+.linkovi_content > ul > li > a:hover {
+	text-decoration: underline;
+	color: #2d97af;
+}
+/*Kontakt stranica*/
+.kontakt p, .kontakt input[type="text"], 
+.kontakt input[type="email"], 
+.kontakt input[type="tel"],
+.kontakt input[type="number"],
+.kontakt textarea {
+    font-family: 'Ubuntu', sans-serif;
+	margin: 0;
+    width: 35%;
+	padding: 0;
+	border-radius: 2px;
+	border: 1px solid #2d97af;
+	background-color: ghostwhite;
+	margin-bottom: 10px;
+	margin-right: 3px;
+	padding-left: 3px;
+}
+.kontakt p, .kontakt input[type="text"], 
+.kontakt input[type="email"], 
+.kontakt input[type="tel"],
+.kontakt input[type="number"]{
+	height: 30px;
+}
+.kontakt > form > input[type="range"]{
+    width: 35%;
+}
+.kontakt > form >input {
+	margin-bottom: 10px;
+}
+.kontakt > form > input[type="submit"] {
+	width: 100px;
+	font-family: 'Ubuntu', sans-serif;
+	color: white;
+	background-color: #2d97af;
+	letter-spacing: 1px;
+	border: 1px solid white;
+	border-radius: 3px;
+	padding: 10px 5px;
+	font-weight: 700;
+}
+.kontakt > form > input[type="submit"]:hover{
+	color: gold;
+	border-color: gold;
+}
+img.error_img {
+    height: 23px;
+    float: left;
+    margin-top: 2px;
+    display: none;
+}
+.kontakt_desno {
+    width: 20%;
+    float: left;
+    padding: 10px;
+    margin-top: 35px;
+}
+.kontakt {
+    margin: 0 auto;
+    float: left;
+    width: 55%;
+    overflow: auto;
+}
+.kontakt > form > label.ispred {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 100;
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 35%;
+    text-align: right;
+    margin-right: 5px;
+	padding-top: 5px;
+    /*margin-bottom: 10px;*/
+}
+.kontakt > form > label.iza {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    float: right;
+    width: 23%;
+    text-align: left;
+    color: red;
+    font-size: 85%;
+	margin-top: 7px;
+    display: block;
+}
+#upozorenje {
+    color: red;
+}
+.kontakt > form > input,
+.kontakt > form > textarea {
+    display: inline-block;
+    float: left;
+    margin-bottom: 10px;
+}
+.kontakt > form > textarea {
+	font-size: 80%;
+}
+.kontakt > h3, .kontakt > form > label#upozorenje {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    text-align: left;
+    float: right;
+    width: 65%;
+}
+.kontakt > form > label#upozorenje {
+    margin-bottom: 10px;
+    font-size: 90%;
+}
+.kontakt_feed > h4 {
+    color: white;
+    border-bottom: 2px solid grey;
+    margin: 0;
+    padding: 5px;
+    margin-bottom: 1px;
+}
+
+div.kontakt_feed > .feed_content > p {
+    font-size: 80%;
+    margin: 0;
+    padding: 0;
+    color: grey;
+}
+.kontakt_feed {
+	background-color: #2d97af;
+    border-radius: 2px;
+    padding: 0;
+    margin-bottom: 10px;
+    padding-bottom: 1px;
+}
+.kontakt_feed_desno > h4 {
+    color: white;
+    border-bottom: 1px solid grey;
+    margin: 0;
+    padding: 5px;
+    margin-bottom: 1px;
+}
+
+div.kontakt_feed_desno > .feed_content > p {
+    font-size: 80%;
+    margin: 0;
+    padding: 0;
+    color: grey;
+}
+.kontakt_feed_desno {
+    background-color: #2d97af;
+	border-radius: 2px;
+    padding: 0;
+    margin-bottom: 10px;
+    padding-bottom: 1px;
+}
+.obavezno {
+    color: red;
+    font-size: 105%;    
+}
+.feed_content.clock{
+    background-image: url(../images/clock.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+	background-color: whitesmoke;
+    padding: 70px 0;
+    text-align: center;
+}
+.kontakt_desno > .kontakt_feed_desno > .feed_content.clock > p {
+    color: darkslategrey;
+}
+.kontakt > form{
+    width: 100%;
+    display: inline;
+}
+/* Usluge */
+#usluge{
+    float: left;
+    width: 75%;
+    overflow: auto;
+    margin: 5px;
+    margin-top: 25px;
+}
+#nav{
+    overflow: auto;
+}
+.tabMenu{
+    list-style-type: none;
+    width: 66.4%;
+    overflow: auto;
+    background-color: #ffffff;
+    padding: 0;
+    border-left: 1px solid #39b1cc;
+    border-top: 1px solid #39b1cc;
+    border-bottom: 1px solid #39b1cc;
+    margin-bottom: 0;
+}
+.tabMenu > li{
+    float: left;
+    padding: 10px;
+    border-right: 1px solid #39b1cc;
+    margin: 0;
+}
+.active{
+    background-color: #f5f5f5;
+}
+.tabMenu > li > a:link,
+.tabMenu > li > a:visited,
+.tabMenu > li > a:active{
+    display: block;
+    text-decoration: none;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+.tabMenu > li > a:hover{
+    color: gold;
+}
+#content{
+    margin: 0;
+    background-color: #ffffff;
+    overflow: auto;
+    border: 1px solid #39b1cc;
+    padding: 10px;
+    padding-right: 0;
+}
+.servicesTable{
+    table-layout: fixed;
+}
+.servicesTable tr td{
+    word-break: break-all;
+}
+#col1{
+    width: 15%;
+}
+#col2{
+
+}
+#col3{
+    width: 30%;
+}
+#col4{
+    width: 20%;
+}
+#col5{
+    width: 7%;
+}
+#col6{
+    width: 5%;
+}
+.servicesTable tr td.noBorder a img{
+    height: 20px;
+}
+.servicesTable tr td.slikaTd img{
+    width: 100%;
+    margin: 0;
+}
+.servicesTable tr td.slikaTd img:hover{
+    -moz-transform: scale(1.4);
+    -webkit-transform: scale(1.4);
+    -o-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    transform: scale(1.4);
+}
+.slikaTd{
+    padding: 0 !important;
+}
+.servicesTable,
+.servicesTable tr{
+    border: none !important;
+}
+.noBorder{
+    border: none !important;
+    background-color: #ffffff !important;
+    width: 20px;
+    padding: 0;
+}
+/*Responsive CSS*/
+@media (max-width:1024px) {
+    .okvir {
+        width: 770px;
+    }
+    .centar {
+        width: 60%;
+    }
+    .lijevo  {
+        width: 15%;
+    }
+    .desno {
+        width: 17%;
+    }
+    .about_desno {
+        width: 26%;
+    }
+    .kontakt {
+        width: 60%;
+    }
+	.zaglavlje{
+		height: 32px;
+	}
+    .meni {
+		height: 32px;
+		width: 770px;
+		font-size: 80%;
+    }
+	.sadrzaj{
+		margin-top: 32px;
+	}
+	.meni ul > li > a:link, 
+	.meni ul > li > a:visited, 
+	.meni ul > li > a:active {
+		padding: 6px 10px 7px 10px;
+		border-right: 1px solid rgba(80, 80, 80, 0.12);
+		font-weight: 700;
+		color: #d3eced;
+		letter-spacing: 1px;
+	}
+	
+	#search{
+		width: 180px;
+		height: 22px;
+	}
+	#search_text{
+		font-size: 80%;
+		width: 70%;
+		height: 22px;
+	}
+	#search_button{
+		width: 30%;
+		height: 22px;
+	}
+	.logoSlika {
+	height: 15px;
+	}
+	.logo{
+		font-size: 25px;
+	}
+	.logo:hover{
+		background: none !important;
+	}
+    .p_minimize {
+        font-size: 60%;
+    }
+    .kontakt_desno > .kontakt_feed_desno > .feed_content.clock{
+        font-size: 75%;
+    }
+    table#stednja th,
+    table#stednja td {
+    font-size: 70%;
+}
+}

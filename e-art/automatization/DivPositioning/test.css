@@ -1,0 +1,24 @@
+.container {
+	height: 1000px;
+	width: 100%;
+}
+.row {
+	width: 100%;
+	float: left;
+}
+.col {
+	height: 100%;
+	float: left;
+}
+.el-1 {
+	height: 15%;
+	//background-color: #275862;
+}
+.el-2 {
+	width: 40%;
+	//background-color: #275862;
+}
+.el-3 {
+	height: 25%;
+	//background-color: #275862;
+}

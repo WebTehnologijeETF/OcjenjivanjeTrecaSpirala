@@ -1,0 +1,41 @@
+<div id="podstranice">
+	<h3>Contact</h3>
+	<p>I love recieving emails from readers or followers, so please do not hesitate to contact me with queries or just general chit chat!</p>
+	<FORM id="kontaktForma">
+		<fieldset>
+			<label>NAME</label>
+			<div class="kontrola">
+				<input name="ime" id="name" type="text" placeholder="First and last name">
+				<img class="kontrola-greska" src="warning.png" alt="uzvicnik">
+				<p class="kontrola-greska">Ime nije validno!</p>
+			</div>
+			<label>EMAIL</label>
+			<div class="kontrola">
+				<input name="email" id="email" type="text" placeholder="example@domain.com">
+				<img class="kontrola-greska" src="warning.png" alt="uzvicnik">
+				<p class="kontrola-greska">Email adresa nije validna!</p>
+			</div>
+			<label>MJESTO</label>
+			<div class="kontrola">
+				<input name="mjesto" id="mjesto" type="text" placeholder="Sarajevo">
+				<img class="kontrola-greska" src="warning.png" alt="uzvicnik">
+				<p class="kontrola-greska">Mjesto ne postoji, ili nije validno!</p>
+			</div>
+			<label>POŠTANSKI BROJ</label>
+			<div class="kontrola">
+				<input name="postanskiBroj" id="postanskiBroj" type="text" placeholder="71000">
+				<img class="kontrola-greska" src="warning.png" alt="uzvicnik">
+				<p class="kontrola-greska">Poštanski broj nije validan!</p>
+			</div>
+			<label>SUBJECT</label>
+			<input name="naslov" id="subject" type="text" placeholder="Subject">
+			<label>YOUR MESSAGE</label>
+			<div class="kontrola">
+				<textarea name="poruka" id="message" placeholder="Type Here"></textarea>
+				<img class="kontrola-greska" src="warning.png" alt="uzvicnik">
+				<p class="kontrola-greska">Poruka je obavezna!</p>
+			</div>
+			<button type="button" onclick="pokusajPoslati()">SEND</button>
+		</fieldset>
+	</FORM>
+</div>

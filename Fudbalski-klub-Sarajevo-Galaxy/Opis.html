@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head lang="ba">
+    <meta charset="UTF-8">
+    <title>FK Sarajevo Galaxy-Naslovnica</title>
+    <link rel="stylesheet" type="text/css" href="stil.css">
+    <script src="meni.js"></script>
+    <script src="ajax.js"></script>
+
+
+
+</head>
+<body>
+<div class="okvir">
+    <header>
+        <h2 class="naslov"> FK Sarajevo Galaxy <img class="logo" src="zvijezda.png" alt="logo">
+        </h2>
+        <nav class="meni">
+            <ul>
+                <li><a href="#" class="popravka" onclick="ajaxPrikazi('Index.html')"  >Naslovna</a></li>
+                <li><a href="#" class="popravka2"  onclick="prikaziMeni()">Tim</a></li>
+                <li><a href="#" onclick="ajaxPrikazi('Utakmice.html')"  class="popravka" >Utakmice</a></li>
+                <li><a href="#" onclick="ajaxPrikazi('Opis.html')" class="popravka">O nama</a></li>
+                <li><a href="#" onclick="ajaxPrikazi('Kontakt.html')" class="popravka" >Kontakt</a></li>
+                <li><input type="text" name="tekst"></li>
+                <li><input type="submit" value="Pretraži"></li>
+                <li><input type="submit" value="Prijava"></li>
+            </ul>
+        </nav>
+        <ul id="padajuci" class="meni2" onmouseout="sakrijMeni()" >
+            <li class="razmak" onmouseover="prikaziMeni(); oboji(this);" onmouseout="vratiBoju(this);"><a href="#" onclick="ajaxPrikazi('Tim.html')" >Igraci</a></li>
+            <li onmouseover="prikaziMeni(); oboji(this);" onmouseout="vratiBoju(this);"><a href="#">Izjave</a></li>
+            <li onmouseover="prikaziMeni(); oboji(this);" onmouseout="vratiBoju(this);"><a href="#">Transferi</a></li>
+            <li onmouseover="prikaziMeni(); oboji(this);" onmouseout="vratiBoju(this);"><a href="#">Ozljede</a></li>
+            <li onmouseover="prikaziMeni(); oboji(this);" onmouseout="vratiBoju(this);"><a href="#">Zanimljivosti</a></li>
+            <li onmouseover="prikaziMeni(); oboji(this);" onmouseout="vratiBoju(this);"><a href="#">Kolumne i komentari</a></li>
+        </ul>
+        <div class="clear"></div>
+    </header>
+    <section class="desni4">
+        <article>
+            <header>
+                <h2>O klubu</h2>
+            </header>
+            <p>Klub Sarajevo Galaxy je osnovan u gradu Sarajevu 1965.godine.Klub u početku
+                nije ostvario dobre rezultate sve do dolaska čuvenog trenera Miroslava Blaževića.
+                KLub sa njim osvaja prvo prvenstvo Jugoslavije 1980.godine.To je bio prvi od 15 trofeja
+                koje će biti osvojeni u periodu 1980-1990 godine.Nakon raspada Jugoslavije,klub u prvoj
+                ligi (Premier Ligi) Bosne i Hercegovine nastavlja sa uspjesima.Osvojio je veliki broj trofeja.
+                Danas se nalazi na prvom mjestu i velike su šanse da postanu prvaci lige.
+            </p>
+        </article>
+    </section>
+    <footer class="podnozje">
+        Copyright &copy; Josip Kvesic
+    </footer>
+</div>
+</body>
+</html>

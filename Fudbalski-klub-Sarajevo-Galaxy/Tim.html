@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head lang="ba">
+    <meta charset="UTF-8">
+    <title>FK Sarajevo Galaxy-Naslovnica</title>
+    <link rel="stylesheet" type="text/css" href="stil.css">
+    <script src="meni.js"></script>
+    <script src="ajax.js"></script>
+
+
+
+</head>
+<body>
+    <div class="okvir">
+        <header>
+            <h2 class="naslov"> FK Sarajevo Galaxy <img class="logo" src="zvijezda.png" alt="logo">
+            </h2>
+            <nav class="meni">
+                <ul>
+                    <li><a href="#" class="popravka" onclick="ajaxPrikazi('Index.html')"  >Naslovna</a></li>
+                    <li><a href="#" class="popravka2"  onclick="prikaziMeni()">Tim</a></li>
+                    <li><a href="#" onclick="ajaxPrikazi('Utakmice.html')"  class="popravka" >Utakmice</a></li>
+                    <li><a href="#" onclick="ajaxPrikazi('Opis.html')" class="popravka">O nama</a></li>
+                    <li><a href="#" onclick="ajaxPrikazi('Kontakt.html')" class="popravka" >Kontakt</a></li>
+                    <li><input type="text" name="tekst"></li>
+                    <li><input type="submit" value="Pretraži"></li>
+                    <li><input type="submit" value="Prijava"></li>
+                </ul>
+            </nav>
+            <ul id="padajuci" class="meni2" onmouseout="sakrijMeni()" >
+                <li class="razmak" onmouseover="prikaziMeni(); oboji(this);" onmouseout="vratiBoju(this);"><a href="#" onclick="ajaxPrikazi('Tim.html')" >Igraci</a></li>
+                <li onmouseover="prikaziMeni(); oboji(this);" onmouseout="vratiBoju(this);"><a href="#">Izjave</a></li>
+                <li onmouseover="prikaziMeni(); oboji(this);" onmouseout="vratiBoju(this);"><a href="#">Transferi</a></li>
+                <li onmouseover="prikaziMeni(); oboji(this);" onmouseout="vratiBoju(this);"><a href="#">Ozljede</a></li>
+                <li onmouseover="prikaziMeni(); oboji(this);" onmouseout="vratiBoju(this);"><a href="#">Zanimljivosti</a></li>
+                <li onmouseover="prikaziMeni(); oboji(this);" onmouseout="vratiBoju(this);"><a href="#">Kolumne i komentari</a></li>
+            </ul>
+            <div class="clear"></div>
+        </header>
+        <section class="tim2">
+            <header>
+                <h2>Prvi tim</h2>
+            </header>
+            <img class="tim" src="tim.jpg" alt="tim">
+        </section>
+        <section>
+            <article class="lijevi2">
+                <table class="tabla1">
+                    <caption>
+                        Spisak igrača
+                    </caption>
+                    <tr>
+                        <th>#</th>
+                        <th>Pozicija</th>
+                        <th>Ime</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>GK</td>
+                        <td>Enil Mustafić</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>LB</td>
+                        <td>Josip Kvesić</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>RB</td>
+                        <td>Armin Klačar</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>DMF</td>
+                        <td>Orhan Ljubunčić</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>CB</td>
+                        <td>Ensar Muratović</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>CMF</td>
+                        <td>Toni Miličević</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>CMF</td>
+                        <td>Denis Džafo</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>LMF</td>
+                        <td>Alem Spaho</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>CF</td>
+                        <td>Pele</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>RMF</td>
+                        <td>Okocha</td>
+                    </tr>
+                    <tr>
+                        <td>11</td>
+                        <td>CF</td>
+                        <td>Safet Sušić</td>
+                    </tr>
+                    <tr>
+                        <td>12</td>
+                        <td>CF</td>
+                        <td>Didier Drogba</td>
+                    </tr>
+                    <tr>
+                        <td>13</td>
+                        <td>GK</td>
+                        <td>Dida</td>
+                    </tr>
+                    <tr>
+                        <td>14</td>
+                        <td>AMF</td>
+                        <td>Faruk Ljuca</td>
+                    </tr>
+                    <tr>
+                        <td>15</td>
+                        <td>CB</td>
+                        <td>Yakubu</td>
+                    </tr>
+                    <tr>
+                        <td>16</td>
+                        <td>RMF</td>
+                        <td>Willian</td>
+                    </tr>
+                    <tr>
+                        <td>17</td>
+                        <td>RB</td>
+                        <td>Branislav Ivanović</td>
+                    </tr>
+                    <tr>
+                        <td>26</td>
+                        <td>LB</td>
+                        <td>Carlos</td>
+                    </tr>
+                    <tr>
+                        <td>19</td>
+                        <td>CMF</td>
+                        <td>Marko Marković</td>
+                    </tr>
+                    <tr>
+                        <td>20</td>
+                        <td>RWF</td>
+                        <td>Faruk Pajić</td>
+                    </tr>
+                    <tr>
+                        <td>21</td>
+                        <td>DMF</td>
+                        <td>Izet Fazlinović</td>
+                    </tr>
+                    <tr>
+                        <td>28</td>
+                        <td>GK</td>
+                        <td>Branko Đurić</td>
+                    </tr>
+                </table>
+            </article>
+        </section>
+        <aside class="desni2">
+            <article>
+                <table class="tabla2">
+                    <caption>
+                        Najbolji strijelci
+                    </caption>
+                    <tr>
+                        <th>#</th>
+                        <th>Igrač</th>
+                        <th>Broj golova</th>
+                    </tr>
+                    <tr>
+                        <td>1.</td>
+                        <td>Pele</td>
+                        <td>28</td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td>Didie Drogba</td>
+                        <td>12</td>
+                    </tr>
+                    <tr>
+                        <td>3.</td>
+                        <td>Faruk Ljuca</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td>4.</td>
+                        <td>Armin KLaćar</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>5.</td>
+                        <td>Josip Kvesić</td>
+                        <td>3</td>
+                    </tr>
+                </table>
+            </article>
+
+        </aside>
+
+        <footer class="podnozje">
+            Copyright &copy; Josip Kvesic
+        </footer>
+    </div>
+
+</body>
+</html>

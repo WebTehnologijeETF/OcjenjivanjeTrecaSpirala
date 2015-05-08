@@ -1,0 +1,40 @@
+body {background-color:#FFFFCC;
+overflow-y: scroll;
+overflow-x: hidden;}
+.navigacija{
+background-color: #FFCC99;
+text-align: center;
+
+color: #990033;
+}
+img.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.navigacija a{
+font-family: bold;
+color: #990033;
+font-size: x-large;
+}
+h1{
+color: #990033;
+text-align:left;
+}
+table, th, td {
+ border: solid ;
+ 
+}
+th {
+
+ text-align: center;
+ background-color: #FFFF99;
+ color: #990033;
+}
+td {
+ text-align: center;
+ vertical-align: bottom;
+ 
+
+}
+ 

@@ -1,0 +1,207 @@
+body{
+    background-image: url(slika1.jpg);
+}
+
+#stranica{
+    margin: 150px;
+    margin-top: 0px;
+    border: 2px solid black;
+    height: 900px;
+    background-color: #343030;
+}
+
+#zaglavlje{
+    border-bottom: 2px solid black;
+    height: 150px;
+    width: 1030px;
+    background-image: url(slika2.jpg);
+}
+
+#zaglavlje img{
+    height: 200px;
+    width: 300px;
+    float: left;
+}
+
+#zaglavlje h1{
+    text-align: center;
+    color: #000;
+    font-size: 60px;
+    margin: auto;
+}
+#zaglavlje p{
+    margin: auto;
+    text-align: right;
+    color: #000;
+    font-size: 30px;
+}
+
+#meni {
+    height: 47px;
+    width: 1026px;
+    border: 2px solid black;
+}
+
+#meni ul{
+    text-align: left;
+    width: 900px;
+    height: 28px;
+}
+
+#meni li{
+    color: white;
+    background-color: #343030;
+    display: inline;
+    padding: 14px;
+    font-size: 16px;
+    margin: 2px;
+}
+
+#sadrzaj{
+    background-color: red;
+    width: 1026px;
+    height: 696px;
+    border: 2px solid black;
+}
+
+#lijevo{
+    float: left;
+    border: 2px solid black;
+    background-image: url(slika2.jpg);
+    height: 694px;
+    width: 200px;
+}
+
+#lijevo h3{
+    text-align: center;
+    color: blue;
+}
+
+#lijevo img{
+    margin-left: 35px;
+    width: 120px;
+    height: 60px;
+    border: 2px solid black;
+    margin-top: 10px;
+}
+
+
+#sredina{
+    border: 2px solid black;
+    height: 694px;
+    width:  607px;
+    background-color: #808080;
+    float: left;
+}
+#sredina h3{
+    color:  blue;
+    text-align: center;
+}
+#kalup{
+    border: 2px solid red;
+    height: 200px;
+    width:  609px;
+    background-image: url(slika1.jpg);
+    float: left;
+}
+#galerija img{
+    border: 2px solid red;
+    width:  609px;
+    height: 400px;
+}
+
+.ponuda{
+    margin-left: 20px;
+    margin-top: 30px;
+    height: 110px;
+    width: 270px;
+    border: 2px solid black;
+    float: left;
+    background-color: #c7caca;
+}
+.ponuda img{
+    float: left;
+    height: 110px;
+    width: 100px;
+    border: 2px solid black;
+    border-top: 0px;
+    border-left: 0px;
+}
+.ponuda h4{
+    margin: auto;
+    text-align: left;
+    color: red;
+}
+#desno{
+    border: 2px solid black;
+    height: 694px;
+    width: 207px;
+    background-image:url(slika2.jpg);
+    margin: auto;
+    float: left;
+}
+#desno h3{
+    text-align: center;
+    color: blue;
+}
+#desno p{
+    color: black;
+    text-align: center;
+}
+#cijene table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 30px;
+    background-color: #c7caca;
+}
+#cijene td,th,tr{
+    width: 180px;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+.artikal{
+    text-align: left;
+}
+
+.slika{
+    background-color: #c7caca;
+    margin-left: 33px;
+    margin-top: 30px;
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    float: left;
+}
+.slika p{
+    color: blue;
+    margin: auto;
+    text-align: center;
+}
+.slika img{
+    width: 250px;
+    height: 232px;
+}
+#por{
+    float: left;
+}
+.poruka{
+    float: left;
+    height: 400px;
+    width: 350px;
+}
+#posalji{
+    text-align: right;
+}
+#kontaktforma{
+    border: 2px solid black;
+    width: 500px;
+    margin-top: 30px;
+    margin-left: 56px;
+}
+
+a:link    {color: #000; background-color:transparent; text-decoration:none}
+a:visited {color: #fdfdfc; background-color:transparent; text-decoration:none}
+a:hover   {color: #000; background-color:transparent; text-decoration:underline}
+a:active  {color: #fdfdfc; background-color:transparent; text-decoration:underline}

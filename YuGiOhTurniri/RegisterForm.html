@@ -1,0 +1,58 @@
+<img src="Slike/Yu-Gi-Oh!2.jpg" id="bg" alt="">
+	
+	<div class ="logo_class">
+		<img src="Slike/index3.png" id="logo">
+		<h2> Tourunaments </h2>
+	</div>
+	<article id= "reg">
+	<h1> Sign Up ! </h1>
+		<section id="reg_polja">
+			<section id="ime">
+				<p> Name: (optional): </p>
+				<input type="text"  id ="_ime" onblur="slova('_ime')">	
+			</section>
+			<section id="prezime">
+				<p> Last name: </p>
+				<input type="text"  id ="_prezime" onblur="slova('_prezime')">	
+			</section>
+			<section id="mjesto_">
+				<p> Mjesto: </p>
+				<input type="text"  id ="mjesto">	
+			</section>
+			<section id="opstina_">
+				<p> Opstina: </p>
+				<input type="text"  id ="opstina" onblur="mjesto_test()">	
+			</section>
+			<section id="email">
+				<p>E-mail address: </p>
+				<input type="text" id = "email_adresa" placeholder="ex:yugi@etf.unsa.ba" onblur="email()">
+			</section>
+			<section id="telephone">
+				<p>Telephone number: </p>
+				<input type="text"  id ="broj_telefona" placeholder="ex. +38761712443" onblur="telefon()">	
+			</section>
+			<section id="new_user">
+				<p> Username:</p>
+				<input type="text"  id ="new_username" onblur="tekst('new_username')">	
+			</section>
+			<section id="pass1_sec">
+				<p> New password: </p>
+				<input type="text"  id ="pass1" onblur="tekst('pass1')">	
+			</section>
+			<section id="pass2_sec">
+				<p> Confirm password: </p>
+				<input type="text"  id ="pass2" onblur="password()">	
+			</section>
+		</section>
+		<button type="button" id="sign_up" onclick="otvori('HomePageW.html')"> Sign up</button>
+	</article>
+	<article id="log">
+
+			<img src="Slike/yugi_.png">
+						<h1> Log in ! </h1>
+			<section id="log_polja">
+				<input type="text"  id ="username" placeholder ="username">	
+				<input type="text"  id ="password" placeholder ="password">	
+			</section>
+			<button type="button" id="sign_in"  onclick="otvori('HomePageW.html')"> Sign in</button>
+	</article>

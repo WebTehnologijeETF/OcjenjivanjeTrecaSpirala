@@ -1,0 +1,119 @@
+<!DOCTYPE HTML SYSTEM>
+<html>
+	<head>
+		<meta http-equiv = "Content-Type" content = "text/html; charset = utf-8">
+		<title>KOMOCHEM d.o.o. Visoko</title>
+		<link rel="stylesheet" type="text/css" href="stilTest.css">
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ek+Mukta">
+		<link href='http://fonts.googleapis.com/css?family=Hind:600' rel='stylesheet' type='text/css'>
+	</head>
+
+	<body>
+		<!--okvir-->
+
+				<!--DIO ZA AJAX, treba izdvojiti-->
+				<form id ="kontaktF" name = "kontaktF">
+					<h3 id = "naslovForme">Kontaktirajte nas</h3> <br>
+					Ime : 
+					<div id = "formIme" >
+					<input type = "text" id = "ime" name = "ime" required="required">
+					<img id = "errorProviderIme"src="error.png"></div> <br>
+
+					Prezime :
+					<div id = "formPrezime">
+					<input type = "text" id = "prezime" name = "prezime" required="required">
+					<img id = "errorProviderPrezime"src="error.png"> </div> <br>
+
+					Telefon : 
+					<div id = "formTelefon">
+						<input type = "text" id = "telefon" name = "telefon" required="required">
+						<img  id = "errorProviderTelefon" src="error.png">
+					</div> <br>
+
+					Email : 
+					<div id = "formemail">
+						<input type = "text" id = "email" name = "email" required="required">
+						<img  id = "errorProviderEmail" src="error.png">
+					</div> <br>
+
+					<label id = "tipPretplate">Tip pretplate : </label>
+					<div id = "formtipPretplate">
+						<select id = "pretplata" name = "pretplata">
+							<option id = "mala"value = "mala">Mala</option>
+							<option id = "srednja"value = "srednja">Srednja</option>
+							<option id = "velika" value = "velika">Velika</option>
+						</select>
+						<img  id = "errorProviderPretplata" src="error.png">
+					</div> <br>
+
+					<label id = "brojMjeseci">Broj mjeseci : </label>
+					<div id = "formbrojMjeseci">
+						<input type = "text" id = "mjeseci" name = "mjeseci" required="required">
+						<img  id = "errorProviderMjeseci" src="error.png">
+					</div> <br>
+
+					<label id = "labelOpstina">Općina : </label>
+					<div id = "formOpcina">
+						<input type = "text" id = "opstina" name = "opstina" >
+						<img  id = "errorProviderOpcina" src="error.png">
+					</div> <br>
+
+					<label id = "labelMjesto">Mjesto : </label>
+					<div id = "formMjesto">
+						<input type = "text" id = "inputMjesto" name = "inputMjesto" required="required" onclick = "return dizejblaj();">
+						<img  id = "errorProviderMjesto" src="error.png">
+					</div> <br>
+
+					<label id = "labelPoruka">Poruka : </label>
+					<div id = "formPoruka">
+							<textarea rows  = "2" cols = "20">
+							</textarea>
+						<img  id = "errorProviderMjesto" src="error.png">
+					</div> <br>
+
+					<input type = "submit" id = "sendPoruka" onclick = "return ValidirajKontaktFormu(); " value = "Pošalji poruku" disabled = true;>
+
+				</form>
+				<input type = "submit" id = "provjera" name = "provjera" onclick = " provjeriGa(); return false;" value = "Provjeri mjesto i općinu">
+
+				<!--<div class = "kontakt2">
+					
+					<p>KOMOCHEM d.o.o. Visoko
+						<br>
+						Donja Zimča 68
+						<br>
+						BA-71300 Visoko
+						<br>
+						PDV Broj: 218306310003 
+					</p>
+					<br>
+					<p>
+						Tel.: +387/32/740-484
+						<br>
+						Fax.: +387/32/740-507
+						<br>
+						e-mail:
+						<br>
+						komo@bih.net.ba
+						<br>
+						komochem@bih.net.ba
+
+					</p>
+					<br>
+					<p>
+						Transakcijski računi:
+						<br>
+						Raiffeisen bank
+						<br>
+						1610150005490058
+						<br>
+						Sparkasse bank
+						<br>
+						1990470004663129
+					</p>
+				</div>-->
+				
+				<!--KRAJ DIJELA ZA AJAX STO TREBA IZDVOJITI-->
+	</body>
+
+</html>

@@ -1,0 +1,57 @@
+.main-site-container {
+}
+
+.artworks-container {
+	overflow: visible;
+}
+
+#list-title {
+	font-size: 4vw;
+	text-align: center;
+	color: white;
+}
+
+.artwork-container {
+	color: black;
+	border: solid 3px #737373;
+	border-radius: 15px;
+}
+
+.artwork-container:hover {
+	background-color: black;
+	color: white;
+}
+
+.artwork-title {
+	color: white;
+	text-align: center;
+	font-size: 3vw;
+}
+
+.artwork-upload-info {
+	color: #737373;
+	text-align: left;
+}
+
+.artwork-description {
+	font-family: "Oswald";
+}
+
+.artwork-details-link-container {
+	
+}
+
+.artwork-details-link-container a {
+	text-decoration: none;
+	color: #737373;
+}
+
+.comment-box-container {
+	
+}
+
+.comment-box-container textarea {
+	width: 100%;
+	height: 100%;
+	font-family: "Oswald";
+}

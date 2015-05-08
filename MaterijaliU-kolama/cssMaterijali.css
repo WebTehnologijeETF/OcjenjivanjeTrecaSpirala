@@ -1,0 +1,17 @@
+.tabela{
+border:1px solid black;
+background-color:white;
+}
+
+.tekst{
+border-left:1px solid black;
+border-right:1px solid black;
+border-top:1px solid black;
+background-color:white;
+margin-bottom:0px;
+}
+
+#wrapper
+{
+margin-top:20px;
+}
