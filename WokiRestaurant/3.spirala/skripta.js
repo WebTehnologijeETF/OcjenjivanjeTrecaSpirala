@@ -27,7 +27,7 @@ function ucitaj(linkStranice)
 			document.getElementById("tijelo").innerHTML = "Greska: nepoznat URL";
 		}
     }
-    ajax.open("POST", linkStranice, true);
+    ajax.open("GET", linkStranice, true);
 	ajax.send();
 }
 
