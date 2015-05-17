@@ -7,7 +7,7 @@ var ajax = new XMLHttpRequest();
         if (ajax.readyState == 4 && ajax.status == 404)
             document.getElementById("polje").innerHTML = "Greska: nepoznat URL";
     }
-    ajax.open("POST", "https://www.dropbox.com/s/nhf1dbfhn18zxze/onama-3.html?dl=0", true);
+    ajax.open("GET", "https://www.dropbox.com/s/nhf1dbfhn18zxze/onama-3.html?dl=0", true);
     ajax.send();
 }
 
@@ -20,7 +20,7 @@ var ajax = new XMLHttpRequest();
         if (ajax.readyState == 4 && ajax.status == 404)
             document.getElementById("polje").innerHTML = "Greska: nepoznat URL";
     }
-    ajax.open("POST", "index.html", true);
+    ajax.open("GET", "index.html", true);
     ajax.send();
 }
 
@@ -33,6 +33,6 @@ var ajax = new XMLHttpRequest();
         if (ajax.readyState == 4 && ajax.status == 404)
             document.getElementById("polje").innerHTML = "Greska: nepoznat URL";
     }
-    ajax.open("POST", "contact.html", true);
+    ajax.open("GET", "contact.html", true);
     ajax.send();
 }
