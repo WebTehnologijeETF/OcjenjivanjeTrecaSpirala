@@ -123,7 +123,7 @@ function otvoriStranicu(stranica)
     ajax.send();
 }
 
-unction validirajAjax(){
+function validirajAjax(){
     var opcina = document.getElementById("ajaxOpcina").value;
     console.log(opcina);
     
